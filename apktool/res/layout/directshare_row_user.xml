@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/user_row_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_user_imageview" android:layout_marginRight="@dimen/row_text_padding" style="@style/Avatar.Medium" />
+        <RelativeLayout android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_below="@id/row_user_username" />
+        </RelativeLayout>
+        <CheckBox android:id="@id/recipient_toggle" android:background="@drawable/share_checkbox_background" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</FrameLayout>

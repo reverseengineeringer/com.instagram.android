@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_group" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/event_viewer_item_media_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/doubletap_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_like_big" android:scaleX="0.0" android:scaleY="0.0" />
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center|right|top" android:id="@id/loading_icon" android:background="@drawable/nav_spinner_with_outline" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" />
+    <ViewStub android:id="@id/menu_overlay_view_stub" android:layout="@layout/immersive_viewer_menu_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.explore.ui.ImmersiveViewerBlurOverlay android:id="@id/blur_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <ViewStub android:id="@id/row_feed_profile_header_stub" android:layout="@layout/row_feed_media_profile_header" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height" android:layout_marginTop="@dimen/immersive_viewer_row_header_margin_offset" />
+    <ViewStub android:id="@id/immersive_viewer_row_header_old" android:layout="@layout/immersive_viewer_row_header_old" android:layout_width="fill_parent" android:layout_height="@dimen/explore_event_viewer_row_header_height" android:layout_marginTop="@dimen/explore_event_viewer_row_header_margin_top" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

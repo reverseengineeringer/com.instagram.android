@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/top_divider" android:background="@color/grey_1_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginRight="@dimen/feed_content_padding" />
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/text_title_height">
+        <TextView android:id="@id/title_text_view" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/LandingPageHeaderText" />
+        <TextView android:id="@id/paged_section_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/LandingPageHeaderText" />
+    </LinearLayout>
+</LinearLayout>

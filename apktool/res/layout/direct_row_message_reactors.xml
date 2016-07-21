@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/direct_reactors_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/reactors_list_heart" android:visibility="gone" android:layout_width="@dimen/direct_reactions_heart_width" android:layout_height="@dimen/direct_reactions_heart_height" android:layout_marginRight="@dimen/direct_reactors_reaction_spacing" android:src="@drawable/direct_heart" android:adjustViewBounds="true" app:normal="?feedLikeActiveColor" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:gravity="center_vertical" android:id="@id/reactors_list_nux_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/direct_reactors_reaction_spacing" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:layout_gravity="center_vertical" android:id="@id/reactors_list_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direct_message_on_like" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/reactors_row" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+</LinearLayout>

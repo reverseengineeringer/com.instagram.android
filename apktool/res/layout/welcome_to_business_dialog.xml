@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/modal_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_xlarge" android:gravity="center" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_to_instagram_business" android:fontFamily="sans-serif" />
+    <TextView android:textSize="@dimen/font_medium" android:gravity="center" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="280.0dip" android:text="@string/build_business_on_instagram" android:fontFamily="sans-serif" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/continue_button" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continue_button" android:fontFamily="sans-serif" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/adjust_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/accept_buttons_container" android:layout_width="fill_parent" android:layout_height="@dimen/large_screen_confirm_button_height">
+        <include android:id="@id/primary_accept_buttons" layout="@layout/accept_reject_edit_buttons" />
+        <include android:id="@id/secondary_accept_buttons" layout="@layout/accept_reject_edit_buttons" />
+    </FrameLayout>
+</LinearLayout>

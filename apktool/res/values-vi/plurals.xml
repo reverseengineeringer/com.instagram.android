@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Bạn có %1$d quảng cáo đang chờ.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s trong số những người bạn trên Facebook của bạn đã tham gia Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s người bạn trên VKontakte của bạn đang ở trên Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s trong số các liên hệ của bạn đã tham gia Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s giây trước</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s phút trước</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s giờ trước</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s ngày trước</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s tuần trước</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Từ chối (%1$d)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Cho phép (%1$d)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s người</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Họ sẽ nhìn thấy tất cả tin nhắn trước đó từ cuộc trò chuyện này.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s tin nhắn đang chờ</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Bạn chỉ có thể chọn %1$d bình luận tại một thời điểm.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d ảnh</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d bài viết mới</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s người bạn trên Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s liên hệ</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d người xem</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d bài viết mới</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Bạn có %1$s người bạn tham gia Facebook trên Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Bạn có %1$s người bạn trên VKontakte đang sử dụng Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Đã tìm thấy %1$s liên hệ.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Đã chọn %1$d mục</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">Đã xóa %1$d bình luận. Nhấn để hoàn tác.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d người</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d người đã trả lời.</item>
+    </plurals>
+</resources>

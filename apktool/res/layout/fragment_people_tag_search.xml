@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_marginLeft="@dimen/action_bar_item_padding" style="@style/ActionBar.Modal">
+        <com.instagram.ui.widget.searchedittext.SearchEditText android:textColorHint="?textColorTertiary" android:id="@id/row_search_edit_text" android:layout_marginRight="@dimen/action_bar_item_padding" android:hint="@string/search_for_a_user" android:imeOptions="actionSearch|flagNoExtractUi" app:enableQuickBackWhenEmpty="true" style="?attr/actionBarSearchStyle" />
+    </LinearLayout>
+    <include android:visibility="gone" layout="@layout/layout_listview" />
+</LinearLayout>

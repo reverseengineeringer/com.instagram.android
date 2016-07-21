@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center" android:layout_gravity="center" android:id="@id/facebook" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/landing_log_in_with_facebook" android:drawableLeft="@drawable/share_facebook" android:drawablePadding="4.0dip" />
+</FrameLayout>

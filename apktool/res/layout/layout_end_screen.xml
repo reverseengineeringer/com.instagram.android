@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/end_padding" android:paddingRight="@dimen/end_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/green_check_circle" android:layout_width="@dimen/check_size" android:layout_height="@dimen/check_size" />
+    <TextView android:textSize="@dimen/thanks_text_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/thanks_margin_top" android:text="@string/thanks" />
+    <TextView android:textSize="@dimen/feedback_text_size" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/feedback_margin_top" android:text="@string/thanks_for_feedback" />
+    <com.instagram.feed.widget.LinkButton android:id="@id/done" android:clickable="true" android:layout_marginTop="@dimen/done_button_margin_top" android:text="@string/done" style="@style/IgLinkButton" />
+</LinearLayout>

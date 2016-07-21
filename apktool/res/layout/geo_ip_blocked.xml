@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="48.0dip" android:paddingTop="@dimen/row_padding" android:paddingRight="48.0dip" android:paddingBottom="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/geo_ip_blocked" android:drawableTop="@drawable/loadmore_icon_geo_ip_blocked" style="@style/TextViewStyle.FeedEmpty"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:id="@id/geo_ip_blocked_extra_info" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextViewStyle.FeedEmpty"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:id="@id/geo_ip_blocked_help_center" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextViewStyle.FeedEmpty"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</LinearLayout>

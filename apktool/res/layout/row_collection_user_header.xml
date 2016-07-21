@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/row_explore_people_header_vertical_padding" android:paddingBottom="@dimen/row_explore_people_header_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/row_recommended_user_imageview" android:contentDescription="@string/profile_photo_description" style="@style/Avatar.Large" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="?textColorBoldLink" android:ellipsize="end" android:gravity="center|left" android:id="@id/row_recommended_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="3.0dip" />
+        <TextView android:textColor="?textColorTertiary" android:ellipsize="end" android:id="@id/row_recommended_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <include android:layout_gravity="center_vertical" android:id="@id/row_recommended_user_follow_button" android:layout_width="wrap_content" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_medium" />
+</LinearLayout>

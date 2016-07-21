@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" style="@style/PaddedRow">
+        <EditText android:id="@id/bugreporter_description_field" android:padding="@dimen/row_text_padding" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:singleLine="false" android:maxLength="1000" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" />
+        <GridLayout android:id="@id/bugreporter_screenshot_section" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/grey_light" android:id="@id/bugreporter_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_text_padding" android:layout_marginRight="@dimen/row_text_padding" android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+</ScrollView>

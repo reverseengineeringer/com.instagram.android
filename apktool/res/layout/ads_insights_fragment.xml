@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black_50_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/dialog_content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:background="@color/white" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_4_whiteout" android:gravity="center" android:id="@id/creation_time" android:background="@color/grey_0_whiteout" android:layout_width="fill_parent" android:layout_height="38.0dip" />
+            <include layout="@layout/row_divider" />
+            <include android:id="@id/impressions" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/inline_insights_block" />
+            <include android:id="@id/clicks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="6.0dip" layout="@layout/inline_insights_block" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_3_whiteout" android:gravity="center" android:id="@id/click_cost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip" />
+            <include layout="@layout/row_divider" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/budget_spent_text" android:paddingLeft="30.0dip" android:paddingTop="8.0dip" android:paddingRight="30.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_7_whiteout" android:id="@id/spent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_3_whiteout" android:id="@id/budget" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/budget_spent_bar" android:layout_width="fill_parent" android:layout_height="14.0dip" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:layout_marginBottom="15.0dip">
+                <View android:id="@id/spent_budget" android:background="@drawable/left_corner_blue_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0" />
+                <View android:id="@id/remain_budget" android:background="@drawable/right_corner_grey_bg" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+            <include layout="@layout/busines_education_unit" />
+        </LinearLayout>
+        <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/spinner_large" />
+    </FrameLayout>
+</FrameLayout>

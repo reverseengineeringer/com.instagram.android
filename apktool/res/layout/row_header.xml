@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.text.FreightSansTextView android:id="@id/row_header_textview" style="@style/RowHeaderText" />
+    <include layout="@layout/row_header_divider" />
+</FrameLayout>

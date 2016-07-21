@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/row_feed_photo_title_imageview" style="@style/Avatar.Small"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

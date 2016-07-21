@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/bg_simple_row" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.feed.survey.CheckmarkImageView android:id="@id/check" android:paddingLeft="@dimen/checkmark_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/check" android:minHeight="@dimen/answer_row_height_min" android:layout_alignParentRight="true" android:layout_centerVertical="true" app:active="@color/result_bar_active_color" />
+    <TextView android:textStyle="bold" android:id="@id/text" android:paddingLeft="@dimen/answer_row_text_padding_edge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/answer_row_height_min" android:layout_toLeftOf="@id/check" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+</RelativeLayout>

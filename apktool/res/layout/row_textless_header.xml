@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/row_height_small" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_header_divider" />
+</FrameLayout>

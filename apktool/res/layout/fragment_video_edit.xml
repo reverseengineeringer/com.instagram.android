@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.creation.base.ui.mediatabbar.MediaTabHost android:id="@id/media_tab_host" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/fragment_video_preview" />
+        <ViewSwitcher android:id="@id/creation_main_actions" android:background="?creationSecondaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include layout="@layout/fragment_video_edit_tab" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@id/video_edit_fragment_container_back" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <FrameLayout android:id="@id/video_edit_fragment_container_front" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+            </LinearLayout>
+            <include layout="@layout/filter_strength_adjust" />
+        </ViewSwitcher>
+    </LinearLayout>
+</com.instagram.creation.base.ui.mediatabbar.MediaTabHost>

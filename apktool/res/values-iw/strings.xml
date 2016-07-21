@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">אפשרויות נוספות</string>
+    <string name="feed_browser_cannot_load_page">לא ניתן לטעון את הדף</string>
+    <string name="browser_ssl_error_title">שגיאת אבטחה</string>
+    <string name="browser_ssl_error_message">יש בעיות באישור האבטחה של אתר זה</string>
+    <string name="browser_ssl_error_positive_button_text">חזרה</string>
+    <string name="feed_browser_menu_item_install_specific_app">התקן את %1$s</string>
+    <string name="feed_browser_menu_item_install_app">התקנת אפליקציה</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">פתח/י ב-%1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">פתיחה באפליקציה</string>
+    <string name="feed_browser_menu_item_open_with">לפתוח עם...</string>
+    <string name="browser_text_zoom_percentage_template">%%%1$d</string>
+    <string name="browser_stop_load_button_description">הפסק/הפסיקי לטעון דף זה</string>
+    <string name="browser_reload_button_description">טען/טעני מחדש דף זה</string>
+    <string name="browser_zoom_in_button_description">הגדלה</string>
+    <string name="browser_zoom_out_button_description">הקטנה</string>
+    <string name="browser_close_button_description">סגור/סגרי דפדפן</string>
+    <string name="feed_browser_menu_item_open_with_specific_app_f1gender">פתחי ב-%1$s</string>
+    <string name="feed_browser_menu_item_open_with_specific_app_m2gender">פתח ב-%1$s</string>
+    <string name="browser_stop_load_button_description_f1gender">הפסיקי לטעון דף זה</string>
+    <string name="browser_stop_load_button_description_m2gender">הפסק לטעון דף זה</string>
+    <string name="browser_reload_button_description_f1gender">טעני מחדש דף זה</string>
+    <string name="browser_reload_button_description_m2gender">טען מחדש דף זה</string>
+    <string name="browser_close_button_description_f1gender">סגרי דפדפן</string>
+    <string name="browser_close_button_description_m2gender">סגור דפדפן</string>
+</resources>

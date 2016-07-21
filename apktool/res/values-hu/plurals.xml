@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">%1$d függőben lévő kiemelésed van.</item>
+        <item quantity="one">1 függőben lévő kiemelésed van.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s Facebook-ismerősöd jelen van az Instagramon</item>
+        <item quantity="one">1 Facebook-ismerősöd jelen van az Instagramon</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s VKontakte-ismerősöd jelen van az Instagramon.</item>
+        <item quantity="one">1 VKontakte-ismerősöd jelen van az Instagramon</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s kapcsolatod jelen van az Instagramon.</item>
+        <item quantity="one">1 ember jelen van az Instagramon a névjegyzékedből</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s másodperce</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s perce</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s órája</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s napja</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s hete</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Elutasítom (%1$d)</item>
+        <item quantity="one">Elutasítom</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Engedélyezem (%1$d)</item>
+        <item quantity="one">Engedélyezem</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s ember</item>
+        <item quantity="one">1 ember</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">A beszélgetés összes korábbi üzenetét látni fogja.</item>
+        <item quantity="one">%1$s a beszélgetés összes korábbi üzenetét látni fogja.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s engedélykérés</item>
+        <item quantity="one">%1$s engedélykérése</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Egyszerre csak %1$d hozzászólást választhatsz ki.</item>
+        <item quantity="one">Egyszerre csak egy hozzászólást választhatsz ki.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d fénykép</item>
+        <item quantity="one">1 fénykép</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d új bejegyzés</item>
+        <item quantity="one">1 új bejegyzés</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Facebook-ismerős</item>
+        <item quantity="one">1 Facebook-ismerős</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s név</item>
+        <item quantity="one">1 kapcsolat</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d néző</item>
+        <item quantity="one">1 néző</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d új bejegyzés</item>
+        <item quantity="one">1 új bejegyzés</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">%1$s Facebook-ismerősöd van jelen az Instagramon.</item>
+        <item quantity="one">1 Facebook-ismerősöd van jelen az Instagramon.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">%1$s VKontakte-ismerősöd van jelen az Instagramon.</item>
+        <item quantity="one">1 VKontakte-ismerősöd van jelen az Instagramon.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s ismerőst sikerült találni.</item>
+        <item quantity="one">1 név megtalálható.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d kiválasztva</item>
+        <item quantity="one">1 kiválasztva</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d hozzászólás törölve. Koppints ide a művelet visszavonásához.</item>
+        <item quantity="one">Hozzászólás törölve. Koppints ide a művelet visszavonásához.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d ember</item>
+        <item quantity="one">1 személy</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d ember válaszolt.</item>
+        <item quantity="one">1 ember válaszolt.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/fragment_login_container" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/username" android:nextFocusDown="@id/password" android:hint="@string/username" android:drawableLeft="@drawable/profile_glyph_username" android:inputType="textEmailAddress" style="@style/FieldWithGlyph" />
+    <EditText android:id="@id/password" android:nextFocusUp="@id/username" android:hint="@string/password" android:drawableLeft="@drawable/profile_glyph_password" android:inputType="textPassword" android:imeOptions="actionDone" style="@style/FieldWithGlyph" />
+    <TextView android:textColor="@color/accent_blue_medium" android:layout_gravity="center_horizontal" android:id="@id/forgot_password_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="@string/forgot_password" />
+</LinearLayout>

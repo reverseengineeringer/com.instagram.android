@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/slide_card" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.instagram.ui.widget.textview.ImageWithFreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/login_button" android:background="@drawable/blue_background" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/button_horizontal_margin" android:layout_marginRight="@dimen/button_horizontal_margin" android:layout_marginBottom="20.0dip" android:minHeight="@dimen/button_height" android:singleLine="true" app:capitalize="false" app:drawable="@drawable/share_facebook" app:innerSpacing="4.0dip" />
+    <TextView android:textAppearance="@style/Business.TextAppearance" android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:id="@id/explanation_message" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="@dimen/button_bottom_margin" android:lineSpacingMultiplier="1.2" style="@style/BusinessText.CenterText" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/vertical_separator_padding_large" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/vertical_separator_padding_large" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/thumbnail" android:layout_width="@dimen/row_height_small" android:layout_height="@dimen/row_height_small" android:layout_marginRight="@dimen/row_text_padding" android:scaleType="centerCrop" app:placeholder="@color/image_placeholder" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/ads_manager_title_text_size" android:textColor="@color/ads_manager_title_color" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promotions" />
+        <TextView android:textColor="@color/ads_manager_subtitle_color" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promoted_posts_subtitle" />
+    </LinearLayout>
+</LinearLayout>

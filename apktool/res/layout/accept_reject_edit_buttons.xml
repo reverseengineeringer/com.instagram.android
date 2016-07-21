@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@color/grey_9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/button_cancel_adjust" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/nav_cancel" android:scaleType="center" android:layout_weight="1.0" app:normal="?glyphColorPrimary" />
+    <View android:background="@color/grey_8" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginBottom="3.0dip" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/button_accept_adjust" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/check" android:scaleType="center" android:layout_weight="1.0" app:normal="?glyphColorPrimary" />
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Sinulla on %1$d odottavaa markkinointia.</item>
+        <item quantity="one">Sinulla on yksi odottava markkinointi.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s Facebook-kaveriasi on Instagramissa</item>
+        <item quantity="one">1 Facebook-kaverisi on Instagramissa</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s VKontakte-kaveriasi on Instagramissa</item>
+        <item quantity="one">1 VKontakte-kaverisi on Instagramissa</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s kontaktiasi on Instagramissa</item>
+        <item quantity="one">1 kontaktisi on Instagramissa</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s sekuntia sitten</item>
+        <item quantity="one">%1$s sekunti sitten</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s minuuttia sitten</item>
+        <item quantity="one">%1$s minuutti sitten</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s tuntia sitten</item>
+        <item quantity="one">%1$s tunti sitten</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s päivää sitten</item>
+        <item quantity="one">%1$s päivä sitten</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s viikkoa sitten</item>
+        <item quantity="one">%1$s viikko sitten</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Hylkää (%1$d)</item>
+        <item quantity="one">Hylkää</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Salli (%1$d)</item>
+        <item quantity="one">Salli</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s henkilöä</item>
+        <item quantity="one">1 henkilö</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">He näkevät kaikki keskustelun aiemmat viestit.</item>
+        <item quantity="one">%1$s näkee kaikki viestiketjun aiemmat viestit.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s viestipyyntöä</item>
+        <item quantity="one">Viestipyyntö käyttäjältä %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Voit valita kerrallaan enintään %1$d kommenttia.</item>
+        <item quantity="one">Voit valita kerrallaan enintään yhden kommentin.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d kuvaa</item>
+        <item quantity="one">1 kuva</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d uutta julkaisua</item>
+        <item quantity="one">1 uusi julkaisu</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Facebook-kaveria</item>
+        <item quantity="one">1 Facebook-kaveri</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s yhteystietoa</item>
+        <item quantity="one">1 yhteys</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d katsojaa</item>
+        <item quantity="one">1 katsoja</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d uutta julkaisua</item>
+        <item quantity="one">1 uusi julkaisu</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Sinulla on %1$s Facebook-kaveria Instagramissa.</item>
+        <item quantity="one">Sinulla on yksi Facebook-kaveri Instagramissa.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Sinulla on %1$s VKontakte-kaveria Instagramissa.</item>
+        <item quantity="one">Sinulla on yksi VKontakte-kaveri Instagramissa.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s yhteyshenkilöä löytyi.</item>
+        <item quantity="one">1 yhteyshenkilö löytyi.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d valittu</item>
+        <item quantity="one">1 valittu</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d kommenttia poistettiin. Kumoa napauttamalla.</item>
+        <item quantity="one">Kommentti poistettiin. Kumoa napauttamalla.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d henkilö</item>
+        <item quantity="one">1 henkilö</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d henkilöä vastasi.</item>
+        <item quantity="one">1 henkilö vastasi.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/direct_row_message_comment_text_size" android:textStyle="bold" android:textColor="@color/blue_medium" android:id="@id/row_message_hashtag_name" android:paddingLeft="@dimen/direct_row_message_comment_padding_sides" android:paddingTop="@dimen/direct_row_message_common_padding" android:paddingRight="@dimen/direct_row_message_comment_padding_sides" android:paddingBottom="@dimen/direct_row_message_comment_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

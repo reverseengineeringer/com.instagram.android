@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_gravity="center" android:id="@id/creation_image_container" android:background="?creationTertiaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.creation.video.widget.scrubber.IgScrubberProgressIndicator android:layout_gravity="center" android:id="@id/seek_frame_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/play_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_button" />
+    <com.instagram.ui.widget.slideouticon.SlideOutIconView android:layout_gravity="bottom|center|left" android:id="@id/media_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginBottom="@dimen/feed_content_padding" app:textSize="11.0sp"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

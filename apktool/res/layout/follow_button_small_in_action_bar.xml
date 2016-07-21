@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.user.follow.FollowButton app:followButtonStyle="actionbaricon" style="@style/IgFollowButtonBase.ActionBar" xmlns:app="http://schemas.android.com/apk/res-auto" />

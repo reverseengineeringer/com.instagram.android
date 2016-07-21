@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="config_activityShortDur">150</integer>
+    <integer name="config_activityDefaultDur">220</integer>
+    <integer name="scissors_first_frame_duration">500</integer>
+    <integer name="scissors_frame_duration">17</integer>
+    <integer name="direct_gallery_grid_num_columns">3</integer>
+    <integer name="max_comments_length">2200</integer>
+</resources>

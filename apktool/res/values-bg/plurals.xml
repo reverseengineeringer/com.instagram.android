@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Имате %1$d промоции в процес на изчакване.</item>
+        <item quantity="one">Имате 1 промоция в процес на изчакване.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s от вашите Facebook приятели са в Instagram</item>
+        <item quantity="one">1 от вашите Facebook приятели е в Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s от вашите VKontakte приятели са в Instagram</item>
+        <item quantity="one">1 от вашите VKontakte приятели е в Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s от вашите контакти са в Instagram</item>
+        <item quantity="one">1 от вашите приятели е в Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">преди %1$s секунди</item>
+        <item quantity="one">преди %1$s секунда</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">преди %1$s минути</item>
+        <item quantity="one">преди %1$s минута</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">преди %1$s часа</item>
+        <item quantity="one">преди %1$s час</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">преди %1$s дни</item>
+        <item quantity="one">преди %1$s ден</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">преди %1$s седмици</item>
+        <item quantity="one">преди %1$s седмица</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Отклоняване на (%1$d)</item>
+        <item quantity="one">Отклоняване</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Разрешаване на (%1$d)</item>
+        <item quantity="one">Разрешаване</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s души</item>
+        <item quantity="one">1 човек</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Те ще виждат всички предишни съобщения от този разговор.</item>
+        <item quantity="one">%1$s ще види всички предишни съобщения от този разговор.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s заявки за съобщения</item>
+        <item quantity="one">Молба за съобщение от %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Можете да изберете само %1$d коментара към даден момент.</item>
+        <item quantity="one">Можете да изберете само 1 коментар към даден момент.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d снимки</item>
+        <item quantity="one">1 снимка</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d нови публикации</item>
+        <item quantity="one">1 нова публикация</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Facebook приятели</item>
+        <item quantity="one">1 приятел във Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s контакта</item>
+        <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d зрители</item>
+        <item quantity="one">1 зрител</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d нови публикации</item>
+        <item quantity="one">1 нова публикация</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Имате %1$s Facebook приятели в Instagram.</item>
+        <item quantity="one">Имате 1 Facebook приятел в Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Имате %1$s VKontakte приятели в Instagram.</item>
+        <item quantity="one">Имате 1 VKontakte приятел в Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Намерени са %1$s контакта.</item>
+        <item quantity="one">Намерен е 1 контакт.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d избрани</item>
+        <item quantity="one">1 избран елемент</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d изтрити коментара. Докоснете за отмяна.</item>
+        <item quantity="one">Коментарът е изтрит. Докоснете за отмяна.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d души</item>
+        <item quantity="one">1 човек</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d души отговориха.</item>
+        <item quantity="one">1 човек отговори.</item>
+    </plurals>
+</resources>

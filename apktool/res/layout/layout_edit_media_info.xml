@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/edit_media_relative_layout" android:background="@color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height">
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/edit_media_user_imageview" android:layout_marginLeft="@dimen/feed_header_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Avatar.XSmall" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_media_linear_layout" android:paddingRight="@dimen/feed_header_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/edit_media_user_imageview" android:layout_centerVertical="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/edit_media_username" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                    <TextView android:textColor="@color/accent_blue_5" android:ellipsize="end" android:gravity="top" android:id="@id/edit_media_location" android:paddingLeft="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_location" android:maxLines="1" android:includeFontPadding="false" />
+                </LinearLayout>
+                <TextView android:textColor="@color/grey_light" android:id="@id/edit_media_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </LinearLayout>
+            <View android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/edit_media_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholder="@color/image_placeholder" />
+                    <Button android:layout_gravity="bottom|center|left" android:id="@id/edit_media_photo_tags_indicator" android:background="@null" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" android:drawableLeft="@drawable/tag_badge" style="@style/EditMediaTagPeopleShadowText" />
+                    <include layout="@layout/video_icon" />
+                </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+                <com.instagram.android.widget.IgAutoCompleteTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/edit_media_caption" android:background="@drawable/input_background" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:layout_marginBottom="@dimen/row_text_padding" android:minHeight="@dimen/row_height_small" android:hint="@string/enter_caption" android:maxLength="@integer/max_comments_length" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" android:dropDownHeight="wrap_content" style="@style/IgAutoCompleteTextView" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <ViewStub android:id="@id/edit_media_failed_view_stub" android:layout="@layout/layout_failed" android:inflatedId="@id/edit_media_failed_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

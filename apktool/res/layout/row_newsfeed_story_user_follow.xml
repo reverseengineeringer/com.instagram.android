@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:paddingTop="@dimen/vertical_separator_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/row_newsfeed_user_imageview" android:contentDescription="@string/profile_picture" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColorLink="@color/blue_medium" android:id="@id/row_newsfeed_text" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textColor="@color/grey_light" android:id="@id/social_context_text" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <com.instagram.user.follow.FollowButton android:layout_gravity="center_vertical" android:id="@id/row_newsfeed_follow_button" android:layout_width="@dimen/row_height_small" android:layout_height="@dimen/follow_button_height" style="@style/IgFollowButtonBase.Small" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" style="?attr/defaultDividerStyle" />
+</FrameLayout>

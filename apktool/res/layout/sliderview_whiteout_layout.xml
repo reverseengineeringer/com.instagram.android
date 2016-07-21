@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ruler_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.creation.base.ui.sliderview.SliderView android:layout_gravity="center" android:id="@id/photo_sliderview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
+        <com.instagram.creation.base.ui.sliderview.RulerView android:id="@id/angle_ruler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.instagram.creation.base.ui.sliderview.SliderView>
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/sliderview_wheel_shadow_whiteout" />
+    <ImageView android:layout_gravity="center|top" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/sliderview_dot" />
+</FrameLayout>

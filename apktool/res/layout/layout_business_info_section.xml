@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:id="@id/email" android:hint="@string/email" android:drawableLeft="@drawable/profile_glyph_email" android:inputType="textEmailAddress" style="@style/FieldWithGlyph.WithMargin" />
+    <com.instagram.android.widget.EditPhoneNumberView android:id="@id/phone_number_edit_view" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" app:glyphEnabled="true" app:glyphPadding="@dimen/field_with_glyph_left_padding" app:countryCodeTextColor="@color/blue_5_whiteout" app:innerPadding="4.0dip" app:paddingLeft="@dimen/field_with_glyph_left_padding" app:paddingRight="@dimen/field_with_glyph_right_padding" />
+    <TextView android:textStyle="bold" android:id="@id/phone_number_text_view" android:visibility="gone" android:text="@string/phone" android:drawableLeft="@drawable/profile_glyph_phone" style="@style/FieldWithGlyph.WithMargin" />
+    <include android:id="@id/phone_number_text_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" layout="@layout/row_divider" />
+    <TextView android:textStyle="bold" android:id="@id/address" android:text="@string/address" android:drawableLeft="@drawable/location_filled" style="@style/FieldWithGlyph.WithMargin" />
+    <include android:layout_width="fill_parent" android:layout_height="3.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" layout="@layout/row_divider" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="30.0dip" layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:id="@id/bottom_text" android:paddingLeft="@dimen/row_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contact_from_new_button" />
+</LinearLayout>

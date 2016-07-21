@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/seek_bar_width" android:top="@dimen/seek_bar_width" android:right="@dimen/seek_bar_width" android:bottom="@dimen/seek_bar_width">
+        <shape android:shape="oval">
+            <solid android:color="@color/grey_8" />
+        </shape>
+    </item>
+    <item android:id="@id/seek_bar_root_outer_circle">
+        <shape android:shape="ring" android:useLevel="false" android:thickness="@dimen/seek_bar_width">
+            <solid android:color="@color/accent_blue_medium" />
+        </shape>
+    </item>
+</layer-list>

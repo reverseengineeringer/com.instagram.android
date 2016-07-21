@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/action_bar_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/feed_arrow_stub" android:layout="@layout/new_posts_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="?glyphColorPrimary" android:gravity="center_vertical" android:id="@id/feed_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

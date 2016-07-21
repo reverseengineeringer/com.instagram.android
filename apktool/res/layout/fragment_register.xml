@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <AutoCompleteTextView android:id="@id/email" android:hint="@string/email" android:drawableLeft="@drawable/profile_glyph_email" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/FieldWithGlyph" />
+        <FrameLayout android:id="@id/phone_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/phone" android:paddingLeft="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:hint="@string/phone" android:singleLine="true" android:digits="0123456789()- " android:inputType="number" />
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:layout_gravity="center|left" android:id="@id/country_code" android:paddingLeft="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:singleLine="true" android:freezesText="true" />
+        </FrameLayout>
+        <TextView android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:id="@id/phone_toggle" android:paddingLeft="@dimen/row_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/username" android:background="@color/transparent" android:hint="@string/username" android:drawableLeft="@drawable/profile_glyph_username" style="@style/FieldWithGlyph" />
+            <com.instagram.ui.widget.spinner.RefreshSpinner android:layout_gravity="center|right|top" android:id="@id/fragment_sign_up_username_spinner" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="12.0dip" app:dark="true" />
+            <FrameLayout android:id="@id/show_suggested_usernames_container" android:layout_width="fill_parent" android:layout_height="80.0dip">
+                <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_small" android:layout_gravity="center|left|top" android:id="@id/show_suggested_usernames" android:layout_width="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="12.0dip" android:text="@string/show_suggested_usernames" style="@style/FilledButtonStyle" />
+            </FrameLayout>
+            <View android:layout_gravity="bottom" android:id="@id/username_background" android:background="@drawable/input" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <EditText android:id="@id/password" android:hint="@string/password" android:drawableLeft="@drawable/profile_glyph_password" android:inputType="textPassword" style="@style/FieldWithGlyph" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <com.instagram.ui.text.FreightSansTextView android:text="@string/Profile" style="@style/RowHeaderText" />
+            <TextView android:textColor="@color/grey_light" android:layout_gravity="bottom|center|right" android:paddingRight="@dimen/row_text_padding" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/optional" />
+            <include layout="@layout/row_header_divider" />
+        </FrameLayout>
+        <TextView android:textStyle="bold" android:id="@id/use_my_facebook_info" android:background="@drawable/bg_simple_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/use_your_facebook_info" android:drawableLeft="@drawable/share_facebook" style="@style/FieldWithGlyph" />
+        <include layout="@layout/row_divider" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <EditText android:id="@id/name" android:hint="@string/name" android:drawableLeft="@drawable/profile_glyph_name" style="@style/FieldWithGlyph" />
+                <EditText android:id="@id/optional_contact" android:hint="@string/phone" android:drawableLeft="@drawable/profile_glyph_phone" android:inputType="number" android:imeOptions="actionDone" style="@style/FieldWithGlyph" />
+            </LinearLayout>
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_marginLeft="12.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/profile_anonymous_user" android:contentDescription="@string/profile_photo_description" style="@style/Avatar.ExtraExtraLarge" />
+        </LinearLayout>
+        <TextView android:textColor="@color/grey_light" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/phone_number_private" />
+        <TextView android:textColor="@color/grey_light" android:id="@id/tos_warning" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" style="@style/ActionBar.Modal">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/button_back" android:src="@drawable/nav_arrow_back" android:contentDescription="@string/back" style="@style/ActionBarButton.Modal" />
+        <com.instagram.ui.text.FreightSansTextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/crop_photo" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/save" android:src="@drawable/nav_arrow_next" app:normal="@color/accent_blue_medium" style="@style/ActionBarButton.Modal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_height"> ​
+<View android:background="?creationDividerColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/preview_container" android:background="?creationTertiaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instagram.creation.photo.crop.CropImageView android:id="@id/crop_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="bottom|center|left" android:id="@id/croptype_toggle_button" android:background="@drawable/preview_overlay_dark_background" android:visibility="invisible" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="12.0dip" android:src="@drawable/croptype_toggle_btn" android:scaleType="centerInside" app:normal="@color/white" app:active="@color/grey_light" />
+        </com.instagram.common.ui.widget.framelayout.MediaFrameLayout> ​
+<View android:background="?creationDividerColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <include layout="@layout/action_bar_shadow" />
+</FrameLayout>

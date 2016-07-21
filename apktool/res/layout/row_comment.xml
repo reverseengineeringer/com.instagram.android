@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/row_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/row_padding" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center|left|top" android:id="@id/row_comment_imageview" style="@style/Avatar.Small" />
+    <RelativeLayout android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.instagram.android.widget.CommentTextView android:id="@id/row_comment_textview_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextViewStyle.Feed" />
+        <TextView android:textColor="@color/grey_light" android:id="@id/row_comment_textview_time_ago" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/row_comment_textview_comment" />
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/row_comment_progressbar" android:layout_width="20.0dip" android:layout_height="20.0dip" android:indeterminate="true" />
+    <Button android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/row_comment_button_action" android:background="@drawable/button_red_background" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="28.0dip" />
+</LinearLayout>

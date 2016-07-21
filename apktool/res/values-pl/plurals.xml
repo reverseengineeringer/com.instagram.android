@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Masz %1$d oczekujących promocji.</item>
+        <item quantity="one">Masz 1 oczekującą promocję.</item>
+        <item quantity="few">Masz %1$d oczekujące promocje.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s z Twoich znajomych z Facebooka jest na Instagramie.</item>
+        <item quantity="one">1 z Twoich znajomych z Facebooka jest na Instagramie.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s Twoich znajomych z VKontakte jest na Instagramie</item>
+        <item quantity="one">1 Twój znajomy z VKontakte jest na Instagramie</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s z Twoich kontaktów jest na Instagramie.</item>
+        <item quantity="one">1 z Twoich kontaktów jest na Instagramie.</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s s temu</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s min temu</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s godz. temu</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s dni temu</item>
+        <item quantity="one">%1$s dzień temu</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s tyg. temu</item>
+        <item quantity="one">%1$s tydz. temu</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Odrzuć (%1$d)</item>
+        <item quantity="one">Odrzuć</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Zezwól (%1$d)</item>
+        <item quantity="one">Zezwól</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s użytkowników</item>
+        <item quantity="one">1 osoba</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Będą widzieć wszystkie poprzednie wiadomości z tej konwersacji.</item>
+        <item quantity="one">%1$s będzie widzieć wszystkie poprzednie wiadomości z tej konwersacji.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s wiadomości w folderze Inne</item>
+        <item quantity="one">Wiadomość od użytkownika %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Możesz wybrać maksymalnie %1$d komentarzy.</item>
+        <item quantity="one">Możesz wybrać tylko 1 komentarz.</item>
+        <item quantity="few">Możesz wybrać maksymalnie %1$d komentarze.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">Zdjęcia: %1$d</item>
+        <item quantity="one">1 zdjęcie</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d nowych postów</item>
+        <item quantity="one">1 nowy post</item>
+        <item quantity="few">%1$d nowe posty</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s znajomych w serwisie Facebook</item>
+        <item quantity="one">1 znajomy w serwisie Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s kontaktów</item>
+        <item quantity="one">1 kontakt</item>
+        <item quantity="few">%1$s kontakty</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d widzów</item>
+        <item quantity="one">1 widz</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d nowych postów</item>
+        <item quantity="one">1 nowy post</item>
+        <item quantity="few">%1$d nowe posty</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Liczba Twoich znajomych w serwisie Instagram: %1$s.</item>
+        <item quantity="one">W serwisie Instagram masz 1 znajomego z serwisu Facebook.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Masz na Instagramie %1$s znajomych z VKontakte.</item>
+        <item quantity="one">Masz na Instagramie 1 znajomego z VKontakte.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Znaleziono %1$s kontaktów.</item>
+        <item quantity="one">Znaleziono 1 kontakt.</item>
+        <item quantity="few">Znaleziono %1$s kontakty.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Wybrano %1$d</item>
+        <item quantity="one">Wybrano 1</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">Usunięto komentarze (%1$d). Dotknij, aby cofnąć.</item>
+        <item quantity="one">Usunięto komentarz. Dotknij, aby cofnąć.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d os.</item>
+        <item quantity="one">Liczba osób: 1</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">Odpowiedziało %1$d użytkowników.</item>
+        <item quantity="one">Odpowiedział 1 użytkownik.</item>
+    </plurals>
+</resources>

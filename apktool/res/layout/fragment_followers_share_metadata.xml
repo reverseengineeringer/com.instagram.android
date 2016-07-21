@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/tabs_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/tabbar_with_shadow" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/followers_share_content" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/row_caption_followshare" layout="@layout/row_caption" />
+                <FrameLayout android:id="@id/metadata_row_people" android:background="@drawable/bg_simple_row" style="@style/PaddedRow">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+                        <ImageView android:id="@id/tag_people_icon" android:paddingRight="@dimen/row_text_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tag_people" />
+                        <TextView android:textStyle="bold" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_people" android:layout_weight="1.0" />
+                        <TextView android:textColor="@color/grey_light" android:id="@id/metadata_textview_people" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <include layout="@layout/row_divider" />
+                </FrameLayout>
+                <FrameLayout android:id="@id/share_title_container" android:paddingTop="16.0dip" style="@style/PaddedRow">
+                    <com.instagram.ui.text.FreightSansTextView android:id="@id/share_title" android:text="@string/share" style="@style/RowHeaderText" />
+                    <include layout="@layout/row_header_divider" />
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@id/share_video_copyright_warning_text" android:paddingTop="16.0dip" android:visibility="gone" style="@style/PaddedRow">
+                <TextView android:textColor="@color/grey_light" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/share_video_copyright_warning" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/share_content_button" />
+</LinearLayout>

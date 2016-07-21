@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textStyle="bold" android:textColor="@color/grey_medium" android:gravity="center" android:id="@id/button_item" android:background="@drawable/button_grey_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" />
+</LinearLayout>

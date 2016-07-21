@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.maps.ui.IgStaticMapView android:id="@id/row_map_header_imageview" android:background="@color/image_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/map_height" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/foursquare_glyph" android:padding="@dimen/row_text_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_swarm" />
+</FrameLayout>

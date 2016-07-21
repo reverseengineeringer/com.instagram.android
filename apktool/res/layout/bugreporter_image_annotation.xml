@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.bugreporter.BugReporterDrawingView android:id="@id/drawing_view" android:background="@android:color/black" android:padding="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:drawingview_stroke_width="5.0dip" custom:drawingview_stroke_color="@android:color/holo_red_light"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" />

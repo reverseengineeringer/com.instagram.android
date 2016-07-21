@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/language_picker" />
+    <View android:id="@id/login_logo_padding" android:layout_width="fill_parent" android:layout_height="@dimen/top_min_margin" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/login_component" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/login_landing_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/logo_bottom_margin" android:src="@drawable/nux_dayone_landing_logo" />
+        <EditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/login_username" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="@dimen/textbox_bottom_margin" android:hint="@string/username" android:cursorVisible="true" android:singleLine="true" android:inputType="textNoSuggestions" android:textCursorDrawable="@null" />
+        <EditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/login_password" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/password" android:cursorVisible="true" android:singleLine="true" android:inputType="textPassword" android:textCursorDrawable="@null" />
+        <include layout="@layout/reg_next" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_70_transparent" android:gravity="center" android:id="@id/login_forgot_button" android:background="@null" android:paddingTop="@dimen/forget_button_padding" android:paddingBottom="@dimen/forget_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/reg_facebook_option" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/signup_button_component" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_min_margin" android:layout_weight="1.0">
+        <View android:background="@null" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <include layout="@layout/reg_footer" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/phone_number_container" android:background="@drawable/input" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/country_code_picker" android:paddingLeft="@dimen/textfield_padding" android:paddingRight="@dimen/textfield_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="+1" android:singleLine="true" android:freezesText="true" />
+    <EditText android:id="@id/phone_number" android:background="@null" android:paddingLeft="@dimen/textfield_padding" android:paddingRight="@dimen/textfield_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/phone" android:singleLine="true" android:digits="0123456789 -()" android:layout_weight="1.0" android:inputType="number" android:imeOptions="actionGo" />
+    <TextView android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:layout_gravity="end" android:id="@id/clear_phone_text" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:text="@string/clear_phone_number" android:singleLine="true" />
+</LinearLayout>

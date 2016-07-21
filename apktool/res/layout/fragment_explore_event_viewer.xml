@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_listview_parent_container" android:background="@color/black_95_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_single_scroll_listview" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/explore_event_viewer_header" />
+    <com.instagram.android.widget.VolumeIndicator android:layout_gravity="top" android:id="@id/volume_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:progressDrawable="@drawable/volume_indicator_background" style="?android:attr/progressBarStyleHorizontal" />
+</FrameLayout>

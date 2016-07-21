@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/ufi_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="start|center" android:orientation="horizontal" android:id="@id/row_feed_ufi_bar_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.instagram.feed.ui.views.IgLikeButton android:id="@id/like_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" />
+        <ViewStub android:id="@id/video_icon_stub" android:layout="@layout/ufi_video_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" />
+        <ViewStub android:id="@id/like_or_video_text_view_stub" android:layout="@layout/row_feed_media_ufi_count_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/comment_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ufi_new_comment" android:scaleType="center" android:contentDescription="@string/comment" app:normal="?textColorSecondary" />
+        <ViewStub android:id="@id/comment_text_view_stub" android:layout="@layout/row_feed_media_ufi_count_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/share_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ufi_new_share" android:scaleType="center" android:contentDescription="@string/send" app:normal="?textColorSecondary" />
+        <ViewStub android:id="@id/share_text_view_stub" android:layout="@layout/row_feed_media_ufi_count_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end|center" android:id="@id/link_button_stub" android:layout="@layout/link_button" android:layout_width="wrap_content" android:layout_height="@dimen/feed_action_button_height" android:layout_marginRight="@dimen/feed_content_padding" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.dialog.DialogButtonsLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/button_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small">
+        <TextView android:textStyle="bold" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/button_negative" android:background="@drawable/dialog_row_bottom" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" />
+        <View android:id="@id/button_divider" android:background="@color/grey_2_whiteout" android:visibility="gone" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/vertical_separator_padding" android:layout_marginBottom="@dimen/vertical_separator_padding" />
+        <TextView android:textStyle="bold" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/button_positive" android:background="@drawable/dialog_row_bottom" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" />
+    </com.instagram.ui.dialog.DialogButtonsLayout>
+</merge>

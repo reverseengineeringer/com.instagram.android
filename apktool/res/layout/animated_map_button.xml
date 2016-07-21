@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.maps.ui.IgAnimatingMapItem android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:scale="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@id/animated_map_button" android:background="@drawable/button_white_background" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_margin="4.0dip" android:minWidth="82.0dip" android:alpha="0.9" />
+</com.instagram.maps.ui.IgAnimatingMapItem>

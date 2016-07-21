@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.textureview.ScalingTextureView android:id="@id/reel_viewer_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/reel_viewer_image_view" android:background="@color/grey_2_whiteout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/place_holder_background" android:background="@color/grey_2_whiteout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@drawable/reel_viewer_shadow_top" android:layout_width="fill_parent" android:layout_height="67.0dip" />
+    <View android:id="@id/back_shadow_affordance" android:background="@drawable/reel_viewer_shadow_left" android:layout_width="44.0dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/text_overlay_size" android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/reel_viewer_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/ShadowTextViewStyle" />
+    <LinearLayout android:gravity="center" android:layout_gravity="start|center|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reel_attribution_margin_horizontal" android:layout_marginTop="@dimen/reel_attribution_margin_top" android:layout_marginRight="@dimen/reel_attribution_margin_horizontal">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/reel_viewer_profile_picture" android:contentDescription="@string/profile_photo_description" style="@style/Avatar.Reel" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/reel_viewer_username" android:paddingLeft="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowTextViewStyle" />
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/grey_2" android:ellipsize="end" android:id="@id/reel_viewer_context_line" android:paddingLeft="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/ShadowTextViewStyle" />
+        </LinearLayout>
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.instagram.ui.widget.segmentedprogressbar.SegmentedProgressBar android:layout_gravity="top" android:id="@id/reel_viewer_progress_bar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="11.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="11.0dip" />
+    <include layout="@layout/layout_reel_item_toolbar" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

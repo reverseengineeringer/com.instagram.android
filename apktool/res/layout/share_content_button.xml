@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/share_button_container" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/share_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@drawable/nav_arrow_next_small" android:drawablePadding="8.0dip" android:textAllCaps="true" />
+</FrameLayout>

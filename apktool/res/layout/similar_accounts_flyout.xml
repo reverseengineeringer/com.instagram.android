@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/similar_accounts_flyout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.triangleshape.TriangleShape android:id="@id/similar_accounts_notch" android:layout_width="fill_parent" android:layout_height="@dimen/vertical_separator_padding" app:fillColor="@color/grey_1" />
+    <LinearLayout android:id="@id/similar_accounts_header" android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+        <TextView android:ellipsize="end" android:gravity="center|left" android:id="@id/similar_accounts_header_tittle" android:paddingLeft="@dimen/row_padding" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@string/similar_accounts_header" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/similar_accounts_header_x" android:layout_width="@dimen/row_height_small" android:layout_height="fill_parent" android:src="@drawable/nav_cancel" android:scaleType="center" />
+        <TextView android:textColor="@color/accent_blue_medium" android:gravity="center|right" android:id="@id/similar_accounts_see_all_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/row_padding" android:text="@string/see_all" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/similar_accounts_row_divider" android:background="@color/grey_1" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="1.0px" android:src="@color/white" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:gravity="center" android:id="@id/permissions_instructions" android:padding="@dimen/direct_row_message_comment_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/row_divider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/button_width">
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/red_5" android:gravity="center" android:layout_gravity="center" android:id="@id/permissions_choice_decline" android:background="@drawable/bg_simple_row" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/direct_permissions_choice_decline" android:layout_weight="1.0" />
+        <View android:background="@color/grey_2" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/grey_medium" android:gravity="center" android:layout_gravity="center" android:id="@id/permissions_choice_allow" android:background="@drawable/bg_simple_row" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/allow" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

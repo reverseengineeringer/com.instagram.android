@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="26.0dip" android:paddingRight="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/summary_card_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/summary_vertical_margin" android:minHeight="@dimen/summary_title_height" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_5_whiteout" android:gravity="center" android:layout_gravity="center" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/summary_vertical_margin" android:minHeight="@dimen/summary_subtitle_height" />
+    <TextView android:textSize="@dimen/font_small_medium" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/url" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/summary_url_top_margin" android:minHeight="@dimen/summary_url_height" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/summary_vertical_margin" android:minHeight="@dimen/summary_subtitle_height" />
+</LinearLayout>

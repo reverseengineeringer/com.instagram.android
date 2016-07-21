@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">ေနာက္ထပ္ ေရြးစရာမ်ား</string>
+    <string name="feed_browser_cannot_load_page">စာမ်က္ႏွာကို မသြားနိုင္ပါ။</string>
+    <string name="browser_ssl_error_title">လုံျခဳံမွု အမွား</string>
+    <string name="browser_ssl_error_message">ဤဆိုဒ္အတြက္ လုံျခဳံေရး လက္မွတ္ႏွင့္ပတ္သက္ေသာ ျပႆနာမ်ား ျဖစ္သည္။</string>
+    <string name="browser_ssl_error_positive_button_text">ျပန္သြားရန္</string>
+    <string name="feed_browser_menu_item_install_specific_app">%1$s သြင္းရန္</string>
+    <string name="feed_browser_menu_item_install_app">အပ္ပ္ပလီေကးရွင္းကို သြင္းရန္</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">%1$sတြင္ ဖြင့္ပါ။</string>
+    <string name="feed_browser_menu_item_open_with_app">အပ္ပလီေကးရွင္းတြင္ ဖြင့္ရန္</string>
+    <string name="feed_browser_menu_item_open_with">ႏွင့္ ဖြင့္ရန္</string>
+    <string name="browser_text_zoom_percentage_template">%1$d %%</string>
+    <string name="browser_stop_load_button_description">ဤစာမ်က္ႏွာကို တင္ေပးေနျခင္း ရပ္လိုက္ပါ</string>
+    <string name="browser_reload_button_description">ဤစာမ်က္ႏွာကို ျပန္တင္ေပးပါ</string>
+    <string name="browser_zoom_in_button_description">ခ်ဲ႕ရန္</string>
+    <string name="browser_zoom_out_button_description">ခ်ဳံ႕ရန္</string>
+    <string name="browser_close_button_description">ဘေရာက္ဇာပိတ္ပါ</string>
+</resources>

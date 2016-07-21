@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.base.TouchInterceptorFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_container_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:isScrollContainer="true" />
+    <ViewStub android:id="@id/bottom_sheet_container_stub" android:layout="@layout/bottom_sheet_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/action_bar" />
+</com.instagram.ui.widget.base.TouchInterceptorFrameLayout>

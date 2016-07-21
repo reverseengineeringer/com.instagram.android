@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/media_screenshot_border" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center|left" android:id="@id/media_screenshot_profile_image" android:layout_marginLeft="@dimen/feed_header_padding" style="@style/Avatar.XSmall" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/grey_5" android:ellipsize="end" android:id="@id/media_screenshot_profile_name" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            <TextView android:textColor="@color/grey_3" android:ellipsize="end" android:id="@id/media_screenshot_location" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/feed_header_padding" android:src="@drawable/icon_glyph" />
+    </LinearLayout>
+    <View android:id="@id/header_border" android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_screenshot_photo_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/media_screenshot_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+    <TextView android:textColor="@color/grey_medium" android:textColorLink="@color/grey_5" android:id="@id/media_screenshot_comments" android:padding="@dimen/feed_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

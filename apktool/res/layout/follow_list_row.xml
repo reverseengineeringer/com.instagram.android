@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/follow_list_container" android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/follow_list_user_imageview" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/follow_list_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="3.0dip" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/follow_list_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/follow_list_large_follow_button_stub" android:layout="@layout/follow_button_large" android:layout_width="@dimen/follow_button_in_row_width" android:layout_height="@dimen/follow_button_height" />
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/follow_list_small_follow_button_stub" android:layout="@layout/follow_list_small_follow_button" android:layout_width="@dimen/row_height_small" android:layout_height="@dimen/follow_button_height" />
+    </LinearLayout>
+    <include android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" style="?attr/defaultDividerStyle" layout="@layout/row_divider" />
+</LinearLayout>

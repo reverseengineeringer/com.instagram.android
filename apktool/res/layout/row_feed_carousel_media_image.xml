@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:forceFullWidth="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/carousel_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:perfTrackingCategory="feed_photo" />
+    <ViewStub android:id="@id/ads_overlay_view_stub" android:layout="@layout/view_ads_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

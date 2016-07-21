@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/button_back" android:src="@drawable/nav_arrow_back" android:contentDescription="@string/back" style="@style/ActionBarButton.Modal" />
+    <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/action_bar_textview_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/edit" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+    <com.instagram.ui.widget.base.TriangleSpinner android:id="@id/action_bar_share_spinner" android:background="@null" android:visibility="gone" android:saveEnabled="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:popupBackground="?creationSpinnerBackground" android:layout_weight="1.0" android:dropDownWidth="150.0dip" app:triangleColor="@color/grey_5" />
+    <com.instagram.ui.text.FreightSansTextView android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:id="@id/next_button_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/share" android:contentDescription="@string/share" style="?attr/actionBarTextButtonStyle" />
+    <FrameLayout android:id="@id/button_next_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:gravity="center_vertical" android:id="@id/button_next" android:visibility="gone" android:src="@drawable/nav_arrow_next" android:contentDescription="@string/next" app:disabled_alpha="0x4d" style="@style/ActionBarButton.Modal" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_next_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" app:base_alpha="0.0" app:duration="2500" app:angle="cw_180">
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:gravity="center_vertical" android:id="@id/button_next_shimmer" android:background="?creationShareShimmerColor" android:visibility="gone" android:layout_width="@dimen/action_bar_height" android:layout_height="fill_parent" android:scaleType="center" android:contentDescription="@string/next" app:normal="?modalActionBarPrimaryButtonForeground" app:disabled_alpha="0x4d" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/actionbar_rotate90_button" android:visibility="gone" android:contentDescription="@string/rotate" style="@style/ActionBarButton.Modal" />
+</LinearLayout>

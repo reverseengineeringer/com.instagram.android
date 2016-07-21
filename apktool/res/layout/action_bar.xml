@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/action_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/action_bar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/view_switcher_shadow_height" android:layout_marginTop="@dimen/action_bar_height" layout="@layout/view_switcher_shadow" />
+    <ViewStub android:layout_gravity="top" android:id="@id/banner_toast_stub" android:layout="@layout/bannertoast" android:inflatedId="@id/banner_toast_main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/action_bar_height" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_bar" style="@style/ActionBar">
+        <ImageView android:id="@id/action_bar_button_back" android:src="@drawable/nav_arrow_back" android:contentDescription="@string/back" style="@style/ActionBarButton" />
+        <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/action_bar_textview_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+        <FrameLayout android:id="@id/action_bar_textview_custom_title_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.actionbar.ActionButton android:id="@id/action_bar_button_action" android:layout_width="@dimen/action_bar_button_width" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

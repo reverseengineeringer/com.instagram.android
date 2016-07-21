@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="faulty_security_ids">
+        <item>9774d56d682e549c</item>
+        <item>9d1d1f0dfa440886</item>
+        <item>fc067667235b8f19</item>
+    </string-array>
+    <string-array name="comment_report_options">
+        <item>@string/flag_comment_option_spam</item>
+        <item>@string/flag_abusive_content</item>
+    </string-array>
+</resources>

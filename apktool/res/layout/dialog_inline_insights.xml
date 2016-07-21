@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/black_50_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/dialog_content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/container" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_4_whiteout" android:gravity="center" android:id="@id/creation_time" android:background="@color/grey_0_whiteout" android:layout_width="fill_parent" android:layout_height="38.0dip" />
+            <include layout="@layout/row_divider" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/insights_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginBottom="30.0dip" android:baselineAligned="false">
+                <include android:id="@id/impressions" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/inline_insights_block" />
+                <include android:layout_width="1.0px" android:layout_height="fill_parent" layout="@layout/vertical_divider" />
+                <include android:id="@id/reach" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/inline_insights_block" />
+                <include android:layout_width="1.0px" android:layout_height="fill_parent" layout="@layout/vertical_divider" />
+                <include android:id="@id/engagement" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/inline_insights_block" />
+            </LinearLayout>
+            <include layout="@layout/row_divider" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/accent_blue_5" android:gravity="center" android:id="@id/education_button" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:text="@string/insights_explanation" android:drawableRight="@drawable/caret" android:drawableEnd="@drawable/caret" />
+            <LinearLayout android:orientation="vertical" android:id="@id/education_text" android:visibility="gone" android:animateLayoutChanges="true" style="@style/PaddedRow">
+                <TextView android:textColor="@color/grey_9" android:paddingTop="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/impressions" />
+                <TextView android:textColor="@color/grey_3_whiteout" android:paddingBottom="@dimen/education_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/impressions_explanation" />
+                <TextView android:textColor="@color/grey_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reach" />
+                <TextView android:textColor="@color/grey_3_whiteout" android:paddingBottom="@dimen/education_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reach_explanation" />
+                <TextView android:textColor="@color/grey_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/engagement" />
+                <TextView android:textColor="@color/grey_3_whiteout" android:paddingBottom="@dimen/education_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/engagement_explanation" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/spinner_large" />
+    </FrameLayout>
+</FrameLayout>

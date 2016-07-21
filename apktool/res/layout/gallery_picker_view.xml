@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_gravity="center_horizontal" android:id="@id/preview_container" android:background="?creationTertiaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.creation.photo.crop.CropImageView android:id="@id/crop_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/draft_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.instagram.creation.capture.IgCaptureVideoPreviewView android:id="@id/video_preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="bottom|center|left" android:id="@id/croptype_toggle_button" android:background="@drawable/preview_overlay_dark_background" android:visibility="invisible" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="12.0dip" android:src="@drawable/croptype_toggle_btn" android:scaleType="centerInside" app:normal="@color/white" app:active="@color/grey_light" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="bottom|center|right" android:id="@id/layout_button" android:background="@drawable/preview_overlay_dark_background" android:visibility="invisible" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_margin="12.0dip" android:src="@drawable/layout_overlay_18" android:scaleType="centerInside" app:normal="@color/white" app:active="@color/grey_light" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="bottom|center|right" android:id="@id/boomerang_button" android:background="@drawable/preview_overlay_dark_background" android:visibility="invisible" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/boomerang_overlay" android:scaleType="centerInside" app:normal="@color/white" app:active="@color/grey_light" />
+    </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+    <FrameLayout android:id="@id/media_picker_container" android:background="?mediaPickerBackground" android:paddingTop="?mediaPickerSpacing" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.common.ui.widget.mediapicker.MediaPickerGridView android:gravity="start" android:id="@id/media_picker_grid_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="?mediaPickerSpacing" android:verticalSpacing="?mediaPickerSpacing" android:stretchMode="columnWidth" android:overScrollMode="never" />
+        <View android:layout_gravity="top" android:background="@drawable/library_photo_shadow" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </FrameLayout>
+</merge>

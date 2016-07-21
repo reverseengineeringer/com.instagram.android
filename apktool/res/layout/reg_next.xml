@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/next_progress" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:gravity="center" android:id="@id/next_button" android:background="@drawable/button_border" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" app:capitalize="false" app:medium="true" />
+</FrameLayout>

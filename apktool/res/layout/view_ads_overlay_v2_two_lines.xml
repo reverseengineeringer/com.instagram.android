@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ads_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ads_overlay_blur_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ads_overlay_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/grey_1" android:ellipsize="end" android:gravity="center" android:id="@id/ads_overlay_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:drawableTop="@drawable/ads_overlay_arrow_white" android:drawablePadding="14.0dip" />
+        <com.instagram.ui.text.FreightSansTextView android:textSize="11.0sp" android:textColor="@color/grey_1" android:ellipsize="end" android:gravity="center" android:id="@id/ads_overlay_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</FrameLayout>

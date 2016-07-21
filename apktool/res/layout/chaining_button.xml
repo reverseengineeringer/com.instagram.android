@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chaining_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/downward_triangle_white" android:scaleType="centerCrop" style="@style/IgFollowButtonBase" />
+    <ProgressBar android:id="@id/chaining_button_progress_bar" android:padding="4.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" />
+</merge>

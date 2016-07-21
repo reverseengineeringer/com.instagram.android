@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/hon_cancel" android:layout_width="@dimen/nav_cancel_size" android:layout_height="@dimen/nav_cancel_size" android:layout_marginLeft="@dimen/nav_cancel_margin" android:layout_marginTop="@dimen/nav_cancel_margin" android:src="@drawable/nav_cancel" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+            <com.instagram.ui.viewpager.ScrollingOptionalViewPager android:id="@id/card_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.instagram.ui.widget.fixedtabbar.FixedTabBar android:id="@id/hon_tabbar" android:layout_width="fill_parent" android:layout_height="@dimen/tabbar_height" android:layout_marginLeft="@dimen/card_margin" android:layout_marginTop="@dimen/tabbar_margin_top" android:layout_marginRight="@dimen/card_margin" android:layout_marginBottom="@dimen/tabbar_margin_bottom" />
+        <View android:background="@color/border_color" android:layout_width="fill_parent" android:layout_height="@dimen/border_size" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/grey_6" android:gravity="start|center" android:id="@id/hon_question" android:background="@color/white" android:paddingLeft="@dimen/card_margin" android:paddingTop="@dimen/question_padding_top" android:paddingRight="@dimen/card_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/survey_question" />
+        <LinearLayout android:gravity="end" android:orientation="horizontal" android:background="@color/white" android:padding="@dimen/answer_button_margin" android:layout_width="fill_parent" android:layout_height="@dimen/answer_button_container_height">
+            <Button android:id="@id/first_ad" android:text="@string/first_ad" style="@style/answer_button" />
+            <Button android:id="@id/second_id" android:text="@string/second_ad" style="@style/answer_button" />
+            <Button android:id="@id/not_sure" android:text="@string/not_sure" style="@style/answer_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/hon_retry" android:layout="@layout/layout_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/hon_end_screen" android:layout="@layout/layout_end_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

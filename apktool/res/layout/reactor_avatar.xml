@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/sender_avatar" style="@style/Avatar.XXSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

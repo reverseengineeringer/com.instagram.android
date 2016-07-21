@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_light" android:gravity="center_vertical" android:id="@id/direct_metadata_header" android:layout_width="wrap_content" android:layout_height="@dimen/direct_row_metadata_header_height" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:layout_gravity="right" android:id="@id/direct_metadata_see_all" android:layout_width="wrap_content" android:layout_height="@dimen/direct_row_metadata_header_height" android:text="@string/see_all" />
+</FrameLayout>

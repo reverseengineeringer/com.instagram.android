@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">[You have %1$d pending promotions.#afc13ac6168178502301f797cec0ebca:1]</item>
+        <item quantity="one">[You have 1 pending promotion.#e4b954c0347270ee6c7c9a537f729b98:1]</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioGroup android:id="@id/cellular_data_options_radiogroup" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instagram.ui.menu.CheckRadioButton android:id="@id/cellular_data_default" android:layout_marginBottom="-1.0px" android:text="@string/cellular_data_default" style="@style/IgSettingsRadioButton" />
+            <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+            <com.instagram.ui.menu.CheckRadioButton android:id="@id/cellular_data_less" android:layout_marginBottom="-1.0px" android:text="@string/cellular_data_less" style="@style/IgSettingsRadioButton" />
+            <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+        </RadioGroup>
+        <TextView android:textColor="@color/grey_light" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:text="@string/video_preload_preference_explanation" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+</ScrollView>

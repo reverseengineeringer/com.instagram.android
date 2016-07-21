@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/spinner_menu_background_whiteout" android:paddingLeft="@dimen/feed_header_padding" android:paddingRight="@dimen/feed_header_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/feed_row_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/row_user_imageview" style="@style/Avatar.XSmall" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/spinner_menu_text_whiteout" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/row_user_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+    <TextView android:textSize="@dimen/font_medium_not_scaled" android:textColor="?textColorQuaternary" android:ellipsize="end" android:layout_gravity="center|right" android:id="@id/notification_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" style="?attr/actionBarTitleStyle" />
+    <View android:layout_gravity="center|right" android:id="@id/account_badge" android:background="?tabButtonNotificationBackground" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginRight="10.0dip" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center|right" android:id="@id/check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/check_small" app:normal="?glyphColorSecondary" />
+</LinearLayout>

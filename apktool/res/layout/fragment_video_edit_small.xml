@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?creationTertiaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/fragment_video_preview" />
+    <ViewSwitcher android:id="@id/creation_main_actions" android:background="?creationSecondaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/video_edit_fragment_container_back" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/video_edit_fragment_container_front" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/adjust_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </ViewSwitcher>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/photo_grid_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/row_review_map_textview_expanded_copy" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.maps.ui.IgStaticMapView android:id="@id/row_review_map_imageview" android:layout_width="fill_parent" android:layout_height="@dimen/map_height" />
+        <TextView android:textSize="@dimen/maps_font_size" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/row_review_map_textview_count" android:background="@drawable/map_counter_bubble_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/row_review_map_button_deselect_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_text_padding" android:src="@drawable/share_check" />
+    </FrameLayout>
+</LinearLayout>

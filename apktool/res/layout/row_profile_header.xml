@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_profile_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_friend_request_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/profile_container_actions" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/row_profile_scoreboard_header" />
+        <LinearLayout android:orientation="vertical" android:id="@id/similar_accounts_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/row_padding" />
+        <LinearLayout android:orientation="vertical" android:id="@id/profile_megaphone_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/row_padding" />
+    </LinearLayout>
+</LinearLayout>

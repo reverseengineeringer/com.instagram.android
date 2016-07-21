@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/slideout_iconview" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/slideout_iconview_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" />
+    <com.instagram.ui.text.FreightSansTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/slideout_iconview_text" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_toRightOf="@id/slideout_iconview_icon" android:layout_centerVertical="true" app:medium="true" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/social_connect_call_to_action" android:background="@color/white" android:padding="@dimen/nux_call_to_action_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/avatar" android:visibility="gone" android:layout_marginTop="4.0dip" android:src="@drawable/profile_anonymous_user" style="@style/Avatar.ExtraExtraLarge" />
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:gravity="center_horizontal" android:id="@id/username" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_text_padding" android:layout_marginBottom="@dimen/row_text_padding" />
+    <TextView android:textSize="@dimen/font_large" android:textColor="@color/grey_7" android:gravity="center_horizontal" android:id="@id/title" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_4" android:gravity="center_horizontal" android:id="@id/subtitle" android:paddingBottom="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:gravity="center" android:id="@id/action_button" android:background="@drawable/button_blue_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/row_padding" android:minHeight="@dimen/row_height_small">
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/action_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FieldWithGlyph" />
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/grey_2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0px" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">உங்கள் %1$d விளம்படுத்துதல் செயல்பாடு நிலுவையில் உள்ளன.</item>
+        <item quantity="one">1 விளம்பரப்படுத்துதல் செயல்பாடு நிலுவையில் உள்ளது.</item>
+    </plurals>
+</resources>

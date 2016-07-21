@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/loading_dialog" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.feed.widget.IgProgressImageViewProgressBar android:layout_gravity="center" android:id="@id/loading_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/progress_circular" style="?android:attr/progressBarStyleHorizontal" />
+    <View android:id="@id/animated_background" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="center" android:id="@id/animated_foreground" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleY="0.0" />
+</FrameLayout>

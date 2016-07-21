@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingTop="@dimen/title_card_vertical_padding" android:paddingBottom="@dimen/title_card_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_large" android:textColor="@color/grey_7" android:id="@id/title" style="@style/BusinessText.CenterText" />
+    <TextView android:textAppearance="@style/Business.TextAppearance" android:textColor="@color/grey_light" android:id="@id/subtitle" android:paddingTop="@dimen/title_subtitle_padding" android:lineSpacingMultiplier="1.2" style="@style/BusinessText.CenterText.Subtitle" />
+</LinearLayout>

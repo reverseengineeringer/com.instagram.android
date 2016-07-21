@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/top_min_margin" android:layout_weight="1.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/login_landing_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/logo_bottom_margin" android:src="@drawable/nux_dayone_landing_logo" />
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/avatar_image_view" android:layout_width="@dimen/sso_profile_pic_size" android:layout_height="@dimen/sso_profile_pic_size" android:layout_marginBottom="@dimen/logo_bottom_margin" app:strokeColor="@color/white" app:strokeWidth="1.0dip" />
+    <TextView android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center" android:id="@id/log_in_button" android:background="@drawable/button_white_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/remove_button" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" android:text="@string/remove" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/reg_footer_two_buttons" />
+</merge>

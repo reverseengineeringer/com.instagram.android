@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/feed_item_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_feed_media_profile_header" />
+    <include layout="@layout/row_feed_media_media_group" />
+    <include layout="@layout/row_feed_ad_cta" />
+    <include layout="@layout/row_feed_media_insights" />
+    <ViewStub android:id="@id/row_feed_media_ufi_bar_stub" android:layout="@layout/row_feed_media_ufi_bar" android:layout_width="fill_parent" android:layout_height="52.0dip" />
+    <ViewStub android:id="@id/row_feed_media_ufi_bar_with_number_stub" android:layout="@layout/row_feed_media_ufi_bar_with_text" android:layout_width="fill_parent" android:layout_height="@dimen/ufi_height" />
+    <include layout="@layout/row_feed_media_feedback_content" />
+</LinearLayout>

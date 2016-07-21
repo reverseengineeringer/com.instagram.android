@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_xauth" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_height">
+        <EditText android:id="@id/username" android:drawableLeft="@drawable/profile_glyph_username" android:inputType="textEmailAddress" style="@style/FieldWithGlyph" />
+        <EditText android:id="@id/password" android:hint="@string/password" android:drawableLeft="@drawable/profile_glyph_password" android:inputType="textPassword" style="@style/FieldWithGlyph" />
+        <TextView android:textColor="@color/grey_light" android:paddingLeft="@dimen/row_text_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:text="@string/password_security_message" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+            <include layout="@layout/row_header_divider" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+            <LinearLayout android:gravity="center_vertical" android:id="@id/follow_instagram_container" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/follow_instagram_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/followInstagram" android:layout_weight="1.0" />
+                <com.instagram.ui.widget.switchbutton.IgSwitch android:id="@id/followInstagram" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+            </LinearLayout>
+            <include layout="@layout/row_divider" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/action_bar_shadow" />
+</FrameLayout>

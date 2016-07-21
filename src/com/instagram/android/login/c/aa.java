@@ -1,0 +1,36 @@
+package com.instagram.android.login.c;
+
+import com.a.a.a.i;
+import com.a.a.a.n;
+
+public final class aa
+{
+  public static o parseFromJson(i parami)
+  {
+    o localo = new o();
+    Object localObject;
+    if (parami.c() != n.b)
+    {
+      parami.b();
+      localObject = null;
+      return (o)localObject;
+    }
+    for (;;)
+    {
+      localObject = localo;
+      if (parami.a() == n.c) {
+        break;
+      }
+      localObject = parami.d();
+      parami.a();
+      q.a(localo, (String)localObject, parami);
+      parami.b();
+    }
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.instagram.android.login.c.aa
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

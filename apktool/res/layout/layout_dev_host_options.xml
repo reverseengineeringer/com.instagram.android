@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/dev_server" android:layout_width="fill_parent" android:layout_height="34.0dip" android:hint="@string/dev_choose_a_host_hint" android:inputType="textNoSuggestions" />
+    <TextView android:textColor="@color/grey_light" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dev_choose_a_host_subtitle" />
+    <include layout="@layout/row_divider" />
+</LinearLayout>

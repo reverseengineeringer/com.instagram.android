@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/grey_medium</item>
+        <item name="android:textColorHint">@color/grey_light</item>
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:paddingLeft">@dimen/row_text_padding</item>
+        <item name="android:paddingRight">@dimen/row_text_padding</item>
+    </style>
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">?textColorSecondary</item>
+        <item name="android:textColorLink">?textColorHyperlink</item>
+    </style>
+    <style name="PaddedRow">
+        <item name="android:paddingLeft">@dimen/row_padding</item>
+        <item name="android:paddingRight">@dimen/row_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="RowHeaderText">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/row_text_padding</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingRight">@dimen/row_text_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/row_height_small</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="RowHeaderMediumText">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="DialogTitleText">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/grey_light</item>
+    </style>
+    <style name="FieldWithGlyph">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/field_with_glyph_left_padding</item>
+        <item name="android:paddingRight">@dimen/field_with_glyph_right_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/row_height_small</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">@dimen/field_with_glyph_drawable_padding</item>
+    </style>
+    <style name="FieldWithGlyph.WithMargin" parent="@style/FieldWithGlyph">
+        <item name="android:layout_marginLeft">@dimen/row_padding</item>
+        <item name="android:layout_marginRight">@dimen/row_padding</item>
+    </style>
+    <style name="EmptyViewTitle">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="EmptyViewSubtitle">
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">@dimen/row_text_padding</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="LargeBlueButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_blue_background</item>
+        <item name="android:padding">@dimen/row_text_padding</item>
+        <item name="android:minHeight">@dimen/row_height_small</item>
+    </style>
+    <style name="ListViewStyle">
+        <item name="android:focusable">false</item>
+        <item name="android:listSelector">#00000000</item>
+        <item name="android:cacheColorHint">@color/white</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+    <style name="FilledButtonStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_grey_background</item>
+        <item name="android:paddingLeft">@dimen/row_text_padding</item>
+        <item name="android:paddingRight">@dimen/row_text_padding</item>
+        <item name="android:layout_height">28.0dip</item>
+    </style>
+    <style name="SpinnerTextStyle">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.Instagram.Divider" parent="">
+        <item name="android:background">@color/grey_2_whiteout</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style>
+    <style name="Widget.Instagram.Divider.Hidden" parent="@style/Widget.Instagram.Divider">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="ShadowTextViewStyle">
+        <item name="android:shadowColor">@color/black_40_transparent</item>
+        <item name="android:shadowRadius">20.0</item>
+    </style>
+    <style name="ActionBar">
+        <item name="android:background">?defaultActionBarBackground</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/action_bar_height</item>
+    </style>
+    <style name="ActionBar.Modal" parent="@style/ActionBar">
+        <item name="android:background">?modalActionBarBackground</item>
+    </style>
+    <style name="ActionBarTitle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">@dimen/action_bar_item_padding</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ActionBarTitle.Whiteout" parent="@style/ActionBarTitle">
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="capitalize">false</item>
+    </style>
+    <style name="ActionBarTextButton" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">?modalActionBarButtonBackground</item>
+        <item name="android:paddingLeft">@dimen/action_bar_item_padding</item>
+        <item name="android:paddingRight">@dimen/action_bar_item_padding</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ActionBarTextButton.Whiteout" parent="@style/ActionBarTextButton">
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="capitalize">false</item>
+    </style>
+    <style name="ActionBarButtonText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ActionBarButton">
+        <item name="android:background">@drawable/action_bar_blue_button_background</item>
+        <item name="android:layout_width">@dimen/action_bar_height</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="ActionBarButton.LightBlue" parent="@style/ActionBarButton">
+        <item name="android:background">@drawable/action_bar_light_blue_button_background</item>
+    </style>
+    <style name="ActionBarButton.Modal" parent="@style/ActionBarButton">
+        <item name="android:background">?modalActionBarButtonBackground</item>
+        <item name="normal">?glyphColorPrimary</item>
+    </style>
+    <style name="ActionBarButton.Modal.Primary" parent="@style/ActionBarButton.Modal">
+        <item name="android:background">?modalActionBarPrimaryButtonBackground</item>
+        <item name="normal">?modalActionBarPrimaryButtonForeground</item>
+        <item name="active">?modalActionBarPrimaryButtonForegroundPressed</item>
+    </style>
+    <style name="SearchEditText">
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:layout_gravity">center|left</item>
+        <item name="android:background">@drawable/input_white</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">36.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:freezesText">true</item>
+        <item name="android:drawableLeft">@drawable/nav_search</item>
+        <item name="android:drawableRight">@drawable/search_clear</item>
+        <item name="android:drawablePadding">8.0dip</item>
+        <item name="android:inputType">textAutoComplete</item>
+        <item name="android:imeOptions">actionSearch</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    <style name="SearchEditText.ActionBar" parent="@style/SearchEditText">
+        <item name="android:textColorHint">@color/blue_light</item>
+    </style>
+    <style name="SearchEditText.ActionBar.Whiteout" parent="@style/SearchEditText.ActionBar">
+        <item name="android:textColorHint">@color/grey_3_whiteout</item>
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Avatar">
+        <item name="strokeColor">#33000000</item>
+        <item name="strokeWidth">@dimen/circular_avatar_stroke_width</item>
+        <item name="placeholder">@color/image_placeholder</item>
+    </style>
+    <style name="Avatar.XXSmall" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_xxsmall</item>
+        <item name="android:layout_height">@dimen/avatar_size_xxsmall</item>
+    </style>
+    <style name="Avatar.XSmall" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_xsmall</item>
+        <item name="android:layout_height">@dimen/avatar_size_xsmall</item>
+    </style>
+    <style name="Avatar.Small" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_small</item>
+        <item name="android:layout_height">@dimen/avatar_size_small</item>
+    </style>
+    <style name="Avatar.Medium" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_medium</item>
+        <item name="android:layout_height">@dimen/avatar_size_medium</item>
+    </style>
+    <style name="Avatar.Large" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_large</item>
+    </style>
+    <style name="Avatar.ExtraLarge" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_extra_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_extra_large</item>
+    </style>
+    <style name="Avatar.ExtraExtraLarge" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_ridiculously_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_ridiculously_large</item>
+    </style>
+    <style name="Avatar.ExtraExtraExtraLarge" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/avatar_size_more_ridiculously_large</item>
+        <item name="android:layout_height">@dimen/avatar_size_more_ridiculously_large</item>
+    </style>
+    <style name="Avatar.InNotificationBar" parent="@style/Avatar.XSmall">
+        <item name="strokeWidth">0.0dip</item>
+    </style>
+    <style name="Avatar.TabBar" parent="@style/Avatar">
+        <item name="android:layout_width">@dimen/tab_icon_avatar_size</item>
+        <item name="android:layout_height">@dimen/tab_icon_avatar_size</item>
+        <item name="strokeColor">@color/white_30_transparent</item>
+        <item name="placeholder">@color/image_placeholder</item>
+    </style>
+    <style name="Avatar.Reel" parent="@style/Avatar">
+        <item name="android:layout_width">30.0dip</item>
+        <item name="android:layout_height">30.0dip</item>
+    </style>
+    <style name="IgDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/grey_medium</item>
+        <item name="android:windowAnimationStyle">@style/animationDialog</item>
+        <item name="android:listChoiceIndicatorSingle">@null</item>
+        <item name="android:listChoiceIndicatorMultiple">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:listChoiceBackgroundIndicator">@null</item>
+        <item name="android:activatedBackgroundIndicator">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="animationDialog">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <style name="animationDialogFade">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter_fade</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit_fade</item>
+    </style>
+    <style name="animationDialogSimple">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="IgDialogFull" parent="@style/IgDialog">
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    <style name="IgDialogNoStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="Widget.FreightSansText.Whiteout" parent="">
+        <item name="useRoboto">true</item>
+    </style>
+    <style name="SpinnerTextStyle.Whiteout" parent="@style/SpinnerTextStyle">
+        <item name="capitalize">false</item>
+    </style>
+    <style name="Base.Theme" parent="@android:style/Theme.Holo.Light" />
+    <style name="Base.Theme.Instagram" parent="@style/Base.Theme">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:autoCompleteTextViewStyle">@style/IgAutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/IgTextboxStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:tabWidgetStyle">@android:style/Widget.TabWidget</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:textColorLink">@color/accent_blue_medium</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:dialogTheme">@style/IgDialog</item>
+        <item name="glyphColorPrimary">@color/white</item>
+        <item name="glyphColorSecondary">#ff898c8d</item>
+        <item name="glyphColorSecondaryActive">@color/grey_medium</item>
+        <item name="textColorPrimary">@color/white</item>
+        <item name="textColorSecondary">@color/grey_medium</item>
+        <item name="textColorTertiary">@color/grey_light</item>
+        <item name="textColorQuaternary">@color/grey_light</item>
+        <item name="textColorSelected">@color/accent_blue_medium</item>
+        <item name="textColorBoldLink">@color/blue_medium</item>
+        <item name="textColorRegularLink">@color/blue_medium</item>
+        <item name="textColorHyperlink">@color/accent_blue_medium</item>
+        <item name="backgroundColorPrimary">@color/blue_medium</item>
+        <item name="backgroundColorPrimaryDark">@color/status_bar_blue_background</item>
+        <item name="backgroundColorSecondary">@color/white</item>
+        <item name="backgroundColorHighlight">@color/orange_5</item>
+        <item name="backgroundColorHighlightPressed">@color/orange_6</item>
+        <item name="backgroundDrawable">@drawable/bg_simple_row</item>
+        <item name="defaultSpinnerStyle">@style/SpinnerTextStyle</item>
+        <item name="segmentedUnderlineWidth">@dimen/segmented_underline_width</item>
+        <item name="igSwitchStyle">@style/IgSwitchStyle</item>
+    </style>
+    <style name="Base.Theme.Instagram.White" parent="@style/Base.Theme.Instagram">
+        <item name="glyphColorPrimary">@color/grey_9_whiteout</item>
+        <item name="glyphColorSecondary">@color/grey_5_whiteout</item>
+        <item name="glyphColorSecondaryActive">@color/grey_medium</item>
+        <item name="textColorPrimary">@color/grey_9_whiteout</item>
+        <item name="textColorSecondary">@color/grey_9_whiteout</item>
+        <item name="textColorTertiary">@color/grey_5_whiteout</item>
+        <item name="textColorQuaternary">@color/grey_3_whiteout</item>
+        <item name="textColorSelected">@color/grey_9_whiteout</item>
+        <item name="textColorBoldLink">@color/grey_9_whiteout</item>
+        <item name="textColorRegularLink">@color/blue_8_whiteout</item>
+        <item name="textColorHyperlink">@color/blue_8_whiteout</item>
+        <item name="backgroundColorPrimary">@color/white</item>
+        <item name="backgroundColorPrimaryDark">@color/status_bar_grey_background</item>
+        <item name="backgroundColorSecondary">@color/white</item>
+        <item name="backgroundColorHighlight">@color/red_5_whiteout</item>
+        <item name="backgroundColorHighlightPressed">@color/red_6_whiteout</item>
+        <item name="defaultSpinnerStyle">@style/SpinnerTextStyle.Whiteout</item>
+        <item name="segmentedUnderlineWidth">@dimen/segmented_underline_width_whiteout</item>
+    </style>
+    <style name="InstagramTheme.Fullscreen" parent="@style/Base.Theme.Instagram">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/grey_medium</item>
+    </style>
+    <style name="IgAutoCompleteTextView" parent="@android:style/Widget.AutoCompleteTextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/grey_medium</item>
+        <item name="android:textColorHint">@color/grey_light</item>
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:popupBackground">@drawable/spinner_background_dropdown</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+    </style>
+    <style name="IgTextboxStyle" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/grey_medium</item>
+    </style>
+    <style name="IgSwitchStyle">
+        <item name="thumbDrawable">@drawable/toggle_nub</item>
+        <item name="checkedDrawable">@drawable/toggle_active</item>
+        <item name="uncheckedDrawable">@drawable/toggle</item>
+    </style>
+    <style name="IgWhiteRadioButton">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/white_50_transparent</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_simple_row_white50</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:minHeight">@dimen/row_height_small</item>
+    </style>
+    <style name="FixedTabBar">
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_height">@dimen/top_tabbar_height</item>
+    </style>
+    <style name="FixedTabBar.Whiteout" parent="@style/FixedTabBar">
+        <item name="android:background">@color/grey_0_whiteout</item>
+    </style>
+    <style name="InsightsHeaderText">
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="BusinessText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="BusinessText.CenterText" parent="@style/BusinessText">
+        <item name="android:textAppearance">@style/Business.TextAppearance</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    <style name="BusinessText.CenterText.Title" parent="@style/BusinessText.CenterText">
+        <item name="android:layout_marginLeft">@dimen/title_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/title_horizontal_margin</item>
+    </style>
+    <style name="BusinessText.CenterText.Subtitle" parent="@style/BusinessText.CenterText">
+        <item name="android:layout_marginLeft">@dimen/subtitle_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/subtitle_horizontal_margin</item>
+    </style>
+    <style name="Business" />
+    <style name="Business.TextAppearance" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+    </style>
+    <style name="Business.TextAppearance.Title" parent="@style/Business.TextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Business.TextAppearance.ActionBar" parent="@style/Business.TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:lines">1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Tooltip.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+    <style name="Tooltip.Fade" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="Widget.PillDegreeLabelManager" parent="">
+        <item name="pillSelectedColor">@color/accent_blue_medium</item>
+        <item name="pillUnselectedColor">@color/grey_4</item>
+    </style>
+    <style name="Widget.PillDegreeLabelManager.Whiteout" parent="@style/Widget.PillDegreeLabelManager">
+        <item name="pillSelectedColor">@color/grey_9_whiteout</item>
+        <item name="pillUnselectedColor">@color/grey_5_whiteout</item>
+    </style>
+    <style name="Widget.TriangleSpinner" parent="@android:style/Widget.Holo.Spinner">
+        <item name="triangleColor">#ff5887aa</item>
+        <item name="trianglePadding">0.0dip</item>
+        <item name="triangleSize">12.0dip</item>
+        <item name="triangleStyle">corner</item>
+    </style>
+    <style name="Widget.TriangleSpinner.Whiteout" parent="@style/Widget.TriangleSpinner">
+        <item name="triangleColor">?glyphColorPrimary</item>
+        <item name="trianglePadding">8.0dip</item>
+        <item name="triangleSize">8.0dip</item>
+        <item name="triangleStyle">downward</item>
+    </style>
+    <style name="Widget.MediaTabHost" parent="">
+        <item name="mediaTabBackground">@color/grey_7</item>
+        <item name="mediaTabTextColor">@color/white</item>
+        <item name="mediaTabTextColorSelected">@color/accent_blue_medium</item>
+    </style>
+    <style name="Widget.MediaTabHost.Whiteout" parent="@style/Widget.MediaTabHost">
+        <item name="mediaTabBackground">@color/grey_0_whiteout</item>
+        <item name="mediaTabTextColor">@color/grey_5_whiteout</item>
+        <item name="mediaTabTextColorSelected">@color/grey_9_whiteout</item>
+    </style>
+    <style name="MediaTabsText">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">?mediaTabTextColor</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="NotificationBadge">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/notification_badge</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="TabBarButton">
+        <item name="normal">@color/grey_3</item>
+        <item name="active">@color/white</item>
+    </style>
+    <style name="TabBarButton.White" parent="@style/TabBarButton">
+        <item name="normal">@color/grey_3_whiteout</item>
+        <item name="active">@color/grey_9_whiteout</item>
+    </style>
+    <style name="Widget.InAppCaptureView" parent="">
+        <item name="captureStrokeRing">@color/white</item>
+        <item name="captureCameraOuterRing">#ff3383ce</item>
+        <item name="captureCameraInnerRing">@color/accent_blue_medium</item>
+        <item name="captureCameraOuterRingPressed">#ff20588c</item>
+        <item name="captureCameraInnerRingPressed">@color/accent_blue_6</item>
+        <item name="captureCamcorderOuterRing">#ffdf1726</item>
+        <item name="captureCamcorderInnerRing">@color/red_medium</item>
+        <item name="captureCamcorderOuterRingPressed">#ff960b15</item>
+        <item name="captureCamcorderInnerRingPressed">@color/red_6</item>
+        <item name="captureCamcorderOuterRingDisable">#ff39090d</item>
+        <item name="captureCamcorderInnerRingDisable">@color/red_8</item>
+        <item name="captureCamcorderProgressDrawable">@drawable/camcorder_progress_white</item>
+        <item name="captureCamcorderProgressActiveDrawable">@drawable/camcorder_progress_red</item>
+        <item name="captureCamcorderBlinkerColor">@color/white</item>
+    </style>
+    <style name="Widget.InAppCaptureView.Whiteout" parent="@style/Widget.InAppCaptureView">
+        <item name="captureStrokeRing">@color/grey_0_whiteout</item>
+        <item name="captureCameraOuterRing">@color/grey_2_whiteout</item>
+        <item name="captureCameraInnerRing">@color/grey_0_whiteout</item>
+        <item name="captureCameraOuterRingPressed">@color/grey_3_whiteout</item>
+        <item name="captureCameraInnerRingPressed">@color/grey_0_whiteout</item>
+        <item name="captureCamcorderOuterRing">@color/grey_2_whiteout</item>
+        <item name="captureCamcorderInnerRing">@color/grey_0_whiteout</item>
+        <item name="captureCamcorderOuterRingPressed">@color/grey_3_whiteout</item>
+        <item name="captureCamcorderInnerRingPressed">@color/grey_0_whiteout</item>
+        <item name="captureCamcorderOuterRingDisable">@color/grey_1_whiteout</item>
+        <item name="captureCamcorderInnerRingDisable">@color/grey_0_whiteout</item>
+        <item name="captureCamcorderProgressDrawable">@drawable/camcorder_progress_black</item>
+        <item name="captureCamcorderProgressActiveDrawable">@drawable/camcorder_progress_red_whiteout</item>
+        <item name="captureCamcorderBlinkerColor">@color/grey_9_whiteout</item>
+    </style>
+    <style name="Widget.MediaPickerItem.Whiteout" parent="">
+        <item name="placeholderColor">@color/grey_3_whiteout</item>
+        <item name="selectedColor">@color/white_75_transparent</item>
+        <item name="selectedStrokeWidth">0.0dip</item>
+    </style>
+    <style name="IgFollowButtonBase.Large" parent="@style/IgFollowButtonBase">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/follow_button_height</item>
+        <item name="android:layout_marginLeft">@dimen/row_text_padding</item>
+        <item name="android:maxWidth">@dimen/follow_button_large_max_width</item>
+    </style>
+    <style name="IgFollowButtonBase.Medium" parent="@style/IgFollowButtonBase">
+        <item name="android:textSize">@dimen/font_xsmall</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">38.0dip</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="IgFollowButtonBase.Small" parent="@style/IgFollowButtonBase">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">@dimen/row_height_small</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <style name="IgFollowButtonBase.ActionBar" parent="@style/IgFollowButtonBase.Small" />
+    <style name="IgFollowButtonBase">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rounded_layout_border_stroke</item>
+        <item name="android:paddingLeft">@dimen/row_text_padding</item>
+        <item name="android:paddingRight">@dimen/row_text_padding</item>
+        <item name="android:layout_height">28.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PillImageView">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="PillTextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@drawable/pill_text_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingBottom">0.5dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="PillButton">
+        <item name="android:background">@drawable/pill_background</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32.0dip</item>
+        <item name="android:layout_margin">@dimen/row_text_padding</item>
+    </style>
+    <style name="IgLinkButton">
+        <item name="android:textSize">@dimen/font_xsmall</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/rounded_layout_border_stroke</item>
+        <item name="android:paddingLeft">@dimen/row_text_padding</item>
+        <item name="android:paddingRight">@dimen/row_text_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/follow_button_height</item>
+        <item name="android:maxWidth">@dimen/follow_button_large_max_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="IgConnectButton">
+        <item name="android:textSize">@dimen/font_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/rounded_layout_border_stroke</item>
+        <item name="android:padding">@dimen/connect_button_padding</item>
+        <item name="android:layout_height">@dimen/connect_button_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextViewStyle.Feed" parent="@style/TextViewStyle">
+        <item name="android:textColorLink">?textColorRegularLink</item>
+    </style>
+    <style name="IgUploadProgressBar">
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal_upload</item>
+        <item name="android:minHeight">2.0dip</item>
+    </style>
+    <style name="LandingPageHeaderText">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingBottom">8.0dip</item>
+    </style>
+    <style name="ChannelHomeTitle">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/grey_4</item>
+    </style>
+    <style name="ImmersiveViewerOverlay">
+        <item name="glyphColorSecondary">@color/white</item>
+        <item name="glyphColorSecondaryActive">@color/white_55_transparent</item>
+        <item name="textColorSecondary">@color/white</item>
+        <item name="textColorTertiary">@color/white_55_transparent</item>
+        <item name="textColorBoldLink">@color/white</item>
+        <item name="textColorRegularLink">@color/white</item>
+        <item name="textColorHyperlink">@color/white_55_transparent</item>
+        <item name="backgroundColorSecondary">@color/transparent</item>
+        <item name="backgroundDrawable">@null</item>
+        <item name="textColorLocation">@color/white</item>
+        <item name="boldAllLinks">true</item>
+        <item name="shouldHideAllComments">true</item>
+    </style>
+    <style name="Theme.Instagram" parent="@style/Base.Theme.Instagram">
+        <item name="defaultDividerStyle">@style/Widget.Instagram.Divider</item>
+        <item name="defaultActionBarBackground">@drawable/action_bar_background</item>
+        <item name="defaultActionBarForegroundPressedColor">@color/blue_6</item>
+        <item name="defaultActionBarDividerColor">@color/blue_4</item>
+        <item name="highlightActionBarForegroundPressedColor">@color/blue_6</item>
+        <item name="highlightActionBarDividerColor">@color/accent_blue_6</item>
+        <item name="lightActionBarForegroundPressedColor">@color/grey_1</item>
+        <item name="lightActionBarDividerColor">@color/grey_2</item>
+        <item name="modalActionBarBackground">@drawable/dark_action_bar_background</item>
+        <item name="modalActionBarButtonBackground">@drawable/action_bar_dark_button_background</item>
+        <item name="modalActionBarForegroundPressedColor">@color/grey_8</item>
+        <item name="modalActionBarPrimaryButtonBackground">@drawable/action_bar_light_blue_button_background</item>
+        <item name="modalActionBarPrimaryButtonForeground">@color/white</item>
+        <item name="modalActionBarPrimaryButtonForegroundPressed">@color/accent_blue_medium</item>
+        <item name="modalActionBarDividerColor">@color/grey_medium</item>
+        <item name="modalActionBarStatusBarColor">@color/black</item>
+        <item name="clearActionBarForegroundPressedColor">@color/action_bar_transparent_background_pressed_state</item>
+        <item name="clearActionBarDividerColor">@color/action_bar_semi_transparent_white</item>
+        <item name="transparentActionBarForegroundPressedColor">@color/transparent</item>
+        <item name="transparentActionBarDividerColor">@color/transparent</item>
+        <item name="browserActionBarForegroundPressedColor">@color/grey_1_5</item>
+        <item name="browserActionBarDividerColor">@color/grey_1_5</item>
+        <item name="actionBarShadowVisibility">2</item>
+        <item name="actionBarTextCapitalize">true</item>
+        <item name="actionBarTitleStyle">@style/ActionBarTitle</item>
+        <item name="actionBarSearchStyle">@style/SearchEditText.ActionBar</item>
+        <item name="actionBarTextButtonStyle">@style/ActionBarTextButton</item>
+        <item name="fixedTabBarStyle">@style/FixedTabBar</item>
+        <item name="fixedTabBarTextColor">@color/view_switcher_text</item>
+        <item name="creationPrimaryBackground">@color/grey_7</item>
+        <item name="creationPrimaryBackgroundTop">@drawable/black_top_border_grey_7</item>
+        <item name="creationSecondaryBackground">@color/grey_8</item>
+        <item name="creationTertiaryBackground">@color/grey_7</item>
+        <item name="creationQuaternaryBackground">@color/grey_9</item>
+        <item name="creationGlyphColor">@color/grey_3</item>
+        <item name="creationTextColor">@color/grey_4</item>
+        <item name="creationDividerColor">@color/black</item>
+        <item name="creationDraggableBorderDrawable">@drawable/draggable_rounded_border</item>
+        <item name="creationSpinnerBackground">@drawable/menu_popup_panel_dark</item>
+        <item name="creationSpinnerTextBackground">@drawable/spinner_menu_background</item>
+        <item name="creationSpinnerTextColor">@color/spinner_menu_text</item>
+        <item name="directUploadButtonBackground">@drawable/action_bar_green_button_background</item>
+        <item name="directUploadButtonForeground">@color/white</item>
+        <item name="directUploadButtonForegroundPressed">@color/green_medium</item>
+        <item name="creationBrightnessDrawable">@drawable/tool_brightness</item>
+        <item name="creationContrastDrawable">@drawable/tool_contrast</item>
+        <item name="creationSaturationDrawable">@drawable/tool_saturation</item>
+        <item name="creationWarmthDrawable">@drawable/tool_warmth</item>
+        <item name="creationVignetteDrawable">@drawable/tool_vignette</item>
+        <item name="creationFadeDrawable">@drawable/tool_fade</item>
+        <item name="creationTintDrawable">@drawable/tool_tint</item>
+        <item name="creationSharpenDrawable">@drawable/tool_sharpen</item>
+        <item name="creationShadowsDrawable">@drawable/tool_shadows</item>
+        <item name="creationHighlightsDrawable">@drawable/tool_highlights</item>
+        <item name="creationAdjustDrawable">@drawable/tool_adjust_straighten</item>
+        <item name="creationStructureDrawable">@drawable/tool_structure</item>
+        <item name="creationTiltShiftDrawable">@drawable/tool_tilt</item>
+        <item name="creationShareShimmerColor">@color/white_5_transparent</item>
+        <item name="cropHighlightBackground">@color/grey_8</item>
+        <item name="pillLabelStyle">@style/Widget.PillDegreeLabelManager</item>
+        <item name="triangleSpinnerStyle">@style/Widget.TriangleSpinner</item>
+        <item name="mediaTabStyle">@style/Widget.MediaTabHost</item>
+        <item name="tabBarHeight">@dimen/tab_bar_height</item>
+        <item name="tabButtonBackground">@drawable/tab_background</item>
+        <item name="tabButtonIconStyle">@style/TabBarButton</item>
+        <item name="tabButtonProfileDrawable">@drawable/tab_avatar_border_selector</item>
+        <item name="tabButtonIndicatorBackground">@drawable/selected_tab_indicator</item>
+        <item name="tabButtonNotificationBackground">@drawable/tab_bar_notification_bubble</item>
+        <item name="tabActivityDrawable">@drawable/dock_news</item>
+        <item name="tabCameraDrawable">@drawable/dock_camera</item>
+        <item name="tabHomeDrawable">@drawable/dock_home</item>
+        <item name="tabProfileDrawable">@drawable/dock_profile</item>
+        <item name="tabSearchDrawable">@drawable/dock_search</item>
+        <item name="captureStyle">@style/Widget.InAppCaptureView</item>
+        <item name="captureDeleteGlyphColor">@color/white</item>
+        <item name="captureDeleteGlyphPressedColor">@color/red_medium</item>
+        <item name="captureDeleteTextColor">@color/delete_clip_button_color</item>
+        <item name="mediaPickerBackground">@color/black</item>
+        <item name="mediaPickerSpacing">2.0dip</item>
+        <item name="textColorLocation">@color/accent_blue_medium</item>
+        <item name="textSizeLocation">@dimen/font_medium</item>
+        <item name="feedLikeActiveColor">@color/red_5</item>
+        <item name="boldAllLinks">false</item>
+        <item name="shouldHideAllComments">false</item>
+        <item name="textColorDirectShareCaption">@color/grey_dark</item>
+        <item name="titleLogoDrawable">@drawable/nav_logo</item>
+        <item name="profileGridDrawable">@drawable/profile_grid</item>
+        <item name="profileListDrawable">@drawable/profile_list</item>
+        <item name="profileMapDrawable">@drawable/profile_map</item>
+        <item name="profileTagDrawable">@drawable/profile_tag</item>
+        <item name="peopleTagSearchTheme">@style/Widget.PeopleTag</item>
+        <item name="contextualFeedTitleStyle">@style/ActionBarTitle.ContextualFeed</item>
+        <item name="customToastViewStyle">@style/CustomToast.Orange</item>
+        <item name="seekBarStyle">@style/Widget.IgSeekBar</item>
+        <item name="tintPickerStyle">@style/Widget.TintPicker</item>
+        <item name="filterListTheme">@style/Widget.FilterList</item>
+    </style>
+    <style name="Theme.Instagram.Fullscreen" parent="@style/InstagramTheme.Fullscreen">
+        <item name="defaultActionBarBackground">@drawable/action_bar_background</item>
+    </style>
+    <style name="IgProfileScoreboardCount">
+        <item name="android:textSize">@dimen/font_large_not_scaled</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center|top</item>
+    </style>
+    <style name="IgProfileScoreboardLabel">
+        <item name="android:textSize">@dimen/font_medium_not_scaled</item>
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">bottom|center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ProfileScoreboardButton">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">44.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ProfileHeaderEditProfileButton" parent="@style/FilledButtonStyle">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="ProfileHeaderFollowButton" parent="@style/IgFollowButtonBase">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="TextViewStyle.FeedEmpty" parent="@style/TextViewStyle">
+        <item name="android:textColor">@color/grey_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingTop">48.0dip</item>
+        <item name="android:drawablePadding">12.0dip</item>
+    </style>
+    <style name="Animation.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mapmedia_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <style name="row_divider">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/row_divider_height</item>
+    </style>
+    <style name="EditMediaTagPeopleShadowText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:shadowColor">@color/black_50_transparent</item>
+        <item name="android:shadowRadius">10.0</item>
+    </style>
+    <style name="ActionBarTitle.ContextualFeed" parent="@style/ActionBarTitle">
+        <item name="android:textColor">@color/action_bar_semi_transparent_white</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="ActionBarTitle.ContextualFeed.Whiteout" parent="@style/ActionBarTitle.ContextualFeed">
+        <item name="android:textColor">?textColorPrimary</item>
+        <item name="android:includeFontPadding">true</item>
+        <item name="capitalize">false</item>
+    </style>
+    <style name="Widget.PeopleTag" parent="">
+        <item name="peopleTagSearchBackground">@color/people_tagging_search_background_default</item>
+        <item name="peopleTagSearchCacheColorHint">@color/black</item>
+        <item name="peopleTagSearchItemBackground">@drawable/people_tagging_search_background</item>
+    </style>
+    <style name="Widget.PeopleTag.Whiteout" parent="@style/Widget.PeopleTag">
+        <item name="peopleTagSearchBackground">@color/white_90_transparent</item>
+        <item name="peopleTagSearchCacheColorHint">@color/white</item>
+        <item name="peopleTagSearchItemBackground">@drawable/people_tagging_search_background_whiteout</item>
+    </style>
+    <style name="Theme.Instagram.White" parent="@style/Base.Theme.Instagram.White">
+        <item name="defaultDividerStyle">@style/Widget.Instagram.Divider.Hidden</item>
+        <item name="defaultActionBarBackground">@color/grey_0_whiteout</item>
+        <item name="defaultActionBarForegroundPressedColor">@color/grey_1_whiteout</item>
+        <item name="defaultActionBarDividerColor">@color/grey_9_whiteout</item>
+        <item name="highlightActionBarForegroundPressedColor">@color/blue_6_whiteout</item>
+        <item name="highlightActionBarDividerColor">@color/blue_6_whiteout</item>
+        <item name="lightActionBarForegroundPressedColor">@color/grey_1_whiteout</item>
+        <item name="lightActionBarDividerColor">@color/grey_2_whiteout</item>
+        <item name="modalActionBarBackground">@color/grey_0_whiteout</item>
+        <item name="modalActionBarButtonBackground">@drawable/action_bar_modal_button_background_whiteout</item>
+        <item name="modalActionBarForegroundPressedColor">@color/grey_1_whiteout</item>
+        <item name="modalActionBarPrimaryButtonBackground">@drawable/action_bar_modal_button_background_whiteout</item>
+        <item name="modalActionBarPrimaryButtonForeground">@color/blue_5_whiteout</item>
+        <item name="modalActionBarPrimaryButtonForegroundPressed">@color/blue_5_whiteout</item>
+        <item name="modalActionBarDividerColor">@color/grey_9_whiteout</item>
+        <item name="modalActionBarStatusBarColor">@color/status_bar_grey_background</item>
+        <item name="clearActionBarForegroundPressedColor">@color/action_bar_transparent_background_pressed_state</item>
+        <item name="clearActionBarDividerColor">@color/action_bar_semi_transparent_white</item>
+        <item name="transparentActionBarForegroundPressedColor">@color/transparent</item>
+        <item name="transparentActionBarDividerColor">@color/transparent</item>
+        <item name="browserActionBarForegroundPressedColor">@color/grey_1_5</item>
+        <item name="browserActionBarDividerColor">@color/grey_1_5</item>
+        <item name="actionBarShadowVisibility">0</item>
+        <item name="actionBarTextCapitalize">false</item>
+        <item name="actionBarTitleStyle">@style/ActionBarTitle.Whiteout</item>
+        <item name="actionBarSearchStyle">@style/SearchEditText.ActionBar.Whiteout</item>
+        <item name="actionBarTextButtonStyle">@style/ActionBarTextButton.Whiteout</item>
+        <item name="freightSansStyle">@style/Widget.FreightSansText.Whiteout</item>
+        <item name="fixedTabBarStyle">@style/FixedTabBar.Whiteout</item>
+        <item name="fixedTabBarTextColor">@color/view_switcher_text_whiteout</item>
+        <item name="creationPrimaryBackground">@color/grey_0_whiteout</item>
+        <item name="creationPrimaryBackgroundTop">@color/grey_0_whiteout</item>
+        <item name="creationSecondaryBackground">@color/grey_0_whiteout</item>
+        <item name="creationTertiaryBackground">@color/grey_1_whiteout</item>
+        <item name="creationQuaternaryBackground">@color/grey_0_whiteout</item>
+        <item name="creationGlyphColor">@color/grey_9_whiteout</item>
+        <item name="creationTextColor">@color/grey_5_whiteout</item>
+        <item name="creationDividerColor">@color/transparent</item>
+        <item name="creationDraggableBorderDrawable">@drawable/draggable_rounded_border_whiteout</item>
+        <item name="creationSpinnerBackground">@drawable/menu_popup_panel</item>
+        <item name="creationSpinnerTextBackground">@drawable/spinner_menu_background_whiteout</item>
+        <item name="creationSpinnerTextColor">@color/spinner_menu_text_whiteout</item>
+        <item name="directUploadButtonBackground">@drawable/action_bar_modal_button_background_whiteout</item>
+        <item name="directUploadButtonForeground">@color/green_5_whiteout</item>
+        <item name="directUploadButtonForegroundPressed">@color/green_5_whiteout</item>
+        <item name="creationBrightnessDrawable">@drawable/tool_brightness_whiteout</item>
+        <item name="creationContrastDrawable">@drawable/tool_contrast_whiteout</item>
+        <item name="creationSaturationDrawable">@drawable/tool_saturation_whiteout</item>
+        <item name="creationWarmthDrawable">@drawable/tool_warmth_whiteout</item>
+        <item name="creationVignetteDrawable">@drawable/tool_vignette_whiteout</item>
+        <item name="creationFadeDrawable">@drawable/tool_fade_whiteout</item>
+        <item name="creationTintDrawable">@drawable/tool_tint_whiteout</item>
+        <item name="creationSharpenDrawable">@drawable/tool_sharpen_whiteout</item>
+        <item name="creationShadowsDrawable">@drawable/tool_shadows_whiteout</item>
+        <item name="creationHighlightsDrawable">@drawable/tool_highlights_whiteout</item>
+        <item name="creationAdjustDrawable">@drawable/tool_adjust_straighten_whiteout</item>
+        <item name="creationStructureDrawable">@drawable/tool_structure_whiteout</item>
+        <item name="creationTiltShiftDrawable">@drawable/tool_tilt_whiteout</item>
+        <item name="creationShareShimmerColor">@color/white</item>
+        <item name="cropHighlightBackground">@color/grey_5_whiteout</item>
+        <item name="pillLabelStyle">@style/Widget.PillDegreeLabelManager.Whiteout</item>
+        <item name="triangleSpinnerStyle">@style/Widget.TriangleSpinner.Whiteout</item>
+        <item name="mediaTabStyle">@style/Widget.MediaTabHost.Whiteout</item>
+        <item name="tabBarHeight">@dimen/tab_bar_height_whiteout</item>
+        <item name="tabButtonBackground">@color/grey_0_whiteout</item>
+        <item name="tabButtonIconStyle">@style/TabBarButton.White</item>
+        <item name="tabButtonProfileDrawable">@drawable/tab_avatar_border_selector_whiteout</item>
+        <item name="tabButtonIndicatorBackground">@null</item>
+        <item name="tabButtonNotificationBackground">@drawable/tab_bar_notification_bubble_whiteout</item>
+        <item name="tabActivityDrawable">@drawable/dock_news_whiteout</item>
+        <item name="tabCameraDrawable">@drawable/dock_camera_whiteout</item>
+        <item name="tabHomeDrawable">@drawable/dock_home_whiteout</item>
+        <item name="tabProfileDrawable">@drawable/dock_profile_whiteout</item>
+        <item name="tabSearchDrawable">@drawable/dock_search_whiteout</item>
+        <item name="captureStyle">@style/Widget.InAppCaptureView.Whiteout</item>
+        <item name="captureDeleteGlyphColor">@color/grey_9_whiteout</item>
+        <item name="captureDeleteGlyphPressedColor">@color/red_5_whiteout</item>
+        <item name="captureDeleteTextColor">@color/delete_clip_button_color_whiteout</item>
+        <item name="mediaPickerBackground">@color/grey_0_whiteout</item>
+        <item name="mediaPickerSpacing">1.5dip</item>
+        <item name="textColorLocation">@color/grey_9_whiteout</item>
+        <item name="textSizeLocation">@dimen/font_small</item>
+        <item name="feedLikeActiveColor">@color/red_5_whiteout</item>
+        <item name="boldAllLinks">false</item>
+        <item name="shouldHideAllComments">false</item>
+        <item name="textColorDirectShareCaption">@color/grey_9_whiteout</item>
+        <item name="titleLogoDrawable">@drawable/nav_logo_whiteout</item>
+        <item name="profileGridDrawable">@drawable/profile_grid_whiteout</item>
+        <item name="profileListDrawable">@drawable/profile_list_whiteout</item>
+        <item name="profileMapDrawable">@drawable/profile_map_whiteout</item>
+        <item name="profileTagDrawable">@drawable/profile_tag_whiteout</item>
+        <item name="peopleTagSearchTheme">@style/Widget.PeopleTag.Whiteout</item>
+        <item name="contextualFeedTitleStyle">@style/ActionBarTitle.ContextualFeed.Whiteout</item>
+        <item name="mediaPickerItemStyle">@style/Widget.MediaPickerItem.Whiteout</item>
+        <item name="customToastViewStyle">@style/CustomToast.Red</item>
+        <item name="seekBarStyle">@style/Widget.IgSeekBar.Whiteout</item>
+        <item name="tintPickerStyle">@style/Widget.TintPicker.Whiteout</item>
+        <item name="filterListTheme">@style/Widget.FilterList.Whiteout</item>
+    </style>
+    <style name="IgTranslucentWindow" parent="@style/Theme.Instagram">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="IgSettingsRadioButton">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/grey_medium</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_simple_row</item>
+        <item name="android:paddingLeft">28.0dip</item>
+        <item name="android:paddingRight">28.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:minHeight">@dimen/row_height_small</item>
+    </style>
+    <style name="TextViewStyle.Survey" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@color/results_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/results_question_textview_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/results_question_textview_padding_vertical</item>
+        <item name="android:paddingRight">@dimen/results_question_textview_padding_horizontal</item>
+        <item name="android:paddingBottom">@dimen/results_question_textview_padding_vertical</item>
+    </style>
+    <style name="TextViewStyle.QuestionFooter" parent="@android:style/Widget.TextView">
+        <item name="android:enabled">false</item>
+        <item name="android:textColor">@color/list_view_footer_text_selected_blue</item>
+    </style>
+    <style name="SurveyResultsDialog" parent="@style/IgDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="answer_button">
+        <item name="android:textSize">@dimen/answer_button_text_size</item>
+        <item name="android:textColor">@color/button_text_disabled_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:paddingLeft">@dimen/answer_button_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/answer_button_padding_vertical</item>
+        <item name="android:paddingRight">@dimen/answer_button_padding_horizontal</item>
+        <item name="android:paddingBottom">@dimen/answer_button_padding_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/answer_button_margin</item>
+    </style>
+    <style name="CustomToast" />
+    <style name="CustomToast.Orange" parent="@style/CustomToast">
+        <item name="dividerColor">@color/orange_light</item>
+        <item name="notificationNub">@drawable/notification_tooltip_nub</item>
+        <item name="notificationTooltip">@drawable/notification_tooltip</item>
+    </style>
+    <style name="CustomToast.Red" parent="@style/CustomToast">
+        <item name="dividerColor">@color/red_3_whiteout</item>
+        <item name="notificationNub">@drawable/notification_tooltip_nub_whiteout</item>
+        <item name="notificationTooltip">@drawable/notification_tooltip_whiteout</item>
+    </style>
+    <style name="CustomToast.Fade" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/toast_fade_in</item>
+        <item name="android:windowExitAnimation">@anim/toast_fade_out</item>
+    </style>
+    <style name="CustomToast.Text" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:padding">12.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">6.0dip</item>
+    </style>
+    <style name="TokenTextViewWrapper">
+        <item name="TokenTextViewStyle">@style/TokenTextView</item>
+    </style>
+    <style name="TokenTextView" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/font_medium</item>
+        <item name="android:textColor">@color/token_text_view_text</item>
+        <item name="android:background">@drawable/token_text_view_background</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">4.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">6.0dip</item>
+    </style>
+    <style name="Widget.IgSeekBar" parent="">
+        <item name="seekBarRoot">@drawable/seek_bar_root</item>
+        <item name="seekBarKnob">@drawable/seek_bar_knob</item>
+        <item name="seekBarKnobSize">@dimen/seek_bar_knob_size</item>
+        <item name="seekBarInactiveColor">@color/grey_medium</item>
+        <item name="seekBarActiveColor">@color/accent_blue_medium</item>
+        <item name="seekBarTextColor">@color/accent_blue_medium</item>
+        <item name="seekBarTextAlpha">204</item>
+    </style>
+    <style name="Widget.IgSeekBar.Whiteout" parent="@style/Widget.IgSeekBar">
+        <item name="seekBarRoot">@null</item>
+        <item name="seekBarKnob">@drawable/seek_bar_knob_whiteout</item>
+        <item name="seekBarKnobSize">@dimen/seek_bar_knob_size_whiteout</item>
+        <item name="seekBarInactiveColor">@color/grey_3_whiteout</item>
+        <item name="seekBarActiveColor">@color/grey_9_whiteout</item>
+        <item name="seekBarTextColor">@color/grey_5_whiteout</item>
+        <item name="seekBarTextAlpha">255</item>
+    </style>
+    <style name="Widget.TintPicker" parent="">
+        <item name="tintPickerKnob">@drawable/seek_bar_knob</item>
+        <item name="tintPickerSelectedSize">@dimen/seek_bar_knob_size</item>
+        <item name="tintPickerNoneColor">@color/white</item>
+        <item name="tintPickerLineColor">@color/grey_4</item>
+    </style>
+    <style name="Widget.TintPicker.Whiteout" parent="@style/Widget.TintPicker">
+        <item name="tintPickerKnob">@drawable/tint_knob_whiteout</item>
+        <item name="tintPickerSelectedSize">@dimen/seek_bar_knob_size_whiteout</item>
+        <item name="tintPickerNoneColor">@color/grey_9_whiteout</item>
+        <item name="tintPickerLineColor">@color/white</item>
+    </style>
+    <style name="IgBrowserProgressBar">
+        <item name="android:maxHeight">2.0dip</item>
+        <item name="android:max">100</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_horizontal_upload</item>
+        <item name="android:progressDrawable">@drawable/progress_horizontal_upload</item>
+        <item name="android:minHeight">2.0dip</item>
+    </style>
+    <style name="BrowserMenuItem">
+        <item name="android:gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/navigation_popup_menu_row_height</item>
+    </style>
+    <style name="MenuItemIconAndTextTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/browser_menu_text_size</item>
+        <item name="android:textColor">@color/browser_more_menu_text_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:background">@drawable/clickable_item_bg</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/browser_custom_menu_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/browser_custom_menu_horizontal_padding</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">8.0dip</item>
+    </style>
+    <style name="MenuItemDivider">
+        <item name="android:background">@color/browser_more_menu_divider_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/browser_menu_divider_height</item>
+        <item name="android:layout_marginLeft">@dimen/browser_custom_menu_horizontal_padding</item>
+        <item name="android:layout_marginRight">@dimen/browser_custom_menu_horizontal_padding</item>
+    </style>
+    <style name="Widget.FilterList" parent="">
+        <item name="filterListBackground">@color/black</item>
+        <item name="filterListDividers">@drawable/filter_list_divider</item>
+        <item name="filterListItemText">@drawable/filter_list_text</item>
+        <item name="filterListCheckColor">@color/white</item>
+    </style>
+    <style name="Widget.FilterList.Whiteout" parent="@style/Widget.FilterList">
+        <item name="filterListBackground">@color/white</item>
+        <item name="filterListDividers">@drawable/filter_list_divider_whiteout</item>
+        <item name="filterListItemText">@drawable/filter_list_text_whiteout</item>
+        <item name="filterListCheckColor">?textColorSecondary</item>
+    </style>
+    <style name="Theme.AppCompat.DialogWhenLarge" parent="" />
+    <style name="Theme" />
+    <style name="Theme.Catalyst" parent="@style/Theme" />
+    <style name="Theme.Catalyst.RedBox" parent="@style/Theme.AppCompat.DialogWhenLarge">
+        <item name="android:windowBackground">@color/catalyst_redbox_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Catalyst.RedBox</item>
+        <item name="android:inAnimation">@android:anim/fade_in</item>
+        <item name="android:outAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="Animation.Catalyst.RedBox" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/catalyst_push_up_in</item>
+        <item name="android:windowExitAnimation">@anim/catalyst_push_up_out</item>
+    </style>
+</resources>

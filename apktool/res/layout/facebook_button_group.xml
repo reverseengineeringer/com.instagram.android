@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextSwitcher android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/facebook_text_switcher" android:background="@drawable/button_white_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/social_context" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="10.0dip" android:maxLines="2" />
+    <include android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="20.0dip" layout="@layout/or_divider_transparent" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/sign_up_with_email_or_phone" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:text="@string/sign_up_with_email_or_phone" />
+</merge>

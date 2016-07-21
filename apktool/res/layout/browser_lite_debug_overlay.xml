@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@android:color/black" android:id="@id/browser_lite_debug_overlay" android:background="#ccffffff" android:scrollbars="vertical" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="30"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:gravity="fill" android:shape="rectangle">
+            <solid android:color="@color/transparent" />
+            <corners android:radius="@dimen/draggable_corner_radius" />
+            <stroke android:width="@dimen/button_border_stroke" android:color="@color/white" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/draghide" />
+    </item>
+</layer-list>

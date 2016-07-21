@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:background="@drawable/modal_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.spinner.RefreshSpinner android:layout_width="48.0dip" android:layout_height="64.0dip" android:layout_marginLeft="8.0dip" app:dark="true" />
+    <TextView android:id="@id/message" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

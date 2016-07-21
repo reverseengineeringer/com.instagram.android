@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.android.widget.FindPeopleButton android:id="@id/facebook_button" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" app:icon="@drawable/people_fb" app:defaultTitle="@string/title_default_people_facebook" app:defaultSubtitle="@string/subtitle_default_people_facebook" app:connectedTitle="@string/title_connected_people_facebook" app:connectedSubtitle="@string/subtitle_default_people_facebook" />
+        <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+        <com.instagram.android.widget.FindPeopleButton android:id="@id/contacts_button" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" app:icon="@drawable/people_contacts" app:defaultTitle="@string/title_default_people_contacts" app:defaultSubtitle="@string/subtitle_default_people_contacts" app:connectedTitle="@string/title_connected_people_contacts" app:connectedSubtitle="@string/subtitle_default_people_contacts" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+</FrameLayout>

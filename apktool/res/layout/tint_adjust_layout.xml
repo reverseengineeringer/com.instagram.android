@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tint_main_actions" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/primary_tint_adjustment_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tint_type_adjust" android:background="?creationPrimaryBackgroundTop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/accent_blue_medium" android:gravity="center" android:id="@id/adjust_shadows_title" android:paddingTop="@dimen/color_shadows_highlights_padding" android:paddingBottom="@dimen/color_shadows_highlights_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/shadows" android:layout_weight="1.0" />
+            <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_4" android:gravity="center" android:id="@id/adjust_highlights_title" android:paddingTop="@dimen/color_shadows_highlights_padding" android:paddingBottom="@dimen/color_shadows_highlights_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/highlights" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:background="?creationPrimaryBackgroundTop" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.instagram.creation.base.ui.igeditseekbar.IgTintColorPicker android:layout_gravity="center" android:id="@id/tint_picker_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/seek_bar_margins" android:layout_marginRight="@dimen/seek_bar_margins" />
+            <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="?creationTextColor" android:gravity="center" android:id="@id/nux_tap_again_to_adjust" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/color_picker_nux" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:background="?creationPrimaryBackgroundTop" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.creation.base.ui.igeditseekbar.IgEditSeekBar android:layout_gravity="center" android:id="@id/tint_slider_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/seek_bar_margins" android:layout_marginRight="@dimen/seek_bar_margins" />
+    </FrameLayout>
+</FrameLayout>

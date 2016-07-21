@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/create_page_group" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/font_large" android:textColor="@color/grey_7" android:text="@string/no_pages_found" style="@style/BusinessText.CenterText" />
+    <TextView android:textAppearance="@style/Business.TextAppearance" android:textColor="@color/grey_light" android:paddingTop="@dimen/title_subtitle_padding" android:paddingBottom="@dimen/title_card_vertical_padding" android:text="@string/easily_create_page" android:lineSpacingMultiplier="1.2" style="@style/BusinessText.CenterText.Subtitle" />
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/create_page_button" android:background="@drawable/blue_background" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:minHeight="@dimen/button_height" android:text="@string/create_page" android:singleLine="true" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textAppearance="@style/Business.TextAppearance" android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:id="@id/explanation_message" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="@dimen/button_bottom_margin" android:text="@string/already_have_page" android:lineSpacingMultiplier="1.2" style="@style/BusinessText.CenterText" />
+</LinearLayout>

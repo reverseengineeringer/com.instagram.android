@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Du har %1$d ventende promoteringer.</item>
+        <item quantity="one">Du har 1 ventende promotering.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s av Facebook-vennene dine er på Instagram</item>
+        <item quantity="one">1 av Facebook-vennene dine er på Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s av dine venner på VKontakte er på Instagram</item>
+        <item quantity="one">1 av dine venner på VKontakte er på Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s av kontaktene dine er på Instagram</item>
+        <item quantity="one">1 av kontaktene dine er på Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">for %1$s sekunder siden</item>
+        <item quantity="one">for %1$s sekund siden</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">for %1$s minutter siden</item>
+        <item quantity="one">for %1$s minutt siden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">for %1$s timer siden</item>
+        <item quantity="one">for %1$s time siden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">for %1$s dager siden</item>
+        <item quantity="one">for %1$s dag siden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">for %1$s uker siden</item>
+        <item quantity="one">for %1$s uke siden</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Avvis (%1$d)</item>
+        <item quantity="one">Avvis</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Tillat (%1$d)</item>
+        <item quantity="one">Tillat</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s personer</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">De vil se alle tidligere meldinger fra denne samtalen.</item>
+        <item quantity="one">%1$s vil se alle tidligere meldinger fra denne samtalen.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s meldingsforespørsler</item>
+        <item quantity="one">Meldingsforespørsel fra %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Du kan bare velge %1$d kommentarer om gangen.</item>
+        <item quantity="one">Du kan bare velge 1 kommentar om gangen.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d bilder</item>
+        <item quantity="one">1 bilde</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d nye innlegg</item>
+        <item quantity="one">1 nytt innlegg</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s venner på Facebook</item>
+        <item quantity="one">1 Facebook-venn</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s kontakter</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d seere</item>
+        <item quantity="one">1 seer</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d nye innlegg</item>
+        <item quantity="one">1 nytt innlegg</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Du har %1$s Facebook-venner på on Instagram.</item>
+        <item quantity="one">Du har 1 Facebook-venn på Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Du har %1$s venner fra VKontakte på Instagram.</item>
+        <item quantity="one">Du har 1 venn fra VKontakte på Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Fant %1$s kontakter.</item>
+        <item quantity="one">1 kontakt funnet.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d er valgt</item>
+        <item quantity="one">1 er valgt</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d kommentarer slettet. Trykk for å angre.</item>
+        <item quantity="one">Kommentar er slettet. Trykk for å angre.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d personer</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d personer har respondert.</item>
+        <item quantity="one">1 person har svart.</item>
+    </plurals>
+</resources>

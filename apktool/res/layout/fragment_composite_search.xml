@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.viewpager.ScrollingOptionalViewPager android:layout_gravity="top" android:id="@id/tabbed_explore_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/view_switcher_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.ui.widget.fixedtabbar.FixedTabBar android:id="@id/fixed_tabbar_view" android:layout_width="fill_parent" style="?attr/fixedTabBarStyle" />
+        <include layout="@layout/view_switcher_shadow" />
+    </LinearLayout>
+</FrameLayout>

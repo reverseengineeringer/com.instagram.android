@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/reel_share_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/reel_share_sender_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout android:id="@id/reel_share_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout android:layout_gravity="center|left|top" android:id="@id/reel_share_media_container" android:layout_width="@dimen/direct_reel_share_image_width" android:layout_height="@dimen/direct_reel_share_image_height">
+            <com.instagram.feed.widget.IgProgressImageView android:id="@id/reel_share_media" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout>
+        <TextView android:textColor="@color/grey_medium" android:layout_gravity="center_vertical" android:id="@id/reel_share_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_reel_share_text_margin" />
+    </com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout>
+</LinearLayout>

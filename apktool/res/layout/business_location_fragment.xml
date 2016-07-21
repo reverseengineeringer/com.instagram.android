@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center_vertical" android:id="@id/street_address" android:minHeight="@dimen/row_height_small" android:hint="@string/street_address" android:inputType="textNoSuggestions" style="@style/FieldWithGlyph.WithMargin" />
+    <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/city_state" android:minHeight="@dimen/row_height_small" android:text="@string/city_town" style="@style/FieldWithGlyph.WithMargin" />
+    <include android:layout_width="fill_parent" android:layout_height="3.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" layout="@layout/row_divider" />
+    <EditText android:gravity="center_vertical" android:id="@id/zip" android:paddingBottom="@dimen/row_text_padding" android:minHeight="@dimen/row_height_small" android:hint="@string/zip_code" style="@style/FieldWithGlyph.WithMargin" />
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="30.0dip" layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:paddingLeft="@dimen/row_padding" android:paddingTop="8.0dip" android:paddingRight="@dimen/row_padding" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/valid_address_to_map" />
+    <include android:id="@id/remove_button_bottom_divider" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/row_divider" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/remove_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PaddedRow">
+        <TextView android:textColor="@color/grey_light" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:text="@string/remove_address" android:singleLine="true" android:layout_weight="1.0" />
+        <com.instagram.ui.text.FreightSansTextView android:textColor="@color/red_medium" android:gravity="center" android:id="@id/remove_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:text="@string/remove" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

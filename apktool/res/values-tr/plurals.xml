@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Beklemede %1$d tanıtımın var.</item>
+        <item quantity="one">Beklemede 1 tanıtımın var.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">"%1$s Facebook Arkadaşın Instragram'da"</item>
+        <item quantity="one">"1 Facebook Arkadaşın Instragram'da"</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">"%1$s VKontakte Arkadaşın Instagram'da"</item>
+        <item quantity="one">"1 VKontakte Arkadaşın Instagram'da"</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">"Rehberindeki %1$s Kişi Instagram'da"</item>
+        <item quantity="one">"Rehberindeki 1 Kişi Instagram'da"</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s saniye önce</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s dakika önce</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s saat önce</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s gün önce</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s hafta önce</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Geri Çevir (%1$d)</item>
+        <item quantity="one">Geri Çevir</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">İzin Ver (%1$d)</item>
+        <item quantity="one">İzin Ver</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s kişi</item>
+        <item quantity="one">1 kişi</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Bu konuşmadaki önceki mesajların tümünü görecekler.</item>
+        <item quantity="one">%1$s bu konuşmadaki önceki mesajların tümünü görecek.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s mesaj isteği</item>
+        <item quantity="one">"%1$s'dan mesaj isteği"</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Aynı anda sadece %1$d yorum seçebilirsin.</item>
+        <item quantity="one">Aynı anda sadece 1 yorum seçebilirsin.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d fotoğraf</item>
+        <item quantity="one">1 fotoğraf</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d yeni gönderi</item>
+        <item quantity="one">1 yeni gönderi</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Facebook Arkadaşı</item>
+        <item quantity="one">1 Facebook Arkadaşı</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s Kişi</item>
+        <item quantity="one">1 Kişi</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d Görüntüleyen</item>
+        <item quantity="one">1 Görüntüleyen</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d Yeni Gönderi</item>
+        <item quantity="one">1 Yeni Gönderi</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">"Instagram'da %1$s Facebook arkadaşın var."</item>
+        <item quantity="one">"Instagram'da 1 Facebook arkadaşın var."</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">"Instagram'da %1$s VKontakte arkadaşın var."</item>
+        <item quantity="one">"Instagram'da 1 VKontakte arkadaşın var."</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s kişi bulundu.</item>
+        <item quantity="one">1 kişi bulundu.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d Seçildi</item>
+        <item quantity="one">1 Seçildi</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d yorum silindi. Geri almak için dokun.</item>
+        <item quantity="one">Yorum silindi. Geri almak için dokun.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d Kişi</item>
+        <item quantity="one">1 Kişi</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d kişi yanıt verdi.</item>
+        <item quantity="one">1 kişi yanıt verdi.</item>
+    </plurals>
+</resources>

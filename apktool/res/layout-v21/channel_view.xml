@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/channel_preview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.imageview.ScalingImageView android:id="@id/cover_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:placeholder="@color/image_placeholder" />
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/channel_overlay_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/channel_scrim" android:scaleType="matrix" />
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/channel_overlay" android:paddingLeft="@dimen/explore_channel_overlay_padding" android:paddingRight="@dimen/explore_channel_overlay_padding" android:paddingBottom="@dimen/explore_channel_overlay_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.ui.widget.imageview.BlinkingImageView android:id="@id/channel_icon" android:background="@drawable/channel_play_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/channel_play" />
+        <LinearLayout android:orientation="vertical" android:paddingLeft="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_small" android:textStyle="bold" android:textColor="@color/white_75_transparent" android:ellipsize="end" android:id="@id/channel_header" android:paddingBottom="@dimen/explore_channel_overlay_header_padding_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:letterSpacing="@dimen/explore_channel_optional_text_letter_spacing" />
+            <TextView android:textSize="@dimen/explore_channel_overlay_title_font_large" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="bottom" android:id="@id/channel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="end|center|top" android:id="@id/channel_context_viewstub" android:layout="@layout/channel_context" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

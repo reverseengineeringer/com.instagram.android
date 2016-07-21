@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.creation.base.ui.filterview.FilterViewContainer android:layout_gravity="center" android:id="@id/creation_image_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.creation.base.ui.ConstrainedTextureView android:layout_gravity="center" android:id="@id/filter_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.instagram.creation.base.ui.grid.GridLinesView android:id="@id/straighten_grid_overlay_3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lines="3" />
+    <com.instagram.creation.base.ui.grid.GridLinesView android:id="@id/straighten_grid_overlay_6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:lines="6" />
+    <ImageView android:layout_gravity="center" android:id="@id/loading_cover_for_surface_view" android:background="?creationTertiaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    <ViewStub android:id="@id/avatar_punched_stub" android:layout="@layout/punched_overlay" android:inflatedId="@id/avatar_punched_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.creation.video.widget.scrubber.IgScrubberProgressIndicator android:layout_gravity="center" android:id="@id/seek_frame_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/play_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/play_button" />
+    <include android:layout_gravity="bottom|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_margin="10.0dip" android:layout_weight="1.0" layout="@layout/degreelabel_layout" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/filter_preview_rotate90_button" android:background="@drawable/straighten_rotate_background" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/straighten_glyph_rotate" android:scaleType="centerInside" />
+    <com.instagram.people.widget.PeopleTagsInteractiveLayout android:layout_gravity="center" android:id="@id/people_tagging_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/tag_people_pill" style="@style/PillButton">
+        <com.instagram.creation.base.ui.TagPeopleDrawable android:id="@id/tag_people_pill_icon" app:normal="@color/accent_blue_medium" app:active="@color/accent_blue_dark" style="@style/PillImageView" />
+        <com.instagram.ui.text.FreightSansTextView android:text="@string/tag" style="@style/PillTextView" />
+    </LinearLayout>
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:layout_gravity="bottom|center" android:id="@id/filter_label" android:padding="@dimen/filter_label_text_bottom" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_40_transparent" android:shadowRadius="24.0" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/swipe_to_filter_container" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/white_50_transparent" android:padding="@dimen/filter_label_text_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_filter_nux" android:shadowColor="@color/black_40_transparent" android:shadowRadius="24.0" />
+        <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="bottom|center" android:id="@id/swipe_to_filter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/filter_label_text_bottom" app:base_alpha="0.0" app:duration="2500" app:angle="cw_180">
+            <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/swipe_filter_nux" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/edit_pill" style="@style/PillButton">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:src="@drawable/filter_16" app:normal="@color/accent_blue_medium" app:active="@color/accent_blue_dark" style="@style/PillImageView" />
+        <com.instagram.ui.text.FreightSansTextView android:text="@string/edit" style="@style/PillTextView" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/trim_pill" android:visibility="gone" style="@style/PillButton">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/trim_pill_icon" android:src="@drawable/pill_trim_anim" app:normal="@color/accent_blue_medium" app:active="@color/accent_blue_dark" style="@style/PillImageView" />
+        <com.instagram.ui.text.FreightSansTextView android:text="@string/trim" style="@style/PillTextView" />
+    </LinearLayout>
+</com.instagram.creation.base.ui.filterview.FilterViewContainer>

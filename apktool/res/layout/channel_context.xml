@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_small" android:textStyle="bold" android:textColor="@color/white_75_transparent" android:ellipsize="end" android:id="@id/channel_context" android:paddingTop="@dimen/explore_channel_overlay_padding" android:paddingRight="@dimen/explore_channel_overlay_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/profile_megaphone_flyout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.triangleshape.TriangleShape android:id="@id/profile_megaphone_notch" android:layout_width="fill_parent" android:layout_height="@dimen/vertical_separator_padding" app:fillColor="@color/blue_1" />
+    <LinearLayout android:background="@color/blue_1" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+        <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="center|left" android:id="@id/profile_megaphone_header" android:paddingLeft="@dimen/row_padding" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center|right" android:id="@id/profile_megaphone_header_x" android:layout_width="@dimen/row_height_small" android:layout_height="fill_parent" android:src="@drawable/nav_cancel" android:scaleType="center" />
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:gravity="top" android:id="@id/profile_megaphone_message" android:background="@color/blue_1" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:layout_weight="1.0" />
+    <LinearLayout android:background="@color/blue_1" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+        <TextView android:textStyle="bold" android:textColor="@color/accent_blue_5" android:ellipsize="end" android:gravity="center|left" android:id="@id/profile_button_left" android:paddingLeft="@dimen/row_padding" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="center|right" android:id="@id/profile_button_right" android:paddingRight="@dimen/row_padding" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

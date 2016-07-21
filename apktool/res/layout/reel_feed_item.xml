@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="left" android:id="@id/avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foregroundGravity="center|right">
+        <ImageView android:id="@id/seen_state" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/unseen" />
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/avatar_image_view" android:layout_width="@dimen/tray_avatar_inner_size" android:layout_height="@dimen/tray_avatar_inner_size" />
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/loading_spinner_scrim" android:layout_width="@dimen/tray_avatar_inner_size" android:layout_height="@dimen/tray_avatar_inner_size" android:src="@color/black_50_transparent" />
+        <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_spinner_with_outline" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_small" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/username" android:paddingLeft="@dimen/tray_item_padding" android:paddingRight="@dimen/tray_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" />
+</LinearLayout>

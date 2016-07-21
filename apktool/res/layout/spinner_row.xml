@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.text.FreightSansTextView android:ellipsize="marquee" android:id="@id/row_user_textview" style="?attr/defaultSpinnerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

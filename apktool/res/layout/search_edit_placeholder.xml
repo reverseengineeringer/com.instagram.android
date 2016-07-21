@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/search_edit_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textStyle="italic" android:textColor="@color/grey_light" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/placeholder_text" android:paddingLeft="@dimen/field_with_glyph_left_padding" android:paddingRight="@dimen/field_with_glyph_right_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/locating" android:drawableLeft="@drawable/nav_search" android:drawablePadding="@dimen/field_with_glyph_drawable_padding" />
+    <View android:layout_gravity="bottom" android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</FrameLayout>

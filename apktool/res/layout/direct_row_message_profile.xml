@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height" android:layout_margin="@dimen/direct_row_message_common_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_message_profile_avatar" android:layout_marginLeft="@dimen/direct_row_message_common_padding" android:layout_marginRight="@dimen/direct_row_message_common_padding" style="@style/Avatar.XSmall" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/direct_row_message_common_padding" android:layout_toRightOf="@id/row_message_profile_avatar">
+        <TextView android:textStyle="bold" android:textColor="@color/blue_medium" android:ellipsize="end" android:id="@id/row_message_profile_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextViewStyle.Feed" />
+        <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_message_profile_fullname" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

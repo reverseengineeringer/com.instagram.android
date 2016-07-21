@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/confirmation_field" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/confirmation_code" android:cursorVisible="true" android:singleLine="true" android:drawableRight="@drawable/search_clear" android:inputType="number" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+</merge>

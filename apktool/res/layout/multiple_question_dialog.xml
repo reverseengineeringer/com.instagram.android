@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.feed.survey.BoundedLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/parentPanel" android:background="@drawable/modal_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:maxWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/alertTitleContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.ui.text.FreightSansTextView android:id="@id/alertTitle" android:paddingTop="12.0dip" app:capitalize="false" style="@style/RowHeaderText" />
+        <include layout="@layout/row_header_divider" />
+    </FrameLayout>
+    <ViewFlipper android:gravity="center" android:layout_gravity="center" android:id="@id/surveyFlipper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:measureAllChildren="false">
+        <ListView android:gravity="center" android:layout_gravity="center" android:id="@id/multiQuestionSurveyList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/transparent" android:divider="@color/grey_2" android:dividerHeight="1.0px" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:padding="@dimen/thanks_dialog_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/thanksCircle" android:padding="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/check_circle" />
+                <TextView android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/survey_dialog_thanks" />
+            </LinearLayout>
+            <include layout="@layout/row_divider" />
+            <include layout="@layout/dialog_button_group" />
+        </LinearLayout>
+    </ViewFlipper>
+    <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/button_blue" android:background="@drawable/dialog_bottom_button_blue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" />
+</com.instagram.feed.survey.BoundedLinearLayout>

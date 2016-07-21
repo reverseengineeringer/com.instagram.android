@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@drawable/transparent_black_circle" android:insetLeft="@dimen/straighten_background_inset" android:insetRight="@dimen/straighten_background_inset" android:insetTop="@dimen/straighten_background_inset" android:insetBottom="@dimen/straighten_background_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

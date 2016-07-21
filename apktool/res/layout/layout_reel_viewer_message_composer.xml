@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/reel_viewer_message_composer" android:background="@color/black_80_transparent" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:alpha="0.0" android:translationY="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_50_transparent" android:id="@id/reel_viewer_message_composer_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/reel_message_composer_text_hint" android:lines="1" android:singleLine="true" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences" android:imeOptions="actionSend" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/reel_viewer_message_composer_send_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ufi_new_direct" app:normal="@color/white" app:active="@color/white_50_transparent" />
+</LinearLayout>

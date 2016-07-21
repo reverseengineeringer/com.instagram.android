@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.textview.IgTextLayoutView android:id="@id/row_feed_hon_comments" android:paddingLeft="@dimen/feed_content_padding" android:paddingTop="10.0dip" android:paddingRight="@dimen/feed_content_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

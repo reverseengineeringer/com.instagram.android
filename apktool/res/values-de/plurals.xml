@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Du hast %1$d ausstehende Promotions.</item>
+        <item quantity="one">Du hast 1 ausstehende Promotion.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s deiner Facebook-Freunde sind auf Instagram</item>
+        <item quantity="one">1 deiner Facebook-Freunde ist auf Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s deiner VKontakte-Freunde sind bei Instagram</item>
+        <item quantity="one">1 deiner VKontakte-Freunde ist bei Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s deiner Kontakte sind auf Instagram</item>
+        <item quantity="one">1 deiner Kontakte ist auf Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">vor %1$s Sekunden</item>
+        <item quantity="one">vor %1$s Sekunde</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">vor %1$s Minuten</item>
+        <item quantity="one">vor %1$s Minute</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">vor %1$s Stunden</item>
+        <item quantity="one">vor %1$s Stunde</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">vor %1$s Tagen</item>
+        <item quantity="one">vor %1$s Tag</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">vor %1$s Wochen</item>
+        <item quantity="one">vor %1$s Woche</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Ablehnen (%1$d)</item>
+        <item quantity="one">Ablehnen</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Zulassen (%1$d)</item>
+        <item quantity="one">Zulassen</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s Personen</item>
+        <item quantity="one">1 Person</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Sie sehen alle vorherigen Nachrichten in dieser Unterhaltung.</item>
+        <item quantity="one">%1$s wird alle vorherigen Nachrichten in dieser Unterhaltung sehen.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s Nachrichtenanfragen</item>
+        <item quantity="one">Nachrichtenanfrage von %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Du kannst nur %1$d Kommentare gleichzeitig auswählen.</item>
+        <item quantity="one">Du kannst nur 1 Kommentar gleichzeitig auswählen.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d Fotos</item>
+        <item quantity="one">1 Foto</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d neue Beiträge</item>
+        <item quantity="one">1 neuer Beitrag</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Facebook-Freunde</item>
+        <item quantity="one">1 Facebook-FreundIn</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s Kontakte</item>
+        <item quantity="one">1 Kontakt</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d Betrachter</item>
+        <item quantity="one">1 Betrachter</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d neue Beiträge</item>
+        <item quantity="one">1 neuer Beitrag</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Du hast %1$s Facebook-Freunde auf Instagram.</item>
+        <item quantity="one">Du hast 1 Facebook-FreundIn auf Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Du hast %1$s VKontakte-Freunde auf Instagram.</item>
+        <item quantity="one">Du hast 1 VKontakte-FreundIn auf Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s Kontakte gefunden.</item>
+        <item quantity="one">1 Kontakt gefunden.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d ausgewählt</item>
+        <item quantity="one">1 ausgewählt</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d Kommentare gelöscht. Zum rückgängig machen antippen.</item>
+        <item quantity="one">Kommentar gelöscht. Zum rückgängig machen antippen.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d Personen</item>
+        <item quantity="one">1 Person</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d Personen haben geantwortet.</item>
+        <item quantity="one">1 Person hat geantwortet.</item>
+    </plurals>
+</resources>

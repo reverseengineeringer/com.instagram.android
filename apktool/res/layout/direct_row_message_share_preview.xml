@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/bubble_border_bottom_round">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/row_message_preview_icon" android:layout_marginLeft="@dimen/direct_row_message_common_padding" android:layout_marginRight="@dimen/direct_row_message_common_padding" style="@style/Avatar.XSmall" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/direct_row_message_common_padding" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/direct_row_message_comment_text_size" android:textStyle="bold" android:textColor="@color/blue_medium" android:ellipsize="end" android:id="@id/row_message_preview_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextViewStyle.Feed" />
+                <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:id="@id/row_message_preview_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:id="@id/row_grid_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/bubble_border_bottom_round">
+            <include android:id="@id/top_image_row" layout="@layout/direct_message_grid_row" />
+            <include android:layout_gravity="bottom" android:id="@id/bottom_image_row" android:layout_width="fill_parent" android:layout_height="73.0dip" android:layout_marginTop="73.0dip" layout="@layout/direct_message_grid_row" />
+        </FrameLayout>
+    </LinearLayout>
+</com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout>

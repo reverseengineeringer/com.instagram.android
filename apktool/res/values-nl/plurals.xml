@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Je hebt %1$d promoties die in behandeling zijn.</item>
+        <item quantity="one">Je hebt 1 promotie die in behandeling is.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s van je Facebook-vrienden gebruikt/gebruiken Instagram</item>
+        <item quantity="one">1 van je Facebook-vrienden gebruikt Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s van je VKontakte-vrienden gebruiken Instagram</item>
+        <item quantity="one">1 van je VKontakte-vrienden gebruikt Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s van je contacten gebruikt/gebruiken Instagram</item>
+        <item quantity="one">1 van je contacten gebruikt Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s seconden geleden</item>
+        <item quantity="one">%1$s seconde geleden</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s minuten geleden</item>
+        <item quantity="one">%1$s minuut geleden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s uur geleden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s dagen geleden</item>
+        <item quantity="one">%1$s dag geleden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s weken geleden</item>
+        <item quantity="one">%1$s week geleden</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Afwijzen (%1$d)</item>
+        <item quantity="one">Afwijzen</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Toestaan (%1$d)</item>
+        <item quantity="one">Toestaan</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s personen</item>
+        <item quantity="one">1 persoon</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Deze gebruikers kunnen alle voorgaande berichten in dit gesprek zien.</item>
+        <item quantity="one">%1$s kan alle voorgaande berichten in dit gesprek zien.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s berichtverzoeken</item>
+        <item quantity="one">Berichtverzoek van %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Je kunt slechts %1$d reacties tegelijk kiezen.</item>
+        <item quantity="one">Je kunt slechts 1 reactie tegelijk kiezen.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">"%1$d foto's"</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d nieuwe berichten</item>
+        <item quantity="one">1 nieuw bericht</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Facebook-vrienden</item>
+        <item quantity="one">1 Facebook-vriend</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s contactpersonen</item>
+        <item quantity="one">1 contactpersoon</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d kijkers</item>
+        <item quantity="one">1 kijker</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d nieuwe berichten</item>
+        <item quantity="one">1 nieuw bericht</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Je hebt %1$s Facebook-vrienden op Instagram.</item>
+        <item quantity="one">Je hebt 1 Facebook-vriend op Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Je hebt %1$s VKontakte-vrienden op Instagram.</item>
+        <item quantity="one">Je hebt 1 VKontakte-vriend op Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s contactpersonen gevonden.</item>
+        <item quantity="one">1 contact gevonden.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d geselecteerd</item>
+        <item quantity="one">1 geselecteerd</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d reacties verwijderd. Tik om ongedaan te maken.</item>
+        <item quantity="one">Reactie verwijderd. Tik om ongedaan te maken.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d personen</item>
+        <item quantity="one">1 persoon</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d personen hebben gereageerd.</item>
+        <item quantity="one">1 persoon heeft gereageerd.</item>
+    </plurals>
+</resources>

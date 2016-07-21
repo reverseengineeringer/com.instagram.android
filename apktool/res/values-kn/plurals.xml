@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">ನೀವು %1$d ಬಾಕಿಯಿರುವ ಪ್ರಚಾರ ಹೊಂದಿರುವಿರಿ.</item>
+    </plurals>
+</resources>

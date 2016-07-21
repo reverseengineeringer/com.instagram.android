@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bugreporter_screenshot_container" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bugreporter_screenshot" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <FrameLayout android:background="@drawable/bugreporter_screenshot_remove_background" android:layout_width="fill_parent" android:layout_height="24.0dip">
+        <ImageView android:layout_gravity="center|right" android:id="@id/bugreporter_screenshot_remove" android:paddingLeft="9.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="9.0dip" android:clickable="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/search_clear" android:scaleType="centerInside" />
+    </FrameLayout>
+</FrameLayout>

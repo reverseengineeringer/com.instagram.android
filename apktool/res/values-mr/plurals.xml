@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">आपल्‍याजवळ %1$d प्रलंबित प्रचार आहेत.</item>
+    </plurals>
+</resources>

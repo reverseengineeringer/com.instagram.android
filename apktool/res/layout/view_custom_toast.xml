@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/toast_inbox_textview_1" style="@style/CustomToast.Text" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center|left" android:background="?dividerColor" android:layout_width="1.0px" android:layout_height="24.0dip" />
+        <TextView android:id="@id/toast_inbox_textview_2" style="@style/CustomToast.Text" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center|left" android:background="?dividerColor" android:layout_width="1.0px" android:layout_height="24.0dip" />
+        <TextView android:id="@id/toast_inbox_textview_3" style="@style/CustomToast.Text" />
+    </FrameLayout>
+</merge>

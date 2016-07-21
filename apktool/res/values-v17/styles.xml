@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BusinessText.CenterText.Title" parent="@style/BusinessText.CenterText">
+        <item name="android:layout_marginLeft">@dimen/title_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/title_horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/title_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/title_horizontal_margin</item>
+    </style>
+    <style name="BusinessText.CenterText.Subtitle" parent="@style/BusinessText.CenterText">
+        <item name="android:layout_marginLeft">@dimen/subtitle_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/subtitle_horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/subtitle_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/subtitle_horizontal_margin</item>
+    </style>
+</resources>

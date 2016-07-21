@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.draggable.DraggableContainer android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" app:borderDrawable="?creationDraggableBorderDrawable"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.creation.base.ui.MediaEditActionBar android:id="@id/action_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" style="@style/ActionBar.Modal" />
+        <FrameLayout android:id="@id/layout_container_main" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:isScrollContainer="true" />
+    </LinearLayout>
+    <include layout="@layout/action_bar_shadow" />
+    <include android:id="@id/view_drag_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/view_drag_overlay" />
+    <ViewStub android:id="@id/nux_overlay_stub" android:layout="@layout/punched_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.instagram.common.ui.widget.draggable.DraggableContainer>

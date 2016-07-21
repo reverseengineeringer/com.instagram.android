@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" style="@style/PaddedRow">
+        <com.instagram.ui.text.FreightSansTextView android:id="@id/notes_header" style="@style/RowHeaderText" />
+        <include layout="@layout/row_header_divider" />
+        <TextView android:id="@id/notes" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+    </LinearLayout>
+</ScrollView>

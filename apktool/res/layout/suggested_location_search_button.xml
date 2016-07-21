@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/rounded_border_stroke_grey" android:paddingLeft="@dimen/location_suggestion_side_padding" android:paddingTop="@dimen/location_suggestion_top_padding" android:paddingRight="@dimen/location_suggestion_side_padding" android:paddingBottom="@dimen/location_suggestion_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_location_small" app:normal="@color/grey_5" app:active="@color/white" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/location_suggestion_text_grey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search" />
+</LinearLayout>

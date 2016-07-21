@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="11.0sp" android:textColor="@color/grey_light" android:layout_gravity="bottom|center|left" android:id="@id/username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing" android:layout_marginTop="@dimen/direct_row_message_group_padding_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

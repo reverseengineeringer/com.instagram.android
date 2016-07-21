@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/top_divider" layout="@layout/row_divider" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/grey_0_7" android:paddingLeft="@dimen/card_padding" android:paddingTop="@dimen/card_padding" android:paddingRight="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/grey_dark" android:ellipsize="end" android:layout_gravity="center|left" android:id="@id/suggested_users_carousel_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/suggestions_for_you" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textColor="@color/blue_medium" android:layout_gravity="center|right" android:id="@id/suggested_users_carousel_see_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all" android:singleLine="true" />
+    </LinearLayout>
+    <com.instagram.ui.recyclerpager.HorizontalRecyclerPager android:id="@id/suggested_users_carousel_view" android:background="@color/grey_0_7" android:paddingLeft="@dimen/carousel_horizontal_padding" android:paddingRight="@dimen/carousel_horizontal_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/grey_dark" android:gravity="center_vertical" android:id="@id/footer_banner" android:background="@color/grey_0_7" android:paddingLeft="@dimen/card_padding" android:paddingRight="@dimen/card_padding" android:paddingBottom="@dimen/card_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:drawablePadding="@dimen/card_spacing" />
+    <include layout="@layout/row_divider" />
+</merge>

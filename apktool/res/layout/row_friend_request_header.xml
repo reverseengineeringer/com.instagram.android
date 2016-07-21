@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_friend_request_header" android:background="@color/grey_6" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/row_friend_request_header_textview" android:paddingLeft="@dimen/row_padding" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageView android:id="@id/row_friend_request_header_button_ignore" android:background="@drawable/action_bar_dark_button_background" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/nav_cancel" android:scaleType="center" android:tint="@color/white" />
+    <ImageView android:id="@id/row_friend_request_header_button_approve" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/check" android:scaleType="center" android:tint="@color/white" />
+</LinearLayout>

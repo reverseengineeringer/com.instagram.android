@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:paddingLeft="@dimen/multi_layer_tab_padding" android:paddingRight="@dimen/multi_layer_tab_padding" android:layout_width="fill_parent" android:layout_height="@dimen/multi_layer_tab_height" android:lineSpacingMultiplier="1.2"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

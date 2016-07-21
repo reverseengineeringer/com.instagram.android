@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.browser.lite.widget.MenuItemTextView android:orientation="vertical" style="@style/BrowserMenuItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title_textview" style="@style/MenuItemIconAndTextTextView" />
+    <View android:id="@id/menu_divider" android:visibility="gone" style="@style/MenuItemDivider" />
+</com.facebook.browser.lite.widget.MenuItemTextView>

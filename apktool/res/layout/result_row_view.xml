@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/parentPanel" android:paddingTop="@dimen/results_view_vertical_padding" android:paddingBottom="@dimen/results_view_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/result_bar_horizontal_offset_padding" android:layout_marginRight="@dimen/result_bar_horizontal_offset_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:id="@id/percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:id="@id/response" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/results_answer_textview_padding" android:layout_toLeftOf="@id/percent" android:layout_alignParentLeft="true" />
+</RelativeLayout>

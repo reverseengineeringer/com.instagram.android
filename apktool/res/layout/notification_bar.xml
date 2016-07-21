@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.android.nux.NotificationBar android:textColor="@color/white" android:gravity="center" android:id="@id/notification_bar" android:padding="@dimen/error_text_view_padding" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/megaphone_frame" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/megaphone_content" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/megaphone_icon" android:layout_marginTop="@dimen/megaphone_icon_margin_top" android:scaleType="centerCrop" style="@style/Avatar.ExtraLarge" />
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/grey_6" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_4" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="vertical" android:id="@id/button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center|right|top" android:id="@id/dismiss_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/megaphone_icon_margin_top" android:layout_marginRight="@dimen/megaphone_icon_margin_top" android:src="@drawable/nav_cancel" app:normal="?textColorQuaternary" app:active_alpha="0x80" />
+</FrameLayout>

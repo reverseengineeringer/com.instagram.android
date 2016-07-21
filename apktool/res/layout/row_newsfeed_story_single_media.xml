@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:paddingTop="@dimen/vertical_separator_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_newsfeed_user_imageview" android:layout_marginTop="5.0dip" android:contentDescription="@string/profile_picture" style="@style/Avatar.Medium" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColorLink="@color/blue_medium" android:gravity="center|left" android:id="@id/row_newsfeed_text" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minHeight="@dimen/row_height_small" android:layout_toLeftOf="@id/row_newsfeed_media_image" android:layout_alignParentLeft="true" />
+            <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/row_newsfeed_media_image" android:layout_width="@dimen/row_height_small" android:layout_height="@dimen/row_height_small" android:scaleType="centerCrop" android:layout_alignParentRight="true" app:placeholder="@color/image_placeholder" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/row_divider" style="?attr/defaultDividerStyle" />
+</FrameLayout>

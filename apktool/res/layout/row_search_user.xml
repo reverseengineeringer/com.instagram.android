@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/row_search_user_container" android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/search_row_padding" android:paddingRight="@dimen/search_row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/vertical_separator_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/row_search_user_seen_dot_stub" android:layout="@layout/search_seen_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/seen_dot_padding" android:layout_marginRight="@dimen/seen_dot_padding" />
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_search_user_imageview" android:layout_marginTop="5.0dip" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:ellipsize="end" android:id="@id/row_search_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="3.0dip" />
+            <TextView android:textColor="?textColorTertiary" android:ellipsize="end" android:id="@id/row_search_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/row_search_user_divider" layout="@layout/row_divider" style="?attr/defaultDividerStyle" />
+</FrameLayout>

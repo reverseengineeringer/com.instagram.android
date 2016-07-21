@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/font_xlarge" android:gravity="center|left" android:id="@id/confirmation_code" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_height_small" android:minHeight="@dimen/row_height_small" android:hint="@string/code_hint" android:maxLength="14" android:digits="0123456789 " android:inputType="number" android:imeOptions="actionGo" style="@style/EditTextStyle">
+        <requestFocus />
+    </EditText>
+    <TextView android:textSize="16.0sp" android:textColor="@color/grey_light" android:layout_gravity="center" android:id="@id/code_verification_instruction" android:paddingLeft="@dimen/row_text_padding" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verification_code_instructions" android:lineSpacingExtra="4.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/grey_light" android:layout_gravity="center" android:id="@id/change_phone_number" android:paddingLeft="@dimen/row_text_padding" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0dip" />
+</LinearLayout>

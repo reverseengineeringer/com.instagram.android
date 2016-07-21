@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/row_review_map_textview_expanded_copy" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textStyle="bold" android:id="@id/row_review_name_textview_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center|right" android:id="@id/row_review_name_button_deselect_cluster" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/share_check" />
+</LinearLayout>

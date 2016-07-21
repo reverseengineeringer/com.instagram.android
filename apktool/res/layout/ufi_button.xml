@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/ufi_button_image_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" app:normal="?textColorSecondary" />
+    <ViewStub android:id="@id/ufi_button_text_view_stub" android:layout="@layout/row_feed_media_ufi_count_view" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+</merge>

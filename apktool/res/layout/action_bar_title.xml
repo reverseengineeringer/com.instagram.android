@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/action_bar_item_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/grey_medium" android:ellipsize="end" android:id="@id/action_bar_textview_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:maxLines="1" />
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_xsmall" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/action_bar_textview_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-3.0dip" android:maxLines="1" android:drawablePadding="4.0dip" app:capitalize="false" app:medium="true" />
+</LinearLayout>

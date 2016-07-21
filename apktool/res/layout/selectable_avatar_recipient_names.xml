@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_xsmall" android:textColor="@color/grey_dark" android:gravity="center" android:id="@id/selectable_avatar_username" android:paddingTop="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textSize="@dimen/font_xsmall" android:textColor="@color/grey_light" android:gravity="center" android:id="@id/selectable_avatar_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</merge>

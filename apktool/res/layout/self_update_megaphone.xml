@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:paddingLeft="@dimen/megaphone_spacing" android:paddingTop="@dimen/megaphone_spacing" android:paddingRight="@dimen/megaphone_spacing" android:paddingBottom="@dimen/megaphone_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center|left" android:layout_width="@dimen/megaphone_icon_size" android:layout_height="@dimen/megaphone_icon_size" android:src="@drawable/install" app:normal="@color/grey_3" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/grey_5" android:id="@id/title" android:paddingLeft="@dimen/megaphone_spacing" android:paddingRight="@dimen/megaphone_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/grey_3" android:id="@id/subtitle" android:paddingLeft="@dimen/megaphone_spacing" android:paddingRight="@dimen/megaphone_spacing" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/dismiss_button" android:paddingLeft="@dimen/megaphone_spacing" android:paddingTop="@dimen/dismiss_button_vertical_padding" android:paddingBottom="@dimen/dismiss_button_vertical_padding" android:layout_width="28.0dip" android:layout_height="24.0dip" android:src="@drawable/search_clear" app:normal="@color/grey_3" app:active_alpha="0x80" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/update_button_height" android:layout_marginLeft="@dimen/update_button_margin" android:layout_marginRight="@dimen/update_button_margin" android:layout_marginBottom="@dimen/megaphone_spacing">
+        <com.instagram.ui.widget.textview.ImageWithFreightSansTextView android:textColor="@color/grey_5" android:gravity="center" android:id="@id/learn_more_button" android:background="@drawable/self_update_learn_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/action_button_horizontal_padding" android:text="@string/self_update_megaphone_learn_button" android:layout_weight="1.0" />
+        <com.instagram.ui.widget.textview.ImageWithFreightSansTextView android:textColor="@color/white" android:gravity="center" android:id="@id/update_button" android:background="@drawable/self_update_button_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/action_button_horizontal_padding" android:text="@string/self_update_megaphone_button" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

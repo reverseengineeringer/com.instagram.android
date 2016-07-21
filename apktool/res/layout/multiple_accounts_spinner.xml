@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.base.TriangleSpinner android:id="@id/spinner" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:popupBackground="@drawable/menu_popup_panel" style="?attr/actionBarTitleStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

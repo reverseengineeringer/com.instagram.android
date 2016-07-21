@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/vertical_separator_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_newsfeed_user_imageview" android:contentDescription="@string/profile_picture" style="@style/Avatar.Medium" />
+            <TextView android:id="@id/newsfeed_group_follow_request_count" android:layout_marginLeft="15.0dip" android:layout_marginBottom="6.0dip" style="@style/NotificationBadge" />
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:id="@id/row_newsfeed_group_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/newsfeed_group_request_title" />
+            <TextView android:textColor="@color/grey_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/newsfeed_group_request_subtitle" android:layout_below="@id/row_newsfeed_group_title" />
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/row_divider" style="?attr/defaultDividerStyle" />
+</FrameLayout>

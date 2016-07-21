@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/white_20_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/left_button" android:background="@color/white_5_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:background="@color/white_20_transparent" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/right_button" android:background="@color/white_5_transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

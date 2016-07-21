@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/placeholder_stub" android:layout="@layout/search_edit_placeholder" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    <com.instagram.ui.widget.searchedittext.SearchEditText android:gravity="center_vertical" android:id="@id/row_search_edit_text" android:paddingLeft="@dimen/field_with_glyph_left_padding" android:paddingRight="@dimen/field_with_glyph_right_padding" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:hint="@string/find_a_location" android:singleLine="true" android:freezesText="true" android:drawableLeft="@drawable/nav_search" android:drawableRight="@drawable/search_clear" android:drawablePadding="@dimen/field_with_glyph_drawable_padding" android:inputType="textAutoComplete" android:imeOptions="actionSearch" />
+</LinearLayout>

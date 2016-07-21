@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">Hace %s segundos</item>
+        <item quantity="one">Hace %s segundo</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">Hace %s minutos</item>
+        <item quantity="one">Hace %s minuto</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">Hace %s horas</item>
+        <item quantity="one">Hace %s hora</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">Hace %s días</item>
+        <item quantity="one">Hace %s día</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">Hace %s semanas</item>
+        <item quantity="one">Hace %s semana</item>
+    </plurals>
+    <plurals name="directshare_requested_direct_shares_header">
+        <item quantity="other">Estas personas quieren enviarte fotos y videos. Toca la marca verde para dejar que los envíen a partir de ahora.</item>
+        <item quantity="one">Esta persona quiere enviarte fotos y videos. Toca la marca verde para dejar que te los envíe a partir de ahora.</item>
+    </plurals>
+    <plurals name="directshare_inbox_pending_request_count">
+        <item quantity="other">%s solicitudes pendientes</item>
+        <item quantity="one">1 solicitud pendiente</item>
+    </plurals>
+</resources>

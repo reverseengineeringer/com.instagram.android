@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="@dimen/font_medium" android:textColor="@color/accent_blue_5" android:gravity="center" android:background="@drawable/tombstone_reason_clickable_background" android:layout_width="fill_parent" android:layout_height="@dimen/tombstone_reason_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

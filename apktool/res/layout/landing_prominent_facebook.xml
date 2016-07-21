@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/landing_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.LandingRotatingBackgroundView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/language_picker" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_weight="7.0" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nux_dayone_landing_logo" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/landing_subtitle_sign_up" />
+        <View android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_weight="4.0" />
+        <LinearLayout android:orientation="vertical" android:id="@id/button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:animateLayoutChanges="true" />
+        <View android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_50_transparent" android:gravity="center" android:layout_gravity="center" android:id="@id/privacy_policy" android:paddingBottom="@dimen/row_text_padding" android:visibility="gone" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" />
+        <View android:background="@color/white_20_transparent" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_70_transparent" android:gravity="center" android:id="@id/log_in" android:background="@color/white_5_transparent" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    </LinearLayout>
+</FrameLayout>

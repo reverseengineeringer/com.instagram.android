@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/green_1" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/vertical_separator_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left" android:layout_width="@dimen/megaphone_icon_size" android:layout_height="@dimen/megaphone_icon_size" android:src="@drawable/people_megaphone" />
+    <RelativeLayout android:layout_gravity="center" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discover_more_people" />
+        <TextView android:textColor="@color/grey_light" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/recommendations_for_you" android:layout_below="@id/row_user_username" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/people_chevron" />
+</LinearLayout>

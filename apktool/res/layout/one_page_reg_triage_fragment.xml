@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/profile_pic_layout" android:layout_width="wrap_content" android:layout_height="@dimen/connection_logo_height" android:layout_marginBottom="@dimen/add_photo_padding_top_bottom">
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/photo_text_view" android:paddingTop="@dimen/add_photo_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo" />
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/add_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/add_photo_plus_sign_margin" android:src="@drawable/add_photo_plus" android:contentDescription="@string/profile_photo_description" />
+        <ImageView android:layout_gravity="center" android:id="@id/add_photo_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_photo_border" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/login_input_field" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/row_padding">
+            <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/full_name" android:background="@null" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="0.0dip" android:layout_height="@dimen/row_height_small" android:hint="@string/full_name" android:singleLine="true" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/full_name_validation" android:background="@drawable/validation_positive" android:visibility="gone" android:layout_width="@dimen/reg_icon_width" android:layout_height="@dimen/reg_icon_width" android:layout_marginRight="@dimen/reg_validation_padding" android:alpha="0.3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/login_input_field" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/password" android:background="@null" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="0.0dip" android:layout_height="@dimen/row_height_small" android:hint="@string/password" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/password_validation" android:background="@drawable/validation_positive" android:visibility="gone" android:layout_width="@dimen/reg_icon_width" android:layout_height="@dimen/reg_icon_width" android:layout_marginRight="@dimen/reg_validation_padding" android:alpha="0.3" />
+        </LinearLayout>
+        <include layout="@layout/reg_next" />
+    </LinearLayout>
+    <View android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/login_horizontal_margin" android:layout_weight="1.0" />
+</merge>

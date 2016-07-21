@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/page_list_group" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/business_title_card" />
+    <include layout="@layout/row_divider" />
+    <TextView android:textColor="@color/grey_light" android:gravity="center_vertical" android:id="@id/business_section_header" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" android:text="@string/page_you_admin" />
+</LinearLayout>

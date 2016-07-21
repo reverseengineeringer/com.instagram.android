@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|right" android:id="@id/meta_data" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/upload_failed_icon" android:layout_width="@dimen/avatar_size_small" android:layout_height="@dimen/avatar_size_small" android:layout_marginRight="4.0dip" android:src="@drawable/direct_thread_item_failed" android:scaleType="center" />
+    <FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center|left" android:id="@id/message_timestamp" android:paddingLeft="@dimen/direct_row_message_common_padding" android:layout_width="@dimen/direct_row_message_timestamp_width" android:layout_height="@dimen/avatar_size_small" android:maxLines="1" android:drawablePadding="5.0dip" />
+        <View android:layout_gravity="center|left" android:id="@id/sending_indicator" android:background="@drawable/sending_indicator" android:clipChildren="false" android:clipToPadding="false" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginLeft="-3.0dip" />
+    </FrameLayout>
+</LinearLayout>

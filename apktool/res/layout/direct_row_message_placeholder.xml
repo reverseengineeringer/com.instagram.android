@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/direct_row_message_comment_padding_sides" android:paddingTop="@dimen/direct_row_message_common_padding" android:paddingRight="@dimen/direct_row_message_comment_padding_sides" android:paddingBottom="@dimen/direct_row_message_comment_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/grey_dark" android:id="@id/row_message_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_light" android:id="@id/row_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

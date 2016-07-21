@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/share_later_content" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/row_caption" />
+        <FrameLayout android:layout_height="@dimen/row_height_small" style="@style/PaddedRow">
+            <include layout="@layout/row_header_divider" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

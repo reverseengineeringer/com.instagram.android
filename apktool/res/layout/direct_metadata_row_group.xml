@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/row_height">
+        <com.instagram.ui.widget.selectableavatar.DoubleSelectableAvatar android:id="@id/metadata_row_double_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" app:showStroke="false" app:avatarWidth="@dimen/avatar_size_medium" />
+        <RelativeLayout android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/metadata_row_group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/metadata_row_usernames" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:layout_below="@id/metadata_row_group_name" />
+        </RelativeLayout>
+        <CheckBox android:id="@id/group_toggle" android:background="@drawable/share_checkbox_background" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</FrameLayout>

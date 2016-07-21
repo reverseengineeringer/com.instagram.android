@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">لديك %1$d من الترويجات المعلقة.</item>
+        <item quantity="one">لديك ترويج معلق.</item>
+    </plurals>
+</resources>

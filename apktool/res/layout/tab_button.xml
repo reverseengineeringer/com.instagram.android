@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.proxy.ProxyFrameLayout android:background="?tabButtonBackground" android:layout_width="0.0px" android:layout_height="?tabBarHeight" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom|center" android:id="@id/notification" android:background="?tabButtonNotificationBackground" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginBottom="7.0dip" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/tab_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/tabButtonIconStyle" />
+    <View android:layout_gravity="bottom" android:id="@id/selected_tab_indicator_bar" android:background="?tabButtonIndicatorBackground" android:layout_width="fill_parent" android:layout_height="@dimen/selected_tab_indicator_height" android:layout_marginLeft="@dimen/selected_tab_indicator_margin" android:layout_marginRight="@dimen/selected_tab_indicator_margin" />
+</com.instagram.ui.widget.proxy.ProxyFrameLayout>

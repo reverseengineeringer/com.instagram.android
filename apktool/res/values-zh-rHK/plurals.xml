@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">你有%1$d則待審查的推廣。</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">你有%1$s位 Facebook 朋友正在使用 Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">你有%1$s位 VKontakte 朋友在使用 Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">你有%1$s位聯絡人正在使用 Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s秒前</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s分鐘前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s小時前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s天前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s週前</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">拒絕（%1$d）</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">允許（%1$d）</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s人</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">他們將看到此對話先前的所有訊息。</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s則訊息要求</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">你一次只能選擇%1$d則回應。</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d張相片</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d則新帖子</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s個 Facebook 朋友</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s個聯絡人</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d位觀眾</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d則新帖子</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">你有%1$s位 Facebook 朋友正在使用 Instagram。</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">你在 Instagram 上有%1$s位 VKontakte 朋友。</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">找到%1$s個聯絡人。</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">已選%1$d個</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">已刪除%1$d則回應。點按以還原。</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d人</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d人回答。</item>
+    </plurals>
+</resources>

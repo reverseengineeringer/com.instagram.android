@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.text.FreightSansTextView android:gravity="center|left" android:id="@id/title_text_view" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/edit" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_filter" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/filter_off" android:scaleType="centerInside" android:layout_weight="1.0" app:normal="?creationGlyphColor" app:active="@color/accent_blue_medium" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_trim" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/tab_trim_off" android:scaleType="centerInside" android:layout_weight="1.0" app:normal="?creationGlyphColor" app:active="@color/accent_blue_medium" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_cover" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/tab_cover_off" android:scaleType="centerInside" android:layout_weight="1.0" app:normal="?creationGlyphColor" app:active="@color/accent_blue_medium" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/button_mode_mute" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/mute_off" android:scaleType="centerInside" android:layout_weight="1.0" app:normal="?creationGlyphColor" app:active="@color/accent_blue_medium" />
+</merge>

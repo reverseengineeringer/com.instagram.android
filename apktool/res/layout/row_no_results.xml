@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:minHeight="@dimen/row_height" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/grey_light" android:layout_gravity="center_vertical" android:id="@id/row_no_results_textview" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/row_divider" />
+</FrameLayout>

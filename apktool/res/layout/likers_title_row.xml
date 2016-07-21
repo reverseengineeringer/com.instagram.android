@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/likers_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/grey_5" android:layout_gravity="bottom" android:id="@id/like_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/liked_by_title_case" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_3" android:layout_gravity="bottom" android:id="@id/like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:layout_gravity="bottom" android:id="@id/bottom_row_divider" android:layout_width="fill_parent" android:layout_height="2.0dip" layout="@layout/row_divider" />
+</FrameLayout>

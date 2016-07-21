@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textColor="@color/grey_dark" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/text1" android:background="@color/white" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:singleLine="true" app:capitalize="false" app:medium="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

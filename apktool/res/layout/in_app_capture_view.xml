@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optic="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_gravity="center_horizontal" android:id="@id/media_frame_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/action_bar_height">
+        <include layout="@layout/camera_focus_indicator" />
+        <ImageView android:layout_gravity="bottom|center|left" android:id="@id/flip_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/flip_states" android:scaleType="center" android:contentDescription="@string/switch_front_camera" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/flash_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/flash_states" android:scaleType="center" android:contentDescription="@string/flash_on" />
+        <ViewStub android:layout_gravity="bottom|center" android:id="@id/video_capture_timer_view_small_stub" android:layout="@layout/video_capture_timer_layout" android:inflatedId="@id/video_capture_timer_view_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" />
+    </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+    <include layout="@layout/capture_controls" />
+</merge>

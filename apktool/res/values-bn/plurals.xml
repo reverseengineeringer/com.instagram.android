@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">আপনার কাছে %1$dটি অপেক্ষারত প্রচারাভিযান রয়েছে৷</item>
+    </plurals>
+</resources>

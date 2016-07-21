@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.drawing.canvas.DrawingView android:id="@id/drawing_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.ui.widget.drawing.ColourPicker android:layout_gravity="right" android:id="@id/colour_picker" android:paddingLeft="10.0dip" android:layout_width="17.0dip" android:layout_height="fill_parent" app:min_stroke_width="3.0dip" app:max_stroke_width="35.0dip" />
+    <com.instagram.ui.widget.drawing.ColourIndicator android:layout_gravity="right" android:id="@id/colour_indicator" android:paddingLeft="5.0dip" android:clipToPadding="false" android:layout_width="115.0dip" android:layout_height="fill_parent" app:colorIndicatorRadius="27.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:paddingLeft="6.0dip" android:paddingRight="10.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginBottom="24.0dip">
+        <ImageView android:id="@id/draw_button" android:background="@drawable/draw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="2.0dip" />
+        <ImageView android:id="@id/clear_button" android:background="@drawable/undo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+    <ScrollView android:id="@id/edit_profile_fields" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/full_name" android:nextFocusDown="@id/username" android:hint="@string/name" android:drawableLeft="@drawable/profile_glyph_name" android:inputType="textNoSuggestions" android:imeOptions="actionNext" style="@style/FieldWithGlyph.WithMargin" />
+            <FrameLayout style="@style/PaddedRow">
+                <EditText android:id="@id/username" android:nextFocusDown="@id/website" android:hint="@string/username" android:capitalize="none" android:drawableLeft="@drawable/profile_glyph_username" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/FieldWithGlyph" />
+                <com.instagram.ui.widget.spinner.RefreshSpinner android:layout_gravity="center|right" android:id="@id/username_spinner" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="@dimen/row_text_padding" app:dark="true" />
+            </FrameLayout>
+            <EditText android:id="@id/website" android:nextFocusDown="@id/bio" android:hint="@string/website" android:drawableLeft="@drawable/profile_glyph_website" android:inputType="textUri" android:imeOptions="actionNext" style="@style/FieldWithGlyph.WithMargin" />
+            <FrameLayout android:minHeight="@dimen/row_height_small" style="@style/PaddedRow">
+                <ImageView android:paddingLeft="8.0dip" android:paddingTop="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/profile_glyph_bio" />
+                <EditText android:layout_gravity="center_vertical" android:id="@id/bio" android:paddingLeft="40.0dip" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/bio" android:singleLine="false" android:maxLength="150" android:capitalize="sentences" android:lineSpacingMultiplier="1.2" android:inputType="textCapSentences|textMultiLine" />
+            </FrameLayout>
+            <ViewStub android:id="@id/business_category_stub" android:layout="@layout/edit_business_category_view" android:inflatedId="@id/business_category" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" />
+            <ViewStub android:id="@id/business_contact_stub" android:layout="@layout/edit_business_contact_button" android:inflatedId="@id/business_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" />
+            <FrameLayout android:paddingTop="12.0dip" style="@style/PaddedRow">
+                <com.instagram.ui.text.FreightSansTextView android:text="@string/private_information" style="@style/RowHeaderText" />
+                <include layout="@layout/row_header_divider" />
+            </FrameLayout>
+            <RelativeLayout style="@style/PaddedRow">
+                <TextView android:textStyle="bold" android:id="@id/email" android:hint="@string/add_email_address" android:freezesText="true" android:drawableLeft="@drawable/profile_glyph_email" android:layout_toLeftOf="@id/confirm_your_email" android:layout_alignParentLeft="true" style="@style/FieldWithGlyph" />
+                <com.instagram.ui.widget.textview.ImageWithFreightSansTextView android:textColor="@color/white" android:id="@id/confirm_your_email" android:background="@drawable/button_orange_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/confirm_email_or_phone" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerInParent="true" app:drawable="@drawable/exclamation_tintable" app:innerSpacing="4.0dip" style="@style/FilledButtonStyle" />
+                <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout style="@style/PaddedRow">
+                <TextView android:textStyle="bold" android:id="@id/phone" android:hint="@string/add_phone_number" android:freezesText="true" android:drawableLeft="@drawable/profile_glyph_phone" android:layout_toLeftOf="@id/confirm_your_phone_number" android:layout_alignParentLeft="true" style="@style/FieldWithGlyph" />
+                <com.instagram.ui.widget.textview.ImageWithFreightSansTextView android:textColor="@color/white" android:id="@id/confirm_your_phone_number" android:background="@drawable/button_orange_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/confirm_email_or_phone" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerInParent="true" app:drawable="@drawable/exclamation_tintable" app:innerSpacing="4.0dip" style="@style/FilledButtonStyle" />
+                <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <Spinner android:id="@id/gender" android:background="@drawable/input_spinner_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

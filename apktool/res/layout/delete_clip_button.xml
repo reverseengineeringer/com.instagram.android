@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/delete_button" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:gravity="center_vertical" android:id="@id/delete_button_arrow" android:paddingTop="1.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/delete_arrow" app:normal="?captureDeleteGlyphColor" app:active="?captureDeleteGlyphPressedColor" />
+    <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="?captureDeleteTextColor" android:gravity="center_vertical" android:id="@id/delete_button_text" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/delete_clip_button" />
+</LinearLayout>

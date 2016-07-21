@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/direct_metadata_header_container" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/input_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height">
+        <TextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_text_padding" android:minWidth="@dimen/avatar_size_medium" android:text="@string/directshare_metadata_to" />
+        <com.instagram.android.directsharev2.ui.NonFocusingHorizontalScrollView android:layout_gravity="center_vertical" android:id="@id/recipients_scroll_container" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/recipients_container" android:layout_width="wrap_content" android:layout_height="wrap_content" gravity="center_vertical">
+                <View android:id="@id/search_tap_padding" android:layout_width="48.0dip" android:layout_height="0.0dip" />
+                <com.instagram.android.directsharev2.ui.DirectSearchEditText android:id="@id/search_edit_text" android:background="@null" android:layout_width="wrap_content" android:layout_height="40.0dip" android:minWidth="50.0sp" android:hint="@string/direct_search_edit_text_hint" android:singleLine="true" android:freezesText="true" android:inputType="textAutoComplete" android:imeOptions="actionSearch" />
+            </LinearLayout>
+        </com.instagram.android.directsharev2.ui.NonFocusingHorizontalScrollView>
+    </LinearLayout>
+</FrameLayout>

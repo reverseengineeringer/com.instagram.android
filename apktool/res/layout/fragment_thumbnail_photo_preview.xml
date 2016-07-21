@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/preview_image_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/preview_image_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_gravity="center" android:id="@id/preview_image_frame" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/preview_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+        <ViewStub android:layout_gravity="center_horizontal" android:id="@id/edit_media_button_stub" android:layout="@layout/preview_photo_edit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

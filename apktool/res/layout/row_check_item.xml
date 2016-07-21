@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:minHeight="@dimen/row_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_simple_text_container" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textStyle="bold" android:id="@id/row_simple_text_textview" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/FieldWithGlyph" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/row_check_imageview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/check" app:normal="@color/accent_blue_medium" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</FrameLayout>

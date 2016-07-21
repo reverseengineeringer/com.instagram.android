@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/caption_row_linear_layout" android:background="@drawable/input_background" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:paddingBottom="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/metadata_user_avatar" android:visibility="gone" android:layout_marginLeft="2.0dip" android:layout_marginRight="1.0dip" style="@style/Avatar.XXSmall" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/thumbnail_and_edit_container" android:paddingBottom="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/metadata_thumbnail_container" android:layout_width="@dimen/metadata_imageview_size" android:layout_height="@dimen/metadata_imageview_size">
+                <com.instagram.common.ui.widget.spinner.SpinnerImageView android:id="@id/metadata_loading_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nav_spinner" />
+                <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/metadata_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholder="@color/image_placeholder" />
+                <ImageView android:layout_gravity="center" android:id="@id/caption_video_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/grid_camera_icon" />
+            </FrameLayout>
+            <ViewStub android:id="@id/edit_media_button_stub" android:layout="@layout/photo_edit_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.instagram.android.widget.IgAutoCompleteTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/caption_text_view" android:background="@null" android:paddingLeft="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/metadata_imageview_size" android:hint="@string/enter_caption" android:maxLength="@integer/max_comments_length" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" android:dropDownHeight="wrap_content" style="@style/IgAutoCompleteTextView" />
+    </LinearLayout>
+</FrameLayout>

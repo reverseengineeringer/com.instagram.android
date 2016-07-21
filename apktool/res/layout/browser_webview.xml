@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.webview.IgWebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/IgBrowserProgressBar" />
+    <TextView android:layout_gravity="center" android:id="@id/error_view" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_refresh" android:drawableTop="@drawable/loadmore_icon_refresh_compound" android:drawablePadding="8.0dip" style="@style/EmptyViewTitle" />
+</FrameLayout>

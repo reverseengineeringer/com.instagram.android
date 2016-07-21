@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/action_bar_search_edit_text" app:enableQuickBackWhenEmpty="true" style="?attr/actionBarSearchStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

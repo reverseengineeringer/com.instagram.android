@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:layout_marginTop="@dimen/row_height_small" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.android.widget.EditPhoneNumberView android:id="@id/phone_number_view" android:background="@drawable/input_highlighted" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginTop="16.0dip" app:countryCodeTextBold="true" app:countryCodeTextColor="@color/accent_blue_medium" app:clearTextEnabled="true" app:innerPadding="@dimen/textfield_padding" app:paddingLeft="@dimen/textfield_padding" app:paddingRight="@dimen/textfield_padding" />
+    <FrameLayout android:id="@id/instructions_container" style="@style/PaddedRow">
+        <TextView android:textColor="@color/grey_light" android:paddingTop="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_number_associated_with_account" android:lineSpacingExtra="4.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@style/PaddedRow">
+            <com.instagram.ui.text.FreightSansTextView android:text="@string/find_your_account" style="@style/RowHeaderText" />
+            <include layout="@layout/row_header_divider" />
+        </FrameLayout>
+        <EditText android:id="@id/fragment_lookup_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:hint="@string/username_or_email" android:capitalize="none" android:drawableLeft="@drawable/profile_glyph_username" android:inputType="textEmailAddress" style="@style/FieldWithGlyph" />
+        <FrameLayout style="@style/PaddedRow">
+            <TextView android:textColor="@color/grey_light" android:padding="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/enter_email_address" android:lineSpacingExtra="4.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

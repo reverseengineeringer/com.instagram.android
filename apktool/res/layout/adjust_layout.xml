@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/perspective_main_actions" android:background="?creationPrimaryBackgroundTop" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/pill_degree_label_height" android:layout_weight="4.0">
+        <com.instagram.creation.base.ui.degreelabel.PillDegreeLabelManager android:id="@id/rotate_x_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.creation.base.ui.degreelabel.PillDegreeLabelManager android:id="@id/rotate_z_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.creation.base.ui.degreelabel.PillDegreeLabelManager android:id="@id/rotate_y_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0" layout="@layout/sliderview_layout" />
+</LinearLayout>

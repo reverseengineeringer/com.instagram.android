@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/message_composer" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/row_thread_composer_button_camera" android:layout_width="@dimen/button_width" android:layout_height="fill_parent" android:src="@drawable/dock_camera_whiteout" android:scaleType="center" app:normal="@color/grey_dark" app:active="@color/grey_light" />
+        <com.instagram.android.feed.comments.ui.ComposerAutoCompleteTextView android:textColorHint="@color/grey_light" android:layout_gravity="center_vertical" android:id="@id/row_thread_composer_edittext" android:background="@null" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="0.0px" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:hint="@string/direct_thread_edittext_hint" android:singleLine="false" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionSend" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/row_thread_composer_button_like" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/ufi_heart" android:scaleType="center" app:normal="@color/grey_dark" app:active="@color/grey_light" />
+        <ImageView android:id="@id/row_thread_composer_button_send" android:background="@drawable/action_bar_light_blue_button_background" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/send" android:scaleType="center" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/row_thread_composer_camera_action_bar" android:background="@color/white" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width">
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_thread_media_composer_dismiss" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/nav_cancel" android:scaleType="center" app:normal="@color/grey_dark" app:active="@color/grey_medium" />
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_thread_media_composer_back" android:visibility="gone" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/nav_arrow_back" android:scaleType="center" android:alpha="0.0" app:normal="@color/grey_dark" app:active="@color/grey_medium" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/grey_light" android:layout_gravity="center_vertical" android:id="@id/row_thread_compose_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/direct_thread_edittext_hint" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/row_thread_gallery_folder_spinner_container" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:alpha="0.0">
+                <View android:background="@color/grey_dark" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+                <com.instagram.ui.widget.base.TriangleSpinner android:id="@id/row_thread_gallery_folder_spinner" android:background="@null" android:paddingLeft="0.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:popupBackground="@drawable/menu_popup_panel" android:dropDownWidth="wrap_content" style="?attr/actionBarTitleStyle" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <com.instagram.ui.recyclerpager.HorizontalRecyclerPager android:layout_gravity="center_vertical" android:id="@id/direct_emoji_carousel_recyclerview" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/direct_message_composer_height" />
+    <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/row_divider" />
+</FrameLayout>

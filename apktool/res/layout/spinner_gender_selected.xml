@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:drawableLeft="@drawable/profile_glyph_gender" style="@style/FieldWithGlyph"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

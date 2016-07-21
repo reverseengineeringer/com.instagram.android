@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_simple_row" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/row_search_for_x_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="57.0dip" android:layout_marginTop="7.0dip">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="3.5dip">
+            <ImageView android:id="@id/search_glyph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_search" />
+            <TextView android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:id="@id/row_search_for_x_textview" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <com.instagram.ui.widget.spinner.RefreshSpinner android:id="@id/search_loading_spinner" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" app:dark="true" />
+        </LinearLayout>
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+</FrameLayout>

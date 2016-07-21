@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">మీకు %1$d పెండింగ్‌లో ఉన్న ప్రచారాలు ఉన్నాయి.</item>
+        <item quantity="one">మీకు 1 పెండింగ్‌లో ఉన్న ప్రచారం ఉంది.</item>
+    </plurals>
+</resources>

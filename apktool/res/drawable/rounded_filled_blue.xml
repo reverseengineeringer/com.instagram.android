@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/blue_5_whiteout" />
+    <corners android:radius="12.0dip" />
+    <padding android:left="@dimen/rounded_filled_blue_side_padding" android:top="@dimen/rounded_filled_blue_padding" android:right="@dimen/rounded_filled_blue_side_padding" android:bottom="@dimen/rounded_filled_blue_padding" />
+</shape>

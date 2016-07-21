@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/grey_8" />
+        </shape>
+    </item>
+    <item android:id="@id/seek_bar_knob_outer_circle">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="@dimen/seek_bar_knob_inner_radius" android:thickness="@dimen/seek_bar_width">
+            <solid android:color="@color/accent_blue_medium" />
+        </shape>
+    </item>
+    <item android:id="@id/seek_bar_knob_inner_circle" android:left="7.0dip" android:top="7.0dip" android:right="7.0dip" android:bottom="7.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/accent_blue_medium" />
+            <size android:height="5.0dip" android:width="5.0dip" />
+        </shape>
+    </item>
+</layer-list>

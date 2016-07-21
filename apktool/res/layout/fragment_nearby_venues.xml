@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" style="@style/ActionBar.Modal">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/action_bar_button_back" android:src="@drawable/nav_cancel" android:contentDescription="@string/back" style="@style/ActionBarButton.Modal" />
+        <com.instagram.ui.text.FreightSansTextView android:id="@id/action_bar_textview_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/select_a_location" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+        <com.instagram.actionbar.ActionButton android:id="@id/action_bar_button_action" android:layout_width="@dimen/action_bar_button_width" android:layout_height="fill_parent" style="@style/ActionBar.Modal" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_height" layout="@layout/layout_listview" />
+    <include layout="@layout/action_bar_shadow" />
+</FrameLayout>

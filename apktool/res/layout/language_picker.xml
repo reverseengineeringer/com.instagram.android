@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:layout_gravity="center|top" android:id="@id/language_selector_button" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="@dimen/language_picker_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

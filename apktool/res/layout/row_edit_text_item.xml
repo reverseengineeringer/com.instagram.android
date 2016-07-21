@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/row_height" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/vertical_separator_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textStyle="bold" android:gravity="center_vertical" android:id="@id/row_edit_text_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:singleLine="true" android:layout_weight="1.0" android:inputType="text" />
+    </LinearLayout>
+</FrameLayout>

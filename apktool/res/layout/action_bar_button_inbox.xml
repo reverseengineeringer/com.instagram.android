@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="right" android:id="@id/action_bar_inbox_icon_with_badge" android:layout_width="@dimen/action_bar_button_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/action_bar_inbox_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nav_inbox" app:normal="?glyphColorPrimary" />
+    <TextView android:layout_gravity="center" android:id="@id/action_bar_inbox_new_count" android:visibility="gone" android:layout_marginLeft="10.0dip" android:layout_marginBottom="6.0dip" style="@style/NotificationBadge" />
+</FrameLayout>

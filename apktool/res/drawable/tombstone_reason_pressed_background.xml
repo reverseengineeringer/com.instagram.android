@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/grey_1_5" />
+        </shape>
+    </item>
+    <item android:top="@dimen/tombstone_reason_border_height">
+        <shape>
+            <solid android:color="@color/grey_1" />
+            <padding android:top="@dimen/tombstone_reason_border_height" />
+        </shape>
+    </item>
+</layer-list>

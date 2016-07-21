@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/row_user_container" android:background="?backgroundDrawable" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_user_imageview" android:layout_marginRight="@dimen/row_text_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Avatar.Medium" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/button" android:layout_toRightOf="@id/row_user_imageview" android:layout_centerVertical="true">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:drawablePadding="3.0dip" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include android:layout_gravity="bottom|center" android:id="@id/bottom_row_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" style="?attr/defaultDividerStyle" layout="@layout/row_divider" />
+</FrameLayout>

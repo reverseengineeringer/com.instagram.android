@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/thread_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/layout_listview_with_progress" />
+    <FrameLayout android:layout_gravity="bottom|center" android:id="@id/direct_thread_new_comment_avatar_view" android:background="@drawable/direct_new_comment_avatar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/direct_thread_new_comment_avatar" style="@style/Avatar.Small" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/thread_title_change_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:gravity="center_vertical" android:id="@id/new_thread_title" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="@dimen/row_height_small" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/direct_thread_title_change_hint" android:singleLine="true" android:inputType="text" android:imeOptions="actionDone" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="end|center" android:id="@id/cancel_change_title" android:layout_width="@dimen/row_height_small" android:layout_height="@dimen/row_height_small" android:layout_marginRight="4.0dip" android:src="@drawable/nav_cancel" android:scaleType="center" android:layout_marginEnd="4.0dip" app:normal="@color/grey_light" app:active_alpha="0x80" />
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+</FrameLayout>

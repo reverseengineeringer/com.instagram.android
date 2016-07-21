@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/education_unit" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/education_button" android:layout_width="fill_parent" android:layout_height="38.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:text="@string/insights_explanation" android:drawableRight="@drawable/caret" android:drawableEnd="@drawable/caret" />
+    <LinearLayout android:orientation="vertical" android:id="@id/education_text" android:visibility="gone" android:animateLayoutChanges="true" style="@style/PaddedRow" />
+</LinearLayout>

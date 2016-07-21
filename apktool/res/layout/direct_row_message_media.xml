@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerMediaFrameLayout android:layout_width="@dimen/direct_row_message_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/row_message_media_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/doubletap_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_like_big" android:scaleX="0.0" android:scaleY="0.0" />
+    <com.instagram.common.ui.widget.videopreviewview.VideoPreviewView android:id="@id/video_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.ui.mediaactions.MediaActionsView android:layout_gravity="center|right|top" android:id="@id/video_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerMediaFrameLayout>

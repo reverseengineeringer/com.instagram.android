@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout style="@style/PaddedRow">
+            <com.instagram.ui.text.FreightSansTextView android:text="@string/photos_of_you" style="@style/RowHeaderText" />
+            <include layout="@layout/row_header_divider" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tag_option_automatically_container" style="@style/IgSettingsRadioButton">
+            <TextView android:textStyle="bold" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/people_tagging_add_automatically" android:layout_weight="1.0" />
+            <com.instagram.android.widget.IndeterminateCheckBox android:id="@id/tag_option_automatically" android:background="@drawable/check" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        </LinearLayout>
+        <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tag_option_manually_container" style="@style/IgSettingsRadioButton">
+            <TextView android:textStyle="bold" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/people_tagging_add_manually" android:layout_weight="1.0" />
+            <com.instagram.android.widget.IndeterminateCheckBox android:id="@id/tag_option_manually" android:background="@drawable/check" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+        </LinearLayout>
+        <View android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+        <TextView android:textColor="@color/grey_light" android:id="@id/learn_more_photos_of_you" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:lineSpacingExtra="4.0dip" />
+    </LinearLayout>
+</ScrollView>

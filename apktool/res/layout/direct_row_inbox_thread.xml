@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/row_inbox_container" android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/direct_row_inbox_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/toggle" android:background="@drawable/share_checkbox_background" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/row_text_button_padding" android:button="@null" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <com.instagram.ui.widget.selectableavatar.SingleSelectableAvatar android:id="@id/row_inbox_single_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/toggle" android:layout_centerVertical="true" app:avatarWidth="@dimen/direct_row_inbox_avatar_size" />
+    <com.instagram.ui.widget.selectableavatar.DoubleSelectableAvatar android:id="@id/row_inbox_double_avatar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/toggle" android:layout_centerVertical="true" app:avatarWidth="@dimen/direct_row_inbox_avatar_size" />
+    <FrameLayout android:id="@id/row_inbox_thumbnail_frame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_text_padding" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.instagram.common.ui.widget.imageview.ConstrainedImageView android:id="@id/row_inbox_thumbnail" android:layout_width="@dimen/direct_row_inbox_thumbnail_size" android:layout_height="@dimen/direct_row_inbox_thumbnail_size" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/row_inbox_username_digest_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_row_message_comment_padding_sides" android:layout_toLeftOf="@id/row_inbox_thumbnail_frame" android:layout_centerVertical="true">
+        <com.instagram.ui.text.MinimizeEllipsisTextView android:textSize="16.0sp" android:textColor="@color/grey_medium" android:ellipsize="end" android:id="@id/row_inbox_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_inbox_digest" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_2" android:id="@id/row_inbox_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@id/row_inbox_mute" android:paddingTop="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:src="@drawable/direct_thread_mute" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/inline_gallery_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/modal_scrim" android:background="@color/black_50_transparent" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/inline_gallery_tray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/prompt_mode_title_bar" android:background="@color/accent_blue_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/inline_gallery_peeked_height">
+            <TextView android:textSize="12.0dip" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/prompt_mode_title_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/inline_gallery_peek_bar_dismiss_button_width" android:layout_marginRight="@dimen/inline_gallery_peek_bar_dismiss_button_width" android:text="@string/inline_gallery_title_recent_photos" android:lines="1" android:alpha="1.0" />
+            <ImageView android:layout_gravity="right" android:id="@id/inline_gallery_close_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/inline_gallery_close" android:scaleType="center" android:alpha="0.7" />
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ui_mode_title_bar" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <com.instagram.common.ui.widget.imageview.IgImageView android:layout_gravity="center|left" android:id="@id/add_to_post_thumb" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="8.0dip" />
+            <com.instagram.ui.text.FreightSansTextView android:textSize="18.0dip" android:textColor="@color/grey_dark" android:layout_gravity="center|left" android:id="@id/ui_mode_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/inline_gallery_title_recent" android:layout_weight="1.0" app:capitalize="?actionBarTextCapitalize" />
+            <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center|right" android:id="@id/launch_camera_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dock_camera_whiteout" app:normal="@color/grey_dark" />
+        </LinearLayout>
+        <HorizontalScrollView android:id="@id/gallery_scroller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+            <LinearLayout android:orientation="horizontal" android:id="@id/gallery_scroller_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@drawable/inline_gallery_item_divider" android:showDividers="middle" />
+        </HorizontalScrollView>
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:gravity="center" android:id="@id/ui_mode_cancel_button" android:background="@drawable/bg_simple_row" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/cancel" android:maxLines="1" />
+    </LinearLayout>
+</FrameLayout>

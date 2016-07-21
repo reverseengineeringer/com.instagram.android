@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_xlarge" android:gravity="center" android:id="@id/video_view_count_text" android:paddingTop="@dimen/view_count_header_padding" android:paddingBottom="@dimen/view_count_header_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:drawableTop="@drawable/play_button_large" android:drawablePadding="10.0dip" />
+    <include android:layout_gravity="bottom" android:id="@id/bottom_row_divider" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/row_divider" />
+</FrameLayout>

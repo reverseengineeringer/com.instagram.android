@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Imate %1$d promocija na čekanju.</item>
+        <item quantity="one">Imate %1$d promociju na čekanju.</item>
+        <item quantity="few">Imate %1$d promocije na čekanju.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">Na Instagramu je %1$s vaših prijatelja s Facebooka</item>
+        <item quantity="one">Na Instagramu je %1$s vaš prijatelj s Facebooka</item>
+        <item quantity="few">Na Instagramu su %1$s vaša prijatelja s Facebooka</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">Na Instagramu je %1$s vaših prijatelja sa servisa VKontakte</item>
+        <item quantity="one">Na Instagramu je %1$s vaš prijatelj sa servisa VKontakte</item>
+        <item quantity="few">Na Instagramu su %1$s vaša prijatelja sa servisa VKontakte</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s vaših kontakata je na Instagramu</item>
+        <item quantity="one">%1$s vaš kontakt je na Instagramu</item>
+        <item quantity="few">%1$s vaša kontakta su na Instagramu</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">Prije %1$s s</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">Prije %1$s minuta</item>
+        <item quantity="one">Prije %1$s minutu</item>
+        <item quantity="few">Prije %1$s minute</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">Prije %1$s h</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">Prije %1$s dana</item>
+        <item quantity="one">Prije %1$s dan</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">Prije %1$s tj.</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Odbij (%1$d)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Dopusti (%1$d)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s osoba</item>
+        <item quantity="few">%1$s osobe</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Vidjet će sve prethodne poruke iz ovog razgovora.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">Zahtjeva za poruku: %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Ne možete odabrati više od %1$d komentara odjednom.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d fotografija</item>
+        <item quantity="few">%1$d fotografije</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d novih objava</item>
+        <item quantity="one">%1$d nova objava</item>
+        <item quantity="few">%1$d nove objave</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s prijatelja na Facebooku</item>
+        <item quantity="one">%1$s prijatelj na Facebooku</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s kontakata</item>
+        <item quantity="one">%1$s kontakt</item>
+        <item quantity="few">%1$s kontakta</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d pregleda</item>
+        <item quantity="one">%1$d pregled</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d novih objava</item>
+        <item quantity="one">%1$d nova objava</item>
+        <item quantity="few">%1$d nove objave</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Na Instagramu je %1$s vaših prijatelja s Facebooka.</item>
+        <item quantity="one">Na Instagramu je %1$s vaš prijatelj s Facebooka.</item>
+        <item quantity="few">Na Instagramu su %1$s vaša prijatelja s Facebooka.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Na Instagramu imate %1$s novih prijatelja sa servisa VKontakte.</item>
+        <item quantity="one">Na Instagramu imate %1$s novog prijatelja sa servisa VKontakte.</item>
+        <item quantity="few">Na Instagramu imate %1$s nova prijatelja sa servisa VKontakte.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Pronađeno je %1$s kontakata.</item>
+        <item quantity="one">Pronađen je %1$s kontakt.</item>
+        <item quantity="few">Pronađena su %1$s kontakta.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Odabrano: %1$d</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">Izbrisano je %1$d komentara. Dodirnite za poništenje.</item>
+        <item quantity="one">Izbrisan je %1$d komentar. Dodirnite za poništenje.</item>
+        <item quantity="few">Izbrisana su %1$d komentara. Dodirnite za poništenje.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d osoba</item>
+        <item quantity="few">%1$d osobe</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">Odgovorilo je %1$d ljudi</item>
+        <item quantity="one">Odgovorila je %1$d osoba</item>
+        <item quantity="few">Odgovorile su %1$d osobe</item>
+    </plurals>
+</resources>

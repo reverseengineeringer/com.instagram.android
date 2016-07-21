@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reg_header" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginTop="@dimen/row_padding" android:layout_marginRight="@dimen/reg_field_horizontal_margin" android:layout_marginBottom="@dimen/row_padding">
+        <LinearLayout android:background="@drawable/login_input_field" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/username" android:background="@null" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="0.0dip" android:layout_height="@dimen/row_height_small" android:hint="@string/username" android:singleLine="true" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/username_validation" android:background="@drawable/validation_positive" android:visibility="gone" android:layout_width="@dimen/reg_icon_width" android:layout_height="@dimen/reg_icon_width" android:layout_marginRight="@dimen/reg_validation_padding" android:alpha="0.3" />
+        </LinearLayout>
+        <include layout="@layout/reg_next" />
+    </LinearLayout>
+</merge>

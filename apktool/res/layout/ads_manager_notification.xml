@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/vertical_separator_padding_large" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/vertical_separator_padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_vertical" style="@style/Avatar.Large">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ads_manager_icon" />
+            <TextView android:textSize="8.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/badge" android:background="@drawable/ads_manager_notification_badge_background" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/font_medium_large" android:textColor="@color/black_80_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promotions" />
+            <TextView android:textColor="@color/black_50_transparent" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/promoted_posts_subtitle" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</FrameLayout>

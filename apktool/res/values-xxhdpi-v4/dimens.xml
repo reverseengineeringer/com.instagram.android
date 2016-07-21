@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="photo_grid_spacing">6.0px</dimen>
+    <dimen name="circular_avatar_stroke_width">2.0px</dimen>
+    <dimen name="people_suggestion_header_avatar_stroke_width">7.0px</dimen>
+    <dimen name="camera_button_stroke_width">4.0px</dimen>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/category_text" android:freezesText="true" android:drawableLeft="@drawable/profile_list_whiteout" style="@style/FieldWithGlyph" />
+    <include android:layout_width="fill_parent" android:layout_height="3.0px" layout="@layout/row_divider" />
+</LinearLayout>

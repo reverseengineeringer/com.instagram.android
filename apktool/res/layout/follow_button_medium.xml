@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.user.follow.FollowButton android:id="@id/button" app:innerSpacing="2.0dip" app:followButtonStyle="medium" style="@style/IgFollowButtonBase.Medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

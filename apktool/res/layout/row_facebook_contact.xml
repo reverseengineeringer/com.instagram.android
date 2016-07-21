@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/row_facebookcontact_container" android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/row_facebookcontact_imageview" android:layout_marginRight="@dimen/row_text_padding" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_facebookcontact_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:scrollHorizontally="true" android:drawablePadding="3.0dip" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/invite_list_large_invite_button_stub" android:layout="@layout/invite_button_large" android:layout_width="@dimen/invite_button_row_width" android:layout_height="@dimen/follow_button_height" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/bottom_row_divider" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

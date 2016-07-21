@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/field_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginRight="@dimen/reg_field_horizontal_margin" android:textAllCaps="true" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center" android:id="@id/field_detail" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginRight="@dimen/reg_field_horizontal_margin" />
+</merge>

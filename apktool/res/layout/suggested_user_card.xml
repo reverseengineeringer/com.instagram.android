@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/card_padding" android:paddingBottom="@dimen/card_padding" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/card_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/suggested_user_card_container" android:background="@drawable/card_background" android:padding="@dimen/card_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/suggested_user_card_image" style="@style/Avatar.ExtraExtraLarge" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_dark" android:ellipsize="end" android:id="@id/suggested_user_card_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_text_padding" android:layout_marginBottom="@dimen/card_text_padding_small" android:singleLine="true" android:includeFontPadding="false" android:drawablePadding="3.0dip" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center|top" android:id="@id/suggested_user_card_context" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_text_padding" android:lines="2" android:includeFontPadding="false" />
+        <include android:id="@id/suggested_user_card_follow_button" android:layout_width="fill_parent" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_medium" />
+    </LinearLayout>
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center|right|top" android:id="@id/dismiss_button" android:padding="@dimen/card_close_button_padding" android:layout_width="@dimen/card_close_button_size" android:layout_height="@dimen/card_close_button_size" android:src="@drawable/nav_cancel" android:contentDescription="@string/dismiss" app:normal="@color/grey_light" app:active_alpha="0x80" />
+</FrameLayout>

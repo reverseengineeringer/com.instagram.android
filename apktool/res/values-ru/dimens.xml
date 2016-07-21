@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_switcher_button_search_textsize">17.0dip</dimen>
+</resources>

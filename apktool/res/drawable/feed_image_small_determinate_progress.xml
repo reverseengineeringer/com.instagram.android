@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="13.0dip" android:thickness="1.0px">
+            <solid android:color="@color/black_25_transparent" />
+            <size android:height="27.0dip" android:width="27.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="10.5dip" android:thickness="1.0px">
+            <solid android:color="@color/black_25_transparent" />
+            <size android:height="22.0dip" android:width="22.0dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/background">
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="11.0dip" android:thickness="2.0dip">
+            <solid android:color="@color/white_30_transparent" />
+            <size android:height="26.0dip" android:width="26.0dip" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring" android:useLevel="true" android:innerRadius="11.0dip" android:thickness="2.0dip">
+            <solid android:color="@color/white" />
+            <size android:height="26.0dip" android:width="26.0dip" />
+        </shape>
+    </item>
+</layer-list>

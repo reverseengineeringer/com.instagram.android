@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_recommeneded_user_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rec_users_refreshablelistview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_refreshablelistview_with_progress" />
+    <ViewStub android:id="@id/done_button_bottom_center" android:layout="@layout/reg_done_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

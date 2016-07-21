@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/direct_emoji_carousel_item" android:background="@color/white" android:layout_width="@dimen/direct_emoji_carousel_item_width" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_large" android:gravity="center" android:id="@id/direct_emoji_carousel_item_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/direct_emoji_carousel_item_image" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:contentDescription="@string/direct_emoji_carousel_image_button" />
+</FrameLayout>

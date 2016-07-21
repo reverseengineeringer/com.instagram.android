@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_80_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height">
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:id="@id/reel_menu_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/reel_menu_delete_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/trash" android:scaleType="center" app:normal="@color/white" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/reel_menu_save_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/save" android:scaleType="center" app:normal="@color/white" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/reel_menu_share_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/external_share" android:scaleType="center" app:normal="@color/white" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" layout="@layout/row_divider" />
+    <include layout="@layout/layout_listview" />
+</LinearLayout>

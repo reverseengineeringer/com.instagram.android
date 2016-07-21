@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+        <ImageView android:layout_gravity="center|left|top" android:id="@id/cross_button" android:layout_width="@dimen/action_bar_height" android:layout_height="fill_parent" android:src="@drawable/nav_arrow_back" android:scaleType="center" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/next" android:layout_width="@dimen/action_bar_height" android:layout_height="fill_parent" android:src="@drawable/nav_arrow_next" android:scaleType="center" />
+    </FrameLayout>
+    <include layout="@layout/create_page_group" />
+    <include layout="@layout/page_list_group" />
+</LinearLayout>

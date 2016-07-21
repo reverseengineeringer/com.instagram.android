@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/message_content" android:layout_width="@dimen/direct_row_message_width" android:layout_height="fill_parent" android:foreground="@drawable/message_mask" android:foregroundGravity="fill|clip_horizontal|clip_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.videopreviewview.VideoPreviewView android:id="@id/video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/play_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_play" />
+    <include layout="@layout/double_tap_big_heart" />
+</FrameLayout>

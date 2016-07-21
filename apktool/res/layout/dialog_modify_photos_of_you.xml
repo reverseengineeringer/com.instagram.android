@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/photo_of_you_container" android:background="@drawable/bg_simple_row" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:minHeight="@dimen/row_height_small">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textStyle="bold" android:layout_gravity="center|left" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/people_tagging_show_in_my_profile" android:layout_weight="1.0" />
+            <com.instagram.ui.widget.switchbutton.IgSwitch android:id="@id/photo_of_you_switch" android:paddingRight="@dimen/row_text_padding" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+</LinearLayout>

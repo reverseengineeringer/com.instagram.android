@@ -1,0 +1,168 @@
+package com.instagram.android.graphql.enums;
+
+public final class b
+{
+  public static String a(int paramInt)
+  {
+    switch (paramInt)
+    {
+    default: 
+      return "UNSET";
+    case 1: 
+      return "AdAccount";
+    case 2: 
+      return "AdAccountPaymentMethod";
+    case 3: 
+      return "AdAccountPaymentMethodsConnection";
+    case 4: 
+      return "AdAccountPaymentMethodsEdge";
+    case 5: 
+      return "AdCreative";
+    case 6: 
+      return "AdminedPagesConnection";
+    case 7: 
+      return "Application";
+    case 8: 
+      return "BoostedComponent";
+    case 9: 
+      return "BoostedComponentAudience";
+    case 10: 
+      return "BoostedComponentDeleteResponsePayload";
+    case 11: 
+      return "BoostedComponentInsightsSet";
+    case 12: 
+      return "CallToAction";
+    case 13: 
+      return "CurrencyQuantity";
+    case 14: 
+      return "DirectDebit";
+    case 15: 
+      return "Entity";
+    case 16: 
+      return "EntityAtRange";
+    case 17: 
+      return "Event";
+    case 18: 
+      return "EventDiscoverCategoryFormatData";
+    case 19: 
+      return "ExternalCreditCard";
+    case 20: 
+      return "ExternalUrl";
+    case 21: 
+      return "FamilyNonUserMember";
+    case 22: 
+      return "GraphSearchQuery";
+    case 23: 
+      return "Group";
+    case 24: 
+      return "Hashtag";
+    case 25: 
+      return "Image";
+    case 26: 
+      return "InstagramAttachment";
+    case 27: 
+      return "InstagramAttachmentsConnection";
+    case 28: 
+      return "InstagramBoostedPostsConnection";
+    case 29: 
+      return "InstagramBoostedPostsEdge";
+    case 30: 
+      return "InstagramBusinessInfoCreateResponsePayload";
+    case 31: 
+      return "InstagramBusinessInfoDeleteResponsePayload";
+    case 32: 
+      return "InstagramBusinessInfoUpdateResponsePayload";
+    case 33: 
+      return "InstagramBusinessProfile";
+    case 34: 
+      return "InstagramInlineInsightsConnection";
+    case 35: 
+      return "InstagramInsightsAllMediasFilterMediaTypeCell";
+    case 36: 
+      return "InstagramInsightsConnection";
+    case 37: 
+      return "InstagramInsightsFilterCell";
+    case 38: 
+      return "InstagramInsightsParagraph";
+    case 39: 
+      return "InstagramInsightsQuery";
+    case 40: 
+      return "InstagramInsightsTab";
+    case 41: 
+      return "InstagramInsightsUnit";
+    case 42: 
+      return "InstagramMedia";
+    case 43: 
+      return "InstagramUser";
+    case 44: 
+      return "Location";
+    case 45: 
+      return "Node";
+    case 46: 
+      return "Page";
+    case 47: 
+      return "PageAdminInfo";
+    case 48: 
+      return "PageInfo";
+    case 49: 
+      return "PaymentMethodToken";
+    case 50: 
+      return "PaypalBillingAgreement";
+    case 51: 
+      return "Phone";
+    case 52: 
+      return "PhoneNumber";
+    case 53: 
+      return "SearchShortcut";
+    case 54: 
+      return "Searchable";
+    case 55: 
+      return "SearchableEntitiesQuery";
+    case 56: 
+      return "SearchableResultsConnection";
+    case 57: 
+      return "SimpleChartData";
+    case 58: 
+      return "SimpleChartDataPoint";
+    case 59: 
+      return "SimpleChartTab";
+    case 60: 
+      return "StreetAddress";
+    case 61: 
+      return "StructuredSurvey";
+    case 62: 
+      return "StructuredSurveyBranchNodeResponseMapEntry";
+    case 63: 
+      return "StructuredSurveyConfiguredQuestion";
+    case 64: 
+      return "StructuredSurveyControlNode";
+    case 65: 
+      return "StructuredSurveyFlow";
+    case 66: 
+      return "StructuredSurveyFlowBucket";
+    case 67: 
+      return "StructuredSurveyFlowPage";
+    case 68: 
+      return "StructuredSurveyQuestionTokenParam";
+    case 69: 
+      return "StructuredSurveyResponseOption";
+    case 70: 
+      return "StructuredSurveySession";
+    case 71: 
+      return "SurveyConfig";
+    case 72: 
+      return "SurveyIntegrationPoint";
+    case 73: 
+      return "TextWithEntities";
+    case 74: 
+      return "User";
+    }
+    return "Viewer";
+  }
+}
+
+/* Location:
+ * Qualified Name:     com.instagram.android.graphql.enums.b
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

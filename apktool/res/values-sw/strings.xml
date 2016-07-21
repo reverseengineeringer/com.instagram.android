@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Chaguo zaidi</string>
+    <string name="feed_browser_cannot_load_page">Ukurasa hauwezi kupakiwa</string>
+    <string name="browser_ssl_error_title">Hitilafu ya usalama</string>
+    <string name="browser_ssl_error_message">Kuna matatizo na cheti cha usalama cha tovuti hii.</string>
+    <string name="browser_ssl_error_positive_button_text">Rudi Nyuma</string>
+    <string name="feed_browser_menu_item_install_specific_app">sakinisha %1$s</string>
+    <string name="feed_browser_menu_item_install_app">Sakinisha Programu</string>
+    <string name="feed_browser_menu_item_open_with_specific_app">Fungua katika %1$s</string>
+    <string name="feed_browser_menu_item_open_with_app">Fungua katika programu</string>
+    <string name="feed_browser_menu_item_open_with">Fungua na ...</string>
+    <string name="browser_stop_load_button_description">Sitisha kupakia ukurasa huu</string>
+    <string name="browser_reload_button_description">Pakia tena ukurasa huu</string>
+    <string name="browser_zoom_in_button_description">Kuza karibu</string>
+    <string name="browser_zoom_out_button_description">Fifiza</string>
+    <string name="browser_close_button_description">Chagua kivinjari</string>
+</resources>

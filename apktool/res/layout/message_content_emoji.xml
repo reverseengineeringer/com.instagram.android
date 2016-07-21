@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/direct_row_message_emoji_text_size" android:textColor="@color/grey_medium" android:layout_gravity="left" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing" android:maxWidth="@dimen/direct_row_message_width"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

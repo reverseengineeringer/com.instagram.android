@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/toolbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/toolbar" android:background="@drawable/reel_viewer_shadow_bottom" android:paddingLeft="@dimen/row_text_padding" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center_vertical" android:id="@id/toolbar_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/nav_spinner_with_outline" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center|left" android:id="@id/toolbar_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:singleLine="true" android:drawablePadding="4.0dip" style="@style/ShadowTextViewStyle" />
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center|left" android:id="@id/toolbar_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/ShadowTextViewStyle" />
+        <android.support.v4.widget.Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/toolbar_menu_button" android:paddingLeft="@dimen/row_text_padding" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/media_option_button" android:scaleType="center" app:normal="@color/white" />
+    </LinearLayout>
+</FrameLayout>

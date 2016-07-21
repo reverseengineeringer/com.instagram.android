@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_geogrid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_listview" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_geogrid_bar" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <include layout="@layout/row_divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@drawable/maps_button_normal_color" android:gravity="center" android:id="@id/layout_geogrid_button_unselect_all" android:background="@drawable/bg_simple_row" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/deselect_all" android:layout_weight="1.0" />
+            <include layout="@layout/vertical_divider" />
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@drawable/maps_button_normal_color" android:gravity="center" android:id="@id/layout_geogrid_button_select_all" android:background="@drawable/bg_simple_row" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/select_all" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

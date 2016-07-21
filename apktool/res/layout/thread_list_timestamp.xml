@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center|right" android:id="@id/message_timestamp" android:paddingLeft="@dimen/direct_row_message_common_padding" android:layout_width="@dimen/direct_row_message_timestamp_width" android:layout_height="@dimen/avatar_size_small" android:maxLines="1" android:drawablePadding="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

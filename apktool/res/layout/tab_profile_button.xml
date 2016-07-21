@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/tab_avatar" android:background="?tabButtonProfileDrawable" android:duplicateParentState="true" style="@style/Avatar.TabBar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

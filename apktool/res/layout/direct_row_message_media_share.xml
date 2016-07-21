@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_message_header" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height">
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_message_media_share_avatar" android:layout_marginLeft="@dimen/direct_row_message_common_padding" android:layout_marginRight="@dimen/direct_row_message_common_padding" style="@style/Avatar.XSmall" />
+            <TextView android:textSize="@dimen/direct_row_message_comment_text_size" android:textStyle="bold" android:textColor="?textColorBoldLink" android:ellipsize="end" android:id="@id/row_message_media_share_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/TextViewStyle.Feed" />
+        </LinearLayout>
+        <com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/bubble_border_square" android:layout_below="@id/row_message_header">
+            <com.instagram.feed.widget.IgProgressImageView android:id="@id/row_message_media_image" android:layout_width="fill_parent" android:layout_height="0.0dip" app:fitAspectRatio="true" />
+            <com.instagram.ui.mediaactions.MediaActionsView android:layout_gravity="end|center|top" android:id="@id/video_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </com.instagram.common.ui.widget.framelayout.MediaFrameLayout>
+        <TextView android:textSize="@dimen/font_medium" android:textColor="?textColorDirectShareCaption" android:ellipsize="end" android:id="@id/row_message_media_caption" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/direct_row_message_common_padding" android:maxLines="2" android:layout_below="@id/media_container" />
+    </RelativeLayout>
+</com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout>

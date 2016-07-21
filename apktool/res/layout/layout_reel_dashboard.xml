@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/grey_0_whiteout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.reboundviewpager.ReboundViewPager android:id="@id/view_pager" android:paddingTop="@dimen/action_bar_height" android:paddingBottom="24.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="end|center|top" android:id="@id/button_close" android:layout_height="@dimen/action_bar_height" android:src="@drawable/nav_cancel" android:contentDescription="@string/cancel" style="@style/ActionBarButton.Modal" />
+        <com.instagram.ui.widget.triangleshape.TriangleShape android:layout_gravity="bottom" android:id="@id/notch" android:layout_width="fill_parent" android:layout_height="12.0dip" app:fillColor="@color/white" app:lineColor="@color/grey_5_whiteout" />
+    </FrameLayout>
+    <include android:id="@id/menu" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/layout_listview" />
+</LinearLayout>

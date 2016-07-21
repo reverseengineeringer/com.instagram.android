@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginRight="@dimen/photo_grid_spacing" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.imagebutton.IgMultiImageButton android:id="@id/image_button" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/text_overlay" android:background="@drawable/text_overlay_shadow" android:paddingTop="@dimen/bottom_overlay_top_padding" android:paddingBottom="@dimen/bottom_overlay_bottom_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

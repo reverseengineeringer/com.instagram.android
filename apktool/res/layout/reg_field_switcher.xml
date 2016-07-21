@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/textfield_padding">
+        <include android:id="@id/left_tab" layout="@layout/reg_tab" />
+        <include android:id="@id/right_tab" layout="@layout/reg_tab" />
+    </LinearLayout>
+    <ViewStub android:id="@id/email_field_stub" android:layout="@layout/reg_email_field" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    <ViewStub android:id="@id/phone_field_stub" android:layout="@layout/reg_phone_field" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    <ViewStub android:id="@id/username_email_field_stub" android:layout="@layout/reg_username_email_field" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    <include android:id="@id/next_button_1" layout="@layout/reg_next" />
+    <include android:id="@id/next_button_2" layout="@layout/reg_next" />
+</merge>

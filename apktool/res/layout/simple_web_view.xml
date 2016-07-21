@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.webview.IgWebView android:id="@id/web_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_indicator" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/spinner_large" android:foregroundGravity="center" />
+</FrameLayout>

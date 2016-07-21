@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?filterListBackground" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/filter_handle" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/grabber" app:normal="?glyphColorSecondary" />
+    <ImageView android:id="@id/filter_image" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+    <CheckedTextView android:textSize="@dimen/font_small" android:textStyle="bold" android:textColor="?filterListItemText" android:gravity="center|left" android:id="@id/filter_name" android:paddingLeft="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

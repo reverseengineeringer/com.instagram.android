@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Vous avez %1$d promotions en attente.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s de vos amis Facebook sont sur Instagram.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s de vos amis VKontakte sont sur Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s de vos contacts sont sur Instagram.</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">il y a %1$s secondes</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">il y a %1$s minutes</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">il y a %1$s heures</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">il y a %1$s jours</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">il y a %1$s semaines</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Refuser (%1$d)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Autoriser (%1$d)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s personnes</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Ils verront tous les messages précédents de cette conversation.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s invitations par message</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Vous ne pouvez choisir que %1$d commentaires à la fois.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d photos</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d nouvelles publications</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s amis Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s contacts</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d spectateurs</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d nouvelles publications</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Vous avez %1$s amis Facebook sur Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Vous avez %1$s amis VKontakte sur Intagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s contacts trouvés.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d sélectionnés</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d commentaires supprimés. Touchez pour annuler.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d personnes</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d personnes ont répondu.</item>
+    </plurals>
+</resources>

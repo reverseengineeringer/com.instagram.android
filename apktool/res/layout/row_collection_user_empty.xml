@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/row_recommended_empty_card" android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/row_recommended_empty_card_image" android:layout_width="wrap_content" android:layout_height="@dimen/avatar_size_small" android:layout_marginBottom="@dimen/row_text_button_padding" android:contentDescription="@string/empty_photos" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_3" android:id="@id/row_recommended_empty_card_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

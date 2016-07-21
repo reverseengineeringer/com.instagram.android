@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/modal_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="end" android:id="@id/close_button" android:background="@null" android:padding="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close_dialog_button" />
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/message_avatar_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:layout_gravity="center" android:id="@id/message_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@string/profile_photo_post_message_title" />
+    <TextView android:textColor="@color/grey_9_whiteout" android:gravity="center" android:layout_gravity="center" android:id="@id/message_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="24.0dip" android:text="@string/profile_photo_post_message_body" android:lineSpacingExtra="4.0dip" />
+    <include layout="@layout/row_divider" />
+    <TextView android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/button_blue" android:background="@drawable/dialog_bottom_button_blue" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+</LinearLayout>

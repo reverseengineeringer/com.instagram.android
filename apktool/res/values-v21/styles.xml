@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="IgDialogNoStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Base.Theme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">@color/grey_9_whiteout</item>
+        <item name="android:colorAccent">@color/blue_5_whiteout</item>
+        <item name="android:colorEdgeEffect">@color/grey_3_whiteout</item>
+    </style>
+    <style name="Base.Theme.Instagram" parent="@style/Base.Theme">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:buttonStyle">@style/ButtonStyle</item>
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:autoCompleteTextViewStyle">@style/IgAutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/IgTextboxStyle</item>
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+        <item name="android:tabWidgetStyle">@android:style/Widget.TabWidget</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
+        <item name="android:textColorLink">@color/accent_blue_medium</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:dialogTheme">@style/IgDialog</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="glyphColorPrimary">@color/white</item>
+        <item name="glyphColorSecondary">#ff898c8d</item>
+        <item name="glyphColorSecondaryActive">@color/grey_medium</item>
+        <item name="textColorPrimary">@color/white</item>
+        <item name="textColorSecondary">@color/grey_medium</item>
+        <item name="textColorTertiary">@color/grey_light</item>
+        <item name="textColorQuaternary">@color/grey_light</item>
+        <item name="textColorSelected">@color/accent_blue_medium</item>
+        <item name="textColorBoldLink">@color/blue_medium</item>
+        <item name="textColorRegularLink">@color/blue_medium</item>
+        <item name="textColorHyperlink">@color/accent_blue_medium</item>
+        <item name="backgroundColorPrimary">@color/blue_medium</item>
+        <item name="backgroundColorPrimaryDark">@color/status_bar_blue_background</item>
+        <item name="backgroundColorSecondary">@color/white</item>
+        <item name="backgroundColorHighlight">@color/orange_5</item>
+        <item name="backgroundColorHighlightPressed">@color/orange_6</item>
+        <item name="backgroundDrawable">@drawable/bg_simple_row</item>
+        <item name="defaultSpinnerStyle">@style/SpinnerTextStyle</item>
+        <item name="segmentedUnderlineWidth">@dimen/segmented_underline_width</item>
+        <item name="igSwitchStyle">@style/IgSwitchStyle</item>
+    </style>
+    <style name="Base.Theme.Instagram.White" parent="@style/Base.Theme.Instagram">
+        <item name="android:statusBarColor">@color/status_bar_grey_background</item>
+        <item name="glyphColorPrimary">@color/grey_9_whiteout</item>
+        <item name="glyphColorSecondary">@color/grey_5_whiteout</item>
+        <item name="glyphColorSecondaryActive">@color/grey_medium</item>
+        <item name="textColorPrimary">@color/grey_9_whiteout</item>
+        <item name="textColorSecondary">@color/grey_9_whiteout</item>
+        <item name="textColorTertiary">@color/grey_5_whiteout</item>
+        <item name="textColorQuaternary">@color/grey_3_whiteout</item>
+        <item name="textColorSelected">@color/grey_9_whiteout</item>
+        <item name="textColorBoldLink">@color/grey_9_whiteout</item>
+        <item name="textColorRegularLink">@color/blue_8_whiteout</item>
+        <item name="textColorHyperlink">@color/blue_8_whiteout</item>
+        <item name="backgroundColorPrimary">@color/white</item>
+        <item name="backgroundColorPrimaryDark">@color/status_bar_grey_background</item>
+        <item name="backgroundColorSecondary">@color/white</item>
+        <item name="backgroundColorHighlight">@color/red_5_whiteout</item>
+        <item name="backgroundColorHighlightPressed">@color/red_6_whiteout</item>
+        <item name="defaultSpinnerStyle">@style/SpinnerTextStyle.Whiteout</item>
+        <item name="segmentedUnderlineWidth">@dimen/segmented_underline_width_whiteout</item>
+    </style>
+    <style name="ImmersiveViewerOverlay">
+        <item name="android:colorControlNormal">@color/white_75_transparent</item>
+        <item name="glyphColorSecondary">@color/white</item>
+        <item name="glyphColorSecondaryActive">@color/white_55_transparent</item>
+        <item name="textColorSecondary">@color/white</item>
+        <item name="textColorTertiary">@color/white_55_transparent</item>
+        <item name="textColorBoldLink">@color/white</item>
+        <item name="textColorRegularLink">@color/white</item>
+        <item name="textColorHyperlink">@color/white_55_transparent</item>
+        <item name="backgroundColorSecondary">@color/transparent</item>
+        <item name="backgroundDrawable">@null</item>
+        <item name="textColorLocation">@color/white</item>
+        <item name="boldAllLinks">true</item>
+        <item name="shouldHideAllComments">true</item>
+    </style>
+</resources>

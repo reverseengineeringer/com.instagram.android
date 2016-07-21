@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/carousel_video_media_group" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:forceFullWidth="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/carousel_video_image" android:layout_width="fill_parent" android:layout_height="fill_parent" app:perfTrackingCategory="feed_photo" />
+    <com.instagram.ui.mediaactions.MediaActionsView android:id="@id/carousel_video_media_actions" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/media_subtitle_view_stub" android:layout="@layout/view_media_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/subtitle_horizontal_margin" android:layout_marginRight="@dimen/subtitle_horizontal_margin" android:layout_marginBottom="@dimen/subtitle_margin_bottom" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/video_capture_blinker" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/recording_blinker" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="?textColorPrimary" android:id="@id/video_capture_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+</LinearLayout>

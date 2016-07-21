@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/empty_state_view_loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_horizontal" android:id="@id/empty_state_view_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" />
+    <TextView android:id="@id/empty_state_view_title" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmptyViewTitle" />
+    <TextView android:id="@id/empty_state_view_subtitle" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/EmptyViewSubtitle" />
+    <Button android:id="@id/empty_state_view_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/row_padding" style="@style/LargeBlueButton" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/fixed_tabbar_tabs_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.ui.widget.fixedtabbar.FixedTabBarIndicator android:layout_gravity="bottom" android:id="@id/selected_tab_indicator" android:layout_width="wrap_content" android:layout_height="?segmentedUnderlineWidth" />
+</merge>

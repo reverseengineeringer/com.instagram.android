@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/capture_controls" android:background="?creationPrimaryBackground" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/clip_stack_view_container" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="1.0dip" android:alpha="0.0">
+        <View android:id="@id/minimum_clip_length_image" android:background="?captureCamcorderBlinkerColor" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <com.instagram.creation.video.ui.ClipStackView android:id="@id/clip_stack_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:clipBackground="?captureCamcorderProgressDrawable" app:clipBackgroundSoftDelete="?captureCamcorderProgressActiveDrawable" />
+        <com.instagram.creation.video.ui.CamcorderBlinker android:id="@id/blinker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camcorder_track_light" app:normal="?captureCamcorderBlinkerColor" />
+    </FrameLayout>
+    <com.instagram.creation.video.ui.VideoCaptureTimerView android:layout_gravity="center" android:id="@id/video_capture_timer_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.instagram.creation.capture.ShutterButton android:layout_gravity="center_horizontal" android:id="@id/shutter_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/camera_shutter_button_size_large" android:layout_height="@dimen/camera_shutter_button_size_large" android:layout_marginBottom="@dimen/tabbed_camera_shutter_button_margin" android:contentDescription="@string/shutter" />
+    <View android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/row_user_imageview" android:layout_marginTop="@dimen/high_confidence_recovery_top_margin" android:layout_marginBottom="@dimen/row_padding" style="@style/Avatar.ExtraExtraExtraLarge" />
+    <include layout="@layout/reg_title" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/fragment_high_confidence_recovery_high" android:background="@drawable/button_white_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginTop="@dimen/row_padding" android:layout_marginRight="@dimen/reg_field_horizontal_margin" android:layout_marginBottom="@dimen/row_padding" android:text="@string/high_confidence_recovery_high" android:drawablePadding="4.0dip" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/font_small" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/fragment_high_confidence_recovery_low" android:paddingBottom="@dimen/row_text_padding" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/login_horizontal_margin" android:layout_marginRight="@dimen/login_horizontal_margin" android:text="@string/high_confidence_recovery_low" />
+</merge>

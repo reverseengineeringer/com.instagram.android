@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/action_bar_cancel" android:src="@drawable/nav_cancel" android:contentDescription="@string/cancel" style="@style/ActionBarButton.Modal" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.ui.widget.base.TriangleSpinner android:id="@id/gallery_folder_menu" android:background="@null" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:popupBackground="?creationSpinnerBackground" android:dropDownWidth="wrap_content" app:triangleColor="@color/grey_5" />
+        <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/photo_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/photo" style="?attr/actionBarTitleStyle" />
+        <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/video_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/video" style="?attr/actionBarTitleStyle" />
+    </FrameLayout>
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/next" android:visibility="gone" android:src="@drawable/nav_arrow_next" android:contentDescription="@string/next" android:alpha="0.0" app:normal="@color/accent_blue_medium" style="@style/ActionBarButton.Modal" />
+    <com.instagram.ui.text.FreightSansTextView android:textColor="@color/accent_blue_medium" android:gravity="center" android:id="@id/next_button_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/next" android:contentDescription="@string/next" style="?attr/actionBarTextButtonStyle" />
+</merge>

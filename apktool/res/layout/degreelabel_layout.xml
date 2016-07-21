@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/degree_label_container" android:background="@drawable/degreelabel_bg" android:layout_width="wrap_content" android:layout_height="@dimen/degreelabel_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/degreelabel_text_size" android:textColor="@color/accent_blue_medium" android:id="@id/degree_label" android:paddingLeft="@dimen/degreelabel_text_padding" android:paddingRight="@dimen/degreelabel_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/adjust_reset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rotation_reset" android:adjustViewBounds="true" />
+</LinearLayout>

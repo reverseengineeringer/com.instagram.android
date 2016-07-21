@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/thread_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ViewStub android:id="@id/recipients_bar_stub" android:layout="@layout/row_direct_metadata_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/thread_toggle_child_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ViewStub android:id="@id/row_permissions_choices" android:layout="@layout/direct_row_thread_pending_choices" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/row_message_composer" android:layout="@layout/direct_row_message_composer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.instagram.android.directsharev2.ui.mediacomposer.DirectMediaComposerView android:layout_gravity="bottom" android:id="@id/direct_media_composer" android:background="@android:color/black" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

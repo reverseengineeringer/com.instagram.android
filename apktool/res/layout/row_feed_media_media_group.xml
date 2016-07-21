@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_group" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:forceFullWidth="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/row_feed_photo_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:perfTrackingCategory="feed_photo" />
+    <Button android:layout_gravity="bottom|center|left" android:id="@id/row_feed_photo_tags_indicator" android:background="@drawable/tag_badge" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" />
+    <ViewStub android:id="@id/ads_overlay_view_stub" android:layout="@layout/view_ads_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.people.widget.PeopleTagsLayout android:id="@id/row_feed_photo_people_tagging" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.ui.mediaactions.LikeActionView android:layout_gravity="center" android:id="@id/like_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_like_big" android:scaleX="0.0" android:scaleY="0.0" />
+    <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/media_indicator_view_stub" android:layout="@layout/view_media_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginBottom="@dimen/feed_content_padding" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/media_subtitle_view_stub" android:layout="@layout/view_media_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/subtitle_horizontal_margin" android:layout_marginRight="@dimen/subtitle_horizontal_margin" android:layout_marginBottom="@dimen/subtitle_margin_bottom" />
+    <com.instagram.ui.mediaactions.MediaActionsView android:id="@id/row_feed_media_actions" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

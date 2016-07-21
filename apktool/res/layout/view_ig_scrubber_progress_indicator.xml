@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/dot1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32.0dip" android:src="@drawable/progress_dot" />
+    <ImageView android:layout_gravity="center" android:id="@id/dot2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/progress_dot" />
+    <ImageView android:layout_gravity="center" android:id="@id/dot3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:src="@drawable/progress_dot" />
+</merge>

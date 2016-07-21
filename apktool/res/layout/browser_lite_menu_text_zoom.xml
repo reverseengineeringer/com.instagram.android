@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.browser.lite.widget.MenuItemTextZoomView android:orientation="vertical" style="@style/BrowserMenuItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/text_zoom_out" android:background="@drawable/clickable_item_bg" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/browser_text_roboto_s" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/browser_zoom_out_button_description" />
+        <View android:layout_gravity="center_vertical" android:background="#ffe5e5e5" android:layout_width="1.0dip" android:layout_height="24.0dip" />
+        <TextView android:textSize="@dimen/browser_menu_text_size" android:textColor="@color/browser_more_menu_text_color" android:gravity="center" android:id="@id/browser_menu_zoom_percentage_display" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <View android:layout_gravity="center_vertical" android:background="#ffe5e5e5" android:layout_width="1.0dip" android:layout_height="24.0dip" />
+        <ImageButton android:id="@id/text_zoom_in" android:background="@drawable/clickable_item_bg" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/browser_text_roboto_l" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/browser_zoom_in_button_description" />
+    </LinearLayout>
+    <View android:id="@id/menu_divider" style="@style/MenuItemDivider" />
+</com.facebook.browser.lite.widget.MenuItemTextZoomView>

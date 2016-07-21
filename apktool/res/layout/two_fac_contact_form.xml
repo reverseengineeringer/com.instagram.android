@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <include layout="@layout/reg_title" /> ​​<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginTop="@dimen/row_padding" android:layout_marginRight="@dimen/reg_field_horizontal_margin" android:layout_marginBottom="@dimen/row_padding">
+        <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/signup_email_edittext" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="@dimen/twofac_contact_form_text_margin" android:cursorVisible="true" android:singleLine="true" android:drawableRight="@drawable/search_clear" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+        <CheckBox android:textSize="@dimen/font_medium" android:textColor="@color/white_70_transparent" android:id="@id/same_email_chbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-5.0dip" android:text="@string/same_as_signup_email" />
+        <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/contact_email_edittext" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="@dimen/twofac_contact_form_text_margin" android:singleLine="true" android:drawableRight="@drawable/search_clear" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+        <RadioGroup android:id="@id/account_type_radiogroup" android:background="@color/white_10_transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/twofac_contact_form_text_margin">
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/account_type_company" android:layout_marginBottom="-1.0px" android:text="@string/support_form_account_type_company" style="@style/IgWhiteRadioButton" />
+            <View android:background="@color/white_30_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/account_type_personal_with_photo" android:layout_marginBottom="-1.0px" android:text="@string/support_form_account_type_personal_with_photo" style="@style/IgWhiteRadioButton" />
+            <View android:background="@color/white_30_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/account_type_personal_without_photo" android:text="@string/support_form_account_type_personal_without_photo" style="@style/IgWhiteRadioButton" />
+        </RadioGroup>
+        <RadioGroup android:id="@id/failed_reason_radiogroup" android:background="@color/white_10_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/twofac_contact_form_text_margin">
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/failed_reason_forgot_email" android:layout_marginBottom="-1.0px" android:text="@string/drop_down_failed_reason_forgot_email" style="@style/IgWhiteRadioButton" />
+            <View android:background="@color/white_30_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/failed_reason_with_email" android:layout_marginBottom="-1.0px" android:text="@string/drop_down_failed_reason_with_email" style="@style/IgWhiteRadioButton" />
+            <View android:background="@color/white_30_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/failed_reason_acct_hacked" android:text="@string/drop_down_failed_reason_acct_hacked" style="@style/IgWhiteRadioButton" />
+            <View android:background="@color/white_30_transparent" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <com.instagram.ui.menu.CheckRadioButtonWhite android:id="@id/failed_reason_other" android:layout_marginBottom="-1.0px" android:text="@string/drop_down_failed_reason_other" style="@style/IgWhiteRadioButton" />
+        </RadioGroup>
+        <EditText android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:gravity="top" android:id="@id/additional_details_edittext" android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingTop="15.0dip" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_edittext" android:layout_marginBottom="@dimen/twofac_contact_form_text_margin" android:inputType="textAutoComplete|textMultiLine" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+        <include layout="@layout/reg_next" />
+    </LinearLayout>
+    <include layout="@layout/reg_footer" />
+</merge>

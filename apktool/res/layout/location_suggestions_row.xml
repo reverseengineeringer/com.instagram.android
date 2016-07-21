@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/location_row" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginTop="@dimen/vertical_separator_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/location_balloon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_text_padding" android:src="@drawable/share_location" />
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/venue_row" android:paddingLeft="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:ellipsize="end" android:id="@id/venue_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/venue_address" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/venue_name" android:layout_alignParentLeft="true" />
+    </LinearLayout>
+    <HorizontalScrollView android:gravity="center_vertical" android:id="@id/horizontal_scroll_view" android:scrollbars="none" android:fadingEdgeLength="@dimen/location_scroll_fade" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never" android:requiresFadingEdge="horizontal">
+        <LinearLayout android:orientation="horizontal" android:id="@id/suggested_locations_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textStyle="bold" android:id="@id/location_label" android:padding="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <FrameLayout android:id="@id/button_touch_area" android:paddingLeft="@dimen/location_button_padding" android:paddingTop="@dimen/location_button_padding" android:paddingBottom="@dimen/location_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/clear_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/clear_location" app:normal="@color/grey_3" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/location_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_location" app:normal="@color/grey_3" />
+    </FrameLayout>
+</LinearLayout>

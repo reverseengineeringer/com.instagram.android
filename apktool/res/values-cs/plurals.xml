@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Máte tu čekající propagace (celkem %1$d).</item>
+        <item quantity="one">Máte 1 čekající propagaci.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">Na Instagramu je několik vašich přátel z Facebooku (%1$s).</item>
+        <item quantity="one">Na Instagramu je jeden z vašich přátel z Facebooku.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">Někteří vaši přátelé (%1$s) ze služby VKontakte jsou na Instagramu.</item>
+        <item quantity="one">1 z vašich přátel ze služby VKontakte je na Instagramu.</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">Na Instagramu jsou některé z vašich kontaktů (%1$s).</item>
+        <item quantity="one">Jeden z vašich kontaktů je na Instagramu.</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">před %1$s sekundami</item>
+        <item quantity="one">před %1$s sekundou</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">před %1$s min</item>
+        <item quantity="one">před %1$s minutou</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">před %1$s hodinami</item>
+        <item quantity="one">Před %1$s hodinou</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">před %1$s dny</item>
+        <item quantity="one">před %1$s dnem</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">Před %1$s týdny</item>
+        <item quantity="one">před %1$s týdnem</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Zamítnout (%1$d)</item>
+        <item quantity="one">Odmítnout</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Povolit (%1$d)</item>
+        <item quantity="one">Povolit</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s lidí</item>
+        <item quantity="one">1 člověk</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Uvidí všechny předchozí zprávy v této konverzaci.</item>
+        <item quantity="one">%1$s uvidí předchozí zprávy v této konverzaci.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">Žádosti o zprávy (%1$s)</item>
+        <item quantity="one">Žádost o zprávu od %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Současně můžete zvolit víc komentářů (%1$d).</item>
+        <item quantity="one">Současně můžete zvolit jenom 1 komentář.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">Fotky (%1$d)</item>
+        <item quantity="one">1 fotka</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d nových příspěvků</item>
+        <item quantity="one">1 nový příspěvek</item>
+        <item quantity="few">%1$d nové příspěvky</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">Přátelé na Facebooku (%1$s)</item>
+        <item quantity="one">Přátelé na Facebooku (1)</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">Kontakty (%1$s)</item>
+        <item quantity="one">Kontakty (1)</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d diváků</item>
+        <item quantity="one">1 divák</item>
+        <item quantity="few">%1$d diváci</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d nových příspěvků</item>
+        <item quantity="one">1 nový příspěvek</item>
+        <item quantity="few">%1$d nové příspěvky</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Na Instagramu máte přátele z Facebooku (%1$s).</item>
+        <item quantity="one">Na Instagramu máte 1 přítele z Facebooku.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Na Instagramu máte přátele (%1$s) z VKontakte.</item>
+        <item quantity="one">Na Instagramu máte 1 přítele z VKontakte.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Nalezeny kontakty (%1$s).</item>
+        <item quantity="one">Nalezen 1 kontakt.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Vybrané položky (%1$d)</item>
+        <item quantity="one">1 vybraná položka</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">Komentáře odstraněny (celkem %1$d). Klepnutím akci vrátíte zpět.</item>
+        <item quantity="one">Komentář odstraněn. Klepnutím akci vrátíte zpět.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">Lidé (%1$d)</item>
+        <item quantity="one">1 osoba</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">Uživatelé (%1$d) odpověděli.</item>
+        <item quantity="one">Odpověděla 1 osoba.</item>
+    </plurals>
+</resources>

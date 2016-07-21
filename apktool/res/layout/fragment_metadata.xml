@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+    <LinearLayout android:orientation="vertical" android:id="@id/super_metadata_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.ui.widget.fixedtabbar.FixedTabBar android:id="@id/share_mode_tabbar" android:layout_width="fill_parent" style="?attr/fixedTabBarStyle" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.instagram.ui.viewpager.ScrollingOptionalViewPager android:layout_gravity="top" android:id="@id/metadata_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/metadata_tab_shadow" layout="@layout/view_switcher_shadow" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

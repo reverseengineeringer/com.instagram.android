@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Ai %1$d promovări în aşteptare.</item>
+        <item quantity="one">Ai 1 promoţie în aşteptare.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s dintre prietenii tăi Facebook sunt pe Instagram</item>
+        <item quantity="one">Unul dintre prietenii tăi Facebook este pe Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s dintre prietenii tăi VKontakte sunt pe Instagram</item>
+        <item quantity="one">Unul dintre prietenii tăi VKontakte este pe Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s dintre contactele tale sunt pe Instagram</item>
+        <item quantity="one">Unul dintre contactele tale este pe Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">acum %1$s de secunde</item>
+        <item quantity="one">acum %1$s secundă</item>
+        <item quantity="few">acum %1$s secunde</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">acum %1$s de minute</item>
+        <item quantity="one">acum %1$s minut</item>
+        <item quantity="few">acum %1$s minute</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">acum %1$s de ore</item>
+        <item quantity="one">acum %1$s oră</item>
+        <item quantity="few">acum %1$s ore</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">acum %1$s de zile</item>
+        <item quantity="one">acum %1$s zi</item>
+        <item quantity="few">acum %1$s zile</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">acum %1$s de săptămâni</item>
+        <item quantity="one">acum %1$s săptămână</item>
+        <item quantity="few">acum %1$s săptămâni</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Refuză (%1$d)</item>
+        <item quantity="one">Refuză</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Permite (%1$d)</item>
+        <item quantity="one">Permite</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s de persoane</item>
+        <item quantity="one">1 persoană</item>
+        <item quantity="few">%1$s persoane</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Vor vedea toate mesajele anterioare din această conversaţie.</item>
+        <item quantity="one">%1$s va vedea toate mesajele anterioare din această conversaţie.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s de cereri de mesaje</item>
+        <item quantity="one">Cerere de mesaj de la %1$s</item>
+        <item quantity="few">%1$s cereri de mesaje</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Poţi alege doar %1$d de comentarii odată.</item>
+        <item quantity="one">Poţi alege doar 1 comentariu odată.</item>
+        <item quantity="few">Poţi alege doar %1$d comentarii odată.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d fotografii</item>
+        <item quantity="one">1 fotografie</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d postări noi</item>
+        <item quantity="one">1 postare nouă</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s de prieteni Facebook</item>
+        <item quantity="one">1 prieten de pe Facebook</item>
+        <item quantity="few">%1$s prieteni Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s de contacte</item>
+        <item quantity="one">1 contact</item>
+        <item quantity="few">%1$s contacte</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d se uită</item>
+        <item quantity="one">1 se uită</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d postări noi</item>
+        <item quantity="one">1 postare nouă</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Ai %1$s de prieteni Facebook pe Instagram.</item>
+        <item quantity="one">Ai 1 prieten Facebook pe Instagram.</item>
+        <item quantity="few">Ai %1$s prieteni Facebook pe Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Ai %1$s de prieteni VKontakte pe Instagram.</item>
+        <item quantity="one">Ai 1 prieten VKontakte pe Instagram.</item>
+        <item quantity="few">Ai %1$s prieteni VKontakte pe Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s de contacte găsite.</item>
+        <item quantity="one">1 contact găsit.</item>
+        <item quantity="few">%1$s contacte găsite.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="one">1 selecţie</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d de comentarii au fost şterse. Atinge pentru a anula.</item>
+        <item quantity="one">Comentariu şters. Atinge pentru a anula.</item>
+        <item quantity="few">%1$d comentarii au fost şterse. Atinge pentru a anula.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d de persoane</item>
+        <item quantity="one">1 persoană</item>
+        <item quantity="few">%1$d persoane</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d de persoane au răspuns.</item>
+        <item quantity="one">1 persoană a răspuns.</item>
+        <item quantity="few">%1$d persoane au răspuns.</item>
+    </plurals>
+</resources>

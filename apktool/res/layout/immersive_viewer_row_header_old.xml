@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/row_feed_header" android:paddingLeft="@dimen/explore_event_viewer_row_header_side_margin" android:layout_width="fill_parent" android:layout_height="@dimen/explore_event_viewer_row_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_feed_photo_profile_imageview" android:layout_width="@dimen/explore_event_viewer_profile_picture_size" android:layout_height="@dimen/explore_event_viewer_profile_picture_size" />
+    <TextView android:textSize="@dimen/explore_event_viewer_username_font_size" android:textStyle="bold" android:textColor="@color/white" android:id="@id/row_feed_photo_profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/explore_event_viewer_row_header_side_margin" android:drawablePadding="3.0dip" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_feed_options_button" android:paddingLeft="@dimen/explore_event_viewer_row_header_tap_target_offset" android:paddingRight="@dimen/feed_more_button_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/media_option_button" android:contentDescription="@string/menu_options" app:normal="@color/white" app:active="@color/grey_light" />
+</LinearLayout>

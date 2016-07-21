@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/modal_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.ui.text.FreightSansTextView android:textSize="17.0sp" android:gravity="center" android:paddingLeft="@dimen/modal_text_side_padding" android:paddingTop="16.0dip" android:paddingRight="@dimen/modal_text_side_padding" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/boomerang_modal_title" android:minLines="2" />
+        <ImageButton android:layout_gravity="right" android:id="@id/close_button" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close_dialog_button" />
+    </FrameLayout>
+    <VideoView android:id="@id/video_view" android:layout_width="180.0dip" android:layout_height="180.0dip" android:layout_marginLeft="54.0dip" android:layout_marginRight="54.0dip" android:layout_marginBottom="16.0dip" />
+    <TextView android:textSize="13.0sp" android:gravity="center" android:paddingLeft="@dimen/modal_text_side_padding" android:paddingRight="@dimen/modal_text_side_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/boomerang_modal_message" />
+    <View android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+    <com.instagram.ui.text.FreightSansTextView android:textSize="17.0sp" android:textColor="@color/accent_blue_5" android:gravity="center" android:id="@id/positive_button" android:paddingLeft="@dimen/modal_text_side_padding" android:paddingTop="12.0dip" android:paddingRight="@dimen/modal_text_side_padding" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

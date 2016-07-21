@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/action_bar" style="@style/ActionBar.Modal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/action_bar_button_back" android:src="@drawable/nav_cancel" android:contentDescription="@string/back" style="@style/ActionBarButton.Modal" />
+    <com.instagram.ui.text.FreightSansTextView android:id="@id/action_bar_textview_title" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/people_tagging_add_people" android:layout_weight="1.0" style="?attr/actionBarTitleStyle" />
+    <com.instagram.actionbar.ActionButton android:id="@id/action_bar_button_done" android:visibility="gone" style="@style/ActionBarButton.Modal.Primary" />
+</LinearLayout>

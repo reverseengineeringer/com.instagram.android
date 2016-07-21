@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/os_version_blocking_text_margin" android:text="@string/os_version_block_text" android:layout_weight="1.0" style="@style/EmptyViewTitle" />
+    <Button android:id="@id/os_version_blocking_nav_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/os_version_blocking_button_margin" android:text="@string/os_version_block_button" style="@style/LargeBlueButton" />
+</LinearLayout>

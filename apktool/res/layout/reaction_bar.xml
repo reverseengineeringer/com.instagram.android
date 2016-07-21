@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="@dimen/direct_reaction_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/nux_container" android:paddingLeft="@dimen/direct_row_message_common_padding" android:paddingRight="@dimen/direct_row_message_common_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/direct_reactions_heart_width" android:layout_height="@dimen/direct_reactions_heart_height" android:src="@drawable/ufi_heart" android:adjustViewBounds="true" app:normal="?textColorTertiary" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:gravity="center_vertical" android:id="@id/nux_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_reactors_reaction_spacing" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/reactions_container" android:paddingLeft="@dimen/direct_row_message_common_padding" android:paddingRight="@dimen/direct_row_message_common_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center_vertical" android:id="@id/like_heart" android:clipToPadding="false" android:layout_width="@dimen/direct_reactions_heart_width" android:layout_height="@dimen/direct_reactions_heart_height" android:src="@drawable/direct_heart" android:adjustViewBounds="true" app:normal="?feedLikeActiveColor" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:gravity="center_vertical" android:id="@id/like_message" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_reactors_reaction_spacing" android:text="@string/direct_message_on_like" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/reactors" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/likers_spacing" android:showDividers="middle|beginning" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/top_image_row" android:layout_width="fill_parent" android:layout_height="73.0dip" android:layout_marginBottom="1.0px" android:divider="@drawable/thread_message_grid_horizontal_divider" android:showDividers="middle">
+        <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/image1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/image2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/image3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_image_row" android:layout_width="fill_parent" android:layout_height="73.0dip" android:divider="@drawable/thread_message_grid_horizontal_divider" android:showDividers="middle">
+        <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/image4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/image5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/image6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

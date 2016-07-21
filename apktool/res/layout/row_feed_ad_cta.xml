@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/row_feed_cta" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ad_cta_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:id="@id/cta_text" android:background="@color/accent_blue_medium" android:paddingLeft="@dimen/feed_content_padding" android:paddingRight="@dimen/feed_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/ad_cta_row_text_height" android:drawableRight="@drawable/right_chevron" />
+    <ViewStub android:layout_gravity="end" android:id="@id/carousel_indicator_stub" android:layout="@layout/carousel_page_indicator" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/divider_view" android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginRight="@dimen/feed_content_padding" />
+</FrameLayout>

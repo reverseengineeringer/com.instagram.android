@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/row_hashtag_container" android:background="@drawable/bg_simple_row" android:paddingLeft="@dimen/search_row_padding" android:paddingRight="@dimen/search_row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_hashtag_icon" android:src="@drawable/search_hashtag" app:normal="?textColorTertiary" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@id/row_hashtag_textview_tag_name" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textColor="?textColorTertiary" android:id="@id/row_hashtag_textview_media_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <include android:id="@id/row_hashtag_divider" layout="@layout/row_divider" style="?attr/defaultDividerStyle" />
+</FrameLayout>

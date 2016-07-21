@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/flash_on_pressed" android:state_activated="true" />
+    <item android:state_pressed="true" android:drawable="@drawable/flash_off_pressed" />
+    <item android:state_enabled="false" android:drawable="@drawable/flash_disabled" />
+    <item android:state_enabled="true" android:drawable="@drawable/flash_on" android:state_activated="true" />
+    <item android:state_enabled="true" android:drawable="@drawable/flash_off" />
+</selector>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/video_states" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/retry" android:background="@drawable/video_retry_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/refresh_big" app:normal="@color/white" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/video_icon" android:paddingLeft="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/caminner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_camera_center" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center|right|top" android:layout_gravity="center|right|top" android:id="@id/countdown_timer" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/black_50_transparent" android:shadowDy="5.0" android:shadowRadius="20.0" />
+</FrameLayout>

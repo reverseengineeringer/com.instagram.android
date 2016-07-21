@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Anda memiliki %1$d promosi menunggu.</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s Teman Facebook Anda Berada di Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s dari Teman VKontakte Anda berada di Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s Kontak Anda ada di Instagram</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s detik yang lalu</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s menit yang lalu</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s jam yang lalu</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s hari yang lalu</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s minggu yang lalu</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Tolak (%1$d)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Izinkan (%1$d)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s orang</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Mereka akan melihat semua pesan sebelumnya dari percakapan ini.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s permintaan pesan</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Anda hanya dapat memilih %1$d komentar pada satu waktu.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d foto</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d kiriman baru</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Teman Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s Kontak</item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d Orang yang melihat</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d Kiriman Baru</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Anda memiliki %1$s teman Facebook di Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Anda memiliki %1$s teman VKontakte di Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s kontak ditemukan.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d Dipilih</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d komentar dihapus. Ketuk untuk membatalkan.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d Orang</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d orang menanggapi.</item>
+    </plurals>
+</resources>

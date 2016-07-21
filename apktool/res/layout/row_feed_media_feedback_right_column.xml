@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true">
+        <ViewStub android:id="@id/link_button_stub" android:layout="@layout/link_button" android:layout_width="wrap_content" android:layout_height="@dimen/feed_action_button_height" android:layout_marginTop="10.0dip" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_feed_button_options" android:layout_width="@dimen/feed_feedback_item_width" android:layout_height="@dimen/feed_feedback_item_height" android:src="@drawable/ufi_more_right_aligned" android:scaleType="fitXY" android:contentDescription="@string/share" app:normal="?glyphColorSecondary" app:active="?glyphColorSecondaryActive" app:disabled_alpha="0x80" />
+    </LinearLayout>
+</merge>

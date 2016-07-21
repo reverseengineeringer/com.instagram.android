@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="bottom" android:id="@id/share_sheet" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:gravity="center" android:id="@id/direct_private_share_action_bar_private_user" android:background="@color/grey_1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" android:lines="2" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/direct_private_share_action_bar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/action_bar_item_padding" android:paddingRight="@dimen/action_bar_item_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_large" android:textStyle="bold" android:textColor="@color/grey_dark" android:ellipsize="end" android:id="@id/direct_private_share_action_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direct_send_to" android:lines="1" android:singleLine="true" app:capitalize="?actionBarTextCapitalize" />
+                        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/direct_private_share_action_bar_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" />
+                    </LinearLayout>
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/direct_private_share_action_bar_search_button" android:layout_width="@dimen/button_width" android:layout_height="wrap_content" android:src="@drawable/nav_search" app:normal="@color/grey_medium" app:active="@color/grey_dark" />
+                </LinearLayout>
+                <com.instagram.ui.widget.searchedittext.SearchEditText android:textSize="@dimen/font_medium" android:textColor="@color/grey_dark" android:textColorHint="@color/grey_light" android:id="@id/direct_private_share_action_bar_search_edit_text" android:background="@drawable/input_background" android:visibility="gone" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:hint="@string/search" android:drawableLeft="@null" style="@style/SearchEditText" />
+            </FrameLayout>
+            <include layout="@layout/row_divider" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <android.support.v7.widget.RecyclerView android:layout_gravity="center" android:id="@id/direct_private_share_recipients_recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/direct_private_share_recipient_height" android:layout_marginTop="@dimen/action_bar_item_padding" android:layout_marginBottom="@dimen/action_bar_item_padding" />
+                <com.instagram.common.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/direct_private_share_search_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spinner_large" />
+            </FrameLayout>
+            <com.instagram.android.widget.IgAutoCompleteTextView android:textColor="@color/grey_dark" android:textColorHint="@color/grey_light" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/direct_private_share_message" android:background="@drawable/direct_share_sheet_message_rounded_edittext" android:paddingLeft="@dimen/row_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/action_bar_item_padding" android:layout_marginRight="@dimen/action_bar_item_padding" android:layout_marginBottom="@dimen/action_bar_item_padding" android:minHeight="@dimen/action_bar_height" android:hint="@string/direct_thread_edittext_hint" android:inputType="textAutoCorrect|textCapSentences|textMultiLine|textNoSuggestions" android:windowSoftInputMode="adjustResize" android:dropDownWidth="wrap_content" android:imeOptions="actionDone" android:dropDownHeight="wrap_content" />
+            <include layout="@layout/row_divider" />
+            <TextView android:textStyle="bold" android:gravity="center" android:id="@id/direct_private_share_action_button" android:layout_width="fill_parent" android:layout_height="@dimen/action_bar_height" android:maxLines="1" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

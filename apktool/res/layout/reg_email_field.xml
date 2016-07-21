@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/login_input_field" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <AutoCompleteTextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:textColorHint="@color/white_70_transparent" android:id="@id/email_field" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/landing_email_hint" android:cursorVisible="true" android:singleLine="true" android:layout_weight="1.0" android:inputType="textEmailAddress" android:imeOptions="actionNext" android:textCursorDrawable="@null" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/clear_button" android:background="@drawable/search_clear" android:layout_width="16.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+</LinearLayout>

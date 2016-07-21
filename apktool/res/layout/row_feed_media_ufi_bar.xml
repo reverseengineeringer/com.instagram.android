@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout android:id="@id/row_feed_view_group_buttons" android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.likebutton.IgLikeButtonImageView android:id="@id/row_feed_button_like" android:layout_width="@dimen/feed_feedback_item_width" android:layout_height="@dimen/feed_feedback_item_height" android:layout_marginLeft="6.0dip" android:src="@drawable/ufi_heart_icon" android:scaleType="center" android:layout_alignParentLeft="true" app:normal="?glyphColorSecondary" app:active="?feedLikeActiveColor" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_feed_button_comment" android:layout_width="@dimen/feed_feedback_item_width" android:layout_height="@dimen/feed_feedback_item_height" android:src="@drawable/ufi_comment" android:scaleType="center" android:layout_toRightOf="@id/row_feed_button_like" android:contentDescription="@string/comment" app:normal="?glyphColorSecondary" app:active="?glyphColorSecondaryActive" />
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/row_feed_button_share" android:visibility="gone" android:layout_width="@dimen/feed_feedback_item_width" android:layout_height="@dimen/feed_feedback_item_height" android:src="@drawable/share" android:scaleType="center" android:layout_toRightOf="@id/row_feed_button_comment" android:contentDescription="@string/share" app:normal="?glyphColorSecondary" app:active="?glyphColorSecondaryActive" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:layout_widthPercent="25.0%">
+        <ViewStub android:layout_gravity="center" android:id="@id/carousel_page_indicator_stub" android:layout="@layout/carousel_page_indicator" android:layout_width="wrap_content" android:layout_height="@dimen/feed_feedback_item_height" />
+    </FrameLayout>
+    <include layout="@layout/row_feed_media_feedback_right_column" />
+    <View android:id="@id/divider_view" android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginRight="@dimen/feed_content_padding" android:layout_marginBottom="9.0dip" android:layout_alignParentBottom="true" />
+</android.support.percent.PercentRelativeLayout>
